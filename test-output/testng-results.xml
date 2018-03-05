@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11927" started-at="2018-03-05T07:44:34Z" finished-at="2018-03-05T07:44:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11927" started-at="2018-03-05T07:44:34Z" finished-at="2018-03-05T07:44:46Z">
+      <class name="com.yzt.test.tms.IPSTest">
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:com.yzt.test.tms.IPSTest@29ee9faa]" name="loginTest" duration-ms="313" started-at="2018-03-05T07:44:34Z" data-provider="login" finished-at="2018-03-05T07:44:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"source": "core","mobile": "17576075478","password": "525241"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="taskCountTest(java.lang.String)[pri:0, instance:com.yzt.test.tms.IPSTest@29ee9faa]" name="taskCountTest" duration-ms="11591" started-at="2018-03-05T07:44:35Z" data-provider="taskCount" depends-on-methods="com.yzt.test.tms.IPSTest.loginTest" finished-at="2018-03-05T07:44:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"name": "taskInstallController.getNodeTypeCount","token": null,"args": []}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskCountTest -->
+      </class> <!-- com.yzt.test.tms.IPSTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
