@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.yzt.test.tms.IPSTest">
+      <class name="com.yzt.testcase.IPSTest">
         <methods>
+          <include name="findTaskInstallTest"/>
           <include name="loginTest"/>
-          <include name="taskCountTest" invocation-numbers="0"/>
+          <include name="trunkEndTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.yzt.test.tms.IPSTest -->
+      </class> <!-- com.yzt.testcase.IPSTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

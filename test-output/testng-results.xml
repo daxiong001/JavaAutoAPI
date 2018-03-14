@@ -1,35 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11927" started-at="2018-03-05T07:44:34Z" finished-at="2018-03-05T07:44:46Z">
+  <suite name="Default suite" duration-ms="1124" started-at="2018-03-14T01:32:04Z" finished-at="2018-03-14T01:32:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11927" started-at="2018-03-05T07:44:34Z" finished-at="2018-03-05T07:44:46Z">
-      <class name="com.yzt.test.tms.IPSTest">
-        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:com.yzt.test.tms.IPSTest@29ee9faa]" name="loginTest" duration-ms="313" started-at="2018-03-05T07:44:34Z" data-provider="login" finished-at="2018-03-05T07:44:35Z">
+    <test name="Default test" duration-ms="1124" started-at="2018-03-14T01:32:04Z" finished-at="2018-03-14T01:32:05Z">
+      <class name="com.yzt.testcase.IPSTest">
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@146ba0ac]" name="loginTest" duration-ms="322" started-at="2018-03-14T01:32:05Z" data-provider="testData" finished-at="2018-03-14T01:32:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{"source": "core","mobile": "17576075478","password": "525241"}]]>
+                <![CDATA[{
+  "source": "core",
+  "mobile": "17576075478",
+  "password": "525241"
+}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="taskCountTest(java.lang.String)[pri:0, instance:com.yzt.test.tms.IPSTest@29ee9faa]" name="taskCountTest" duration-ms="11591" started-at="2018-03-05T07:44:35Z" data-provider="taskCount" depends-on-methods="com.yzt.test.tms.IPSTest.loginTest" finished-at="2018-03-05T07:44:46Z">
+        <test-method status="PASS" signature="findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@146ba0ac]" name="findTaskInstallTest" duration-ms="91" started-at="2018-03-14T01:32:05Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.loginTest" finished-at="2018-03-14T01:32:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{"name": "taskInstallController.getNodeTypeCount","token": null,"args": []}]]>
+                <![CDATA[{
+  "name": "taskInstallController.findTaskInstall",
+  "token": "null",
+  "args": [
+    {
+      "first": 0,
+      "rows": 10
+    },
+    {
+      "taskStatus": "All",
+      "dateType": "All",
+      "trunkSts": "All",
+      "beginDate": null,
+      "endDate": null,
+      "isNormalSign": "All",
+      "waybillId": "1zt003000001"
+    }
+  ]
+}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- taskCountTest -->
-      </class> <!-- com.yzt.test.tms.IPSTest -->
+        </test-method> <!-- findTaskInstallTest -->
+        <test-method status="PASS" signature="findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@146ba0ac]" name="findMetaTest" duration-ms="77" started-at="2018-03-14T01:32:05Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskInstallTest" finished-at="2018-03-14T01:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "commonController.findMeta",
+  "token": "null",
+  "args": [
+    {
+      "first": 0,
+      "rows": 9999
+    },
+    {
+      "type": "AbnormalCause"
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findMetaTest -->
+        <test-method status="PASS" signature="saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@146ba0ac]" name="saveTaskTraceTest" duration-ms="82" started-at="2018-03-14T01:32:05Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findMetaTest" finished-at="2018-03-14T01:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "taskTraceController.saveTaskTrace",
+  "token": "null",
+  "args": [
+    {
+      "TrackType": "task",
+      "id": "WIYHd7Wd0lUBQhjR",
+      "nextTrack": true,
+      "nextTrackDate": "2018-03-12T04:52:35.436Z",
+      "trackContent": "跟踪测试",
+      "abnormalCauseId": "V6S8jz0g2NZOqcu0"
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTaskTraceTest -->
+      </class> <!-- com.yzt.testcase.IPSTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

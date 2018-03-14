@@ -5,14 +5,14 @@ import java.io.InputStream;
 import java.util.Map;
 import java.util.Properties;
 
-import com.beust.jcommander.internal.Maps;
+import com.google.common.collect.Maps;
 
 public class Env {
 
 	public static Map<String, String> getEnv() {
 		Map<String, String> env = Maps.newHashMap();
 		Properties properties = new Properties();
-		InputStream params = Env.class.getClassLoader().getResourceAsStream("params.properties");
+		InputStream params = Thread.currentThread().getContextClassLoader().getResourceAsStream("params.properties");
 		try {
 			properties.load(params);
 			for (Object key : properties.keySet()) {

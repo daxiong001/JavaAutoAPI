@@ -9,11 +9,60 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">11,927</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">1,124</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.yzt.test.tms.IPSTest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1520235874955</td><td rowspan="1">313</td></tr><tr class="passedeven"><td><a href="#m1">taskCountTest</a></td><td rowspan="1">1520235875271</td><td rowspan="1">11591</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.yzt.testcase.IPSTest</td><td><a href="#m0">findMetaTest</a></td><td rowspan="1">1520991125748</td><td rowspan="1">77</td></tr><tr class="passedeven"><td><a href="#m1">findTaskInstallTest</a></td><td rowspan="1">1520991125621</td><td rowspan="1">91</td></tr><tr class="passedeven"><td><a href="#m2">loginTest</a></td><td rowspan="1">1520991125256</td><td rowspan="1">322</td></tr><tr class="passedeven"><td><a href="#m3">saveTaskTraceTest</a></td><td rowspan="1">1520991125878</td><td rowspan="1">82</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.yzt.test.tms.IPSTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{&quot;source&quot;: &quot;core&quot;,&quot;mobile&quot;: &quot;17576075478&quot;,&quot;password&quot;: &quot;525241&quot;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.yzt.test.tms.IPSTest#taskCountTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{&quot;name&quot;: &quot;taskInstallController.getNodeTypeCount&quot;,&quot;token&quot;: null,&quot;args&quot;: []}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.yzt.testcase.IPSTest#findMetaTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
+  &quot;name&quot;: &quot;commonController.findMeta&quot;,
+  &quot;token&quot;: &quot;null&quot;,
+  &quot;args&quot;: [
+    {
+      &quot;first&quot;: 0,
+      &quot;rows&quot;: 9999
+    },
+    {
+      &quot;type&quot;: &quot;AbnormalCause&quot;
+    }
+  ]
+}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.yzt.testcase.IPSTest#findTaskInstallTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
+  &quot;name&quot;: &quot;taskInstallController.findTaskInstall&quot;,
+  &quot;token&quot;: &quot;null&quot;,
+  &quot;args&quot;: [
+    {
+      &quot;first&quot;: 0,
+      &quot;rows&quot;: 10
+    },
+    {
+      &quot;taskStatus&quot;: &quot;All&quot;,
+      &quot;dateType&quot;: &quot;All&quot;,
+      &quot;trunkSts&quot;: &quot;All&quot;,
+      &quot;beginDate&quot;: null,
+      &quot;endDate&quot;: null,
+      &quot;isNormalSign&quot;: &quot;All&quot;,
+      &quot;waybillId&quot;: &quot;1zt003000001&quot;
+    }
+  ]
+}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.yzt.testcase.IPSTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
+  &quot;source&quot;: &quot;core&quot;,
+  &quot;mobile&quot;: &quot;17576075478&quot;,
+  &quot;password&quot;: &quot;525241&quot;
+}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.yzt.testcase.IPSTest#saveTaskTraceTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
+  &quot;name&quot;: &quot;taskTraceController.saveTaskTrace&quot;,
+  &quot;token&quot;: &quot;null&quot;,
+  &quot;args&quot;: [
+    {
+      &quot;TrackType&quot;: &quot;task&quot;,
+      &quot;id&quot;: &quot;WIYHd7Wd0lUBQhjR&quot;,
+      &quot;nextTrack&quot;: true,
+      &quot;nextTrackDate&quot;: &quot;2018-03-12T04:52:35.436Z&quot;,
+      &quot;trackContent&quot;: &quot;跟踪测试&quot;,
+      &quot;abnormalCauseId&quot;: &quot;V6S8jz0g2NZOqcu0&quot;
+    }
+  ]
+}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

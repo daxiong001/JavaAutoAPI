@@ -8,6 +8,11 @@ import org.apache.commons.lang3.StringUtils;
 import com.alibaba.fastjson.JSONObject;
 import com.beust.jcommander.internal.Maps;
 
+/**
+ * 请求响应实体
+ * @author vivi.zhang
+ *
+ */
 public class Response {
 	private String code = "";
 	private String jsonString = "";
