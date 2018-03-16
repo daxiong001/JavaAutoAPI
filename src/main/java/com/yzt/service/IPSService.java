@@ -3,11 +3,15 @@ package com.yzt.service;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
+
 import com.beust.jcommander.internal.Maps;
 import com.google.common.collect.Lists;
 import com.yzt.common.HttpMethod;
 import com.yzt.common.Response;
 import com.yzt.entity.CauseMeta;
+import com.yzt.entity.SignImage;
+import com.yzt.entity.Worker;
 
 import contants.Contants;
 import exception.customsException;
@@ -27,6 +31,8 @@ public class IPSService extends BasicService {
 	private final static String LOGINURL = "/login";
 	private final static String UPLOADURL = "/upload";
 	private final static String APIURL = "/api.do";
+	
+	private static Logger logger = Logger.getLogger(IPSService.class);
 
 	private String JWT = "Bearer ";
 
@@ -38,7 +44,7 @@ public class IPSService extends BasicService {
 
 	public IPSService() {
 		this.url = getUrl(URLKEY);
-		this.context = (Context) ServiceFactory.create(Context.class);
+		this.context = (Context) ServiceFactory.getInstance(Context.class);
 	}
 
 	/**
@@ -48,8 +54,8 @@ public class IPSService extends BasicService {
 	 */
 	protected Map<String, String> setAuthToHeader() {
 		Map<String, String> header = Maps.newHashMap();
-		if (context.scHasKey(Contants.JWT_KEY)) {
-			header.put(Contants.AUTH, (String) context.getValue(Contants.JWT_KEY));
+		if (context.hasKey(Contants.JWT_KEY)) {
+			header.put(Contants.AUTH, (String) context.getValue(Contants.JWT_KEY));			
 		}
 		return header;
 	}
@@ -74,20 +80,6 @@ public class IPSService extends BasicService {
 			throw new customsException("登录失败，请确认登录账户有效性！");
 		}
 		return false;
-	}
-
-	/**
-	 * 上传接口封装
-	 * 
-	 * @param filename，放在uploads文件夹下待上传的文件名，exp：test.txt
-	 * @return
-	 */
-	public Response uploadToIPS(String filename) {
-		String commonUrl = url + UPLOADURL;
-		Response response = HttpHelper.create().addUrl(url).addHeaders(setAuthToHeader()).addUploads(filename)
-				.request(HttpMethod.POST);
-		AssertResponeCode(response);
-		return response;
 	}
 
 	/**
@@ -137,19 +129,8 @@ public class IPSService extends BasicService {
 		lists.add(Contants.ID);
 		// 获取返回值中的具体原因和对应的ID
 		CommonUtils.analysisJson(response.getJsonString(), context, lists);
-		for (int i = 0; i < context.getSCList().size(); i++) {
-			if (context.getSCList().get(i).containsKey(Contants.ID)
-					|| context.getSCList().get(i).containsKey(Contants.LABEL)) {
-				CauseMeta causeMeta = new CauseMeta();
-				causeMeta.setId((String) context.getSCList().get(i).get(Contants.ID));
-				causeMeta.setLabel((String) context.getSCList().get(i).get(Contants.LABEL));
-				context.addCauseMeta(causeMeta);
-			}
-		}
-		for (int i = 0; i < context.getCauseLists().size(); i++) {
-			System.out.println("Cause id " + i + " = " + context.getCauseLists().get(i).getId() + " , label = "
-					+ context.getCauseLists().get(i).getLabel());
-		}
+		//存储至context List<Object> 中
+		CommonUtils.setObjectToContext(lists, CauseMeta.class);
 		return response;
 	}
 
@@ -186,7 +167,7 @@ public class IPSService extends BasicService {
 		Response response = HttpHelper.create().addUrl(commonUrl).addHeaders(setAuthToHeader()).addJsonParam(jsonParam)
 				.request(HttpMethod.POST);
 		AssertResponeCode(response);
-		//存储调度任务的branchFee， installFee， mediateFee
+		// 存储调度任务的branchFee， installFee， mediateFee
 		List<String> lists = Lists.newArrayList();
 		lists.add(Contants.BRANCH_FEE);
 		lists.add(Contants.MEDIATE_FEE);
@@ -195,5 +176,104 @@ public class IPSService extends BasicService {
 		CommonUtils.analysisJson(response.getJsonString(), context, lists);
 		return response;
 	}
-	
+
+	/**
+	 * 查询待分配师傅相关信息，获取workerId 对存在多个workerId，使用的时候需要随机
+	 * 
+	 * @param jsonParam
+	 * @return
+	 */
+	public Response queryUserJzt(String jsonParam) {
+		String commonUrl = url + APIURL;
+		List<String> list = Lists.newArrayList();
+		Response response = HttpHelper.create().addUrl(commonUrl).addHeaders(setAuthToHeader()).addJsonParam(jsonParam)
+				.request(HttpMethod.POST);
+		AssertResponeCode(response);
+
+		List<String> clist = Lists.newArrayList();
+		clist.add(Contants.REALNAME);
+		clist.add(Contants.ID);
+		// 查询待分配师傅相关信息，获取workerId,存在多个workerId
+		CommonUtils.analysisJson(response.getJsonString(), context, clist);
+
+		CommonUtils.setObjectToContext(clist, Worker.class);
+		return response;
+	}
+
+	/**
+	 * 分配师傅
+	 * 
+	 * @param jsonParam
+	 */
+	public void batDisWorker(String jsonParam) {
+		String commonUrl = url + APIURL;
+		Response response = HttpHelper.create().addUrl(commonUrl).addHeaders(setAuthToHeader()).addJsonParam(jsonParam)
+				.request(HttpMethod.POST);
+		AssertResponeCode(response);
+	}
+
+	/**
+	 * 预约
+	 * 
+	 * @param jsonParam
+	 */
+	public void appointment(String jsonParam) {
+		String commonUrl = url + APIURL;
+		Response response = HttpHelper.create().addUrl(commonUrl).addHeaders(setAuthToHeader()).addJsonParam(jsonParam)
+				.request(HttpMethod.POST);
+		AssertResponeCode(response);
+	}
+
+	/**
+	 * 提货
+	 * 
+	 * @param jsonParam
+	 */
+	public void pickUp(String jsonParam) {
+		String commonUrl = url + APIURL;
+		Response response = HttpHelper.create().addUrl(commonUrl).addHeaders(setAuthToHeader()).addJsonParam(jsonParam)
+				.request(HttpMethod.POST);
+		AssertResponeCode(response);
+	}
+
+	/**
+	 * 上传签收图片
+	 * 
+	 * @param filename，放在uploads文件夹下待上传的文件名，exp：test.txt
+	 * @return
+	 */
+	public Response uploadToSign(String filename) {
+		String commonUrl = url + UPLOADURL;
+		Response response = HttpHelper.create().addUrl(commonUrl).addHeaders(setAuthToHeader()).addUploads(filename)
+				.request(HttpMethod.POST);
+		AssertResponeCode(response);
+		// 存储图片
+		List<String> clist = Lists.newArrayList();
+		clist.add(Contants.ETAG);
+		clist.add(Contants.ID);
+		clist.add(Contants.PATH);
+		clist.add(Contants.URL);
+		clist.add(Contants.NAME);
+
+		CommonUtils.analysisJson(response.getJsonString(), context, clist);
+
+		CommonUtils.setObjectToContext(clist, SignImage.class);
+
+		return response;
+	}
+
+	/**
+	 * 签收人，签收内容提交
+	 * 
+	 * @param
+	 * @return
+	 */
+	public Response sign(String jsonParam) {
+		String commonUrl = url + APIURL;
+		Response response = HttpHelper.create().addUrl(commonUrl).addHeaders(setAuthToHeader()).addJsonParam(jsonParam)
+				.request(HttpMethod.POST);
+		AssertResponeCode(response);
+		return response;
+	}
+
 }

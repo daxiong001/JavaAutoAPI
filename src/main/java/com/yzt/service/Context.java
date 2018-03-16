@@ -6,37 +6,44 @@ import java.util.Map;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.yzt.entity.CauseMeta;
+import com.yzt.entity.SignImage;
+import com.yzt.entity.Worker;
+
 /**
  * 上线文环境变量存储类
+ * 
  * @author vivi.zhang
  *
  */
 public class Context {
-    //存储单个 sc map
+	// 存储单个 sc map，零散值表
 	private Map<String, Object> sc = Maps.newHashMap();
-	private List<CauseMeta> causeLists = Lists.newArrayList();
-	//存储多个sc map
-	private List<Map<String, Object>> scList = Lists.newArrayList();
 
-	public List<Map<String, Object>> getSCList() {
-		return scList;
+	// 存储多个sc map(中间过程数据)
+	private List<Map<String, Object>> scs = Lists.newArrayList();
+
+	//实体容器
+	private List<Object> objects = Lists.newArrayList();
+
+	public List<Map<String, Object>> getScs() {
+		return scs;
 	}
 
 	public Context addSCToList(Map<String, Object> sc) {
-		scList.add(sc);
+		scs.add(sc);
 		return this;
 	}
 
-	public List<CauseMeta> getCauseLists() {
-		return causeLists;
+	public List<Object> getObjects() {
+		return objects;
 	}
 
-	public Context addCauseMeta(CauseMeta causeMeta) {
-		causeLists.add(causeMeta);
+	public Context addObject(Object object) {
+		objects.add(object);
 		return this;
 	}
 
-	public Map<String, Object> getSC() {
+	public Map<String, Object> getSc() {
 		return sc;
 	}
 
@@ -49,7 +56,7 @@ public class Context {
 		return sc.get(key);
 	}
 
-	public List<String> getSCKeys() {
+	public List<String> getKeys() {
 		List<String> list = Lists.newArrayList();
 		for (String key : sc.keySet()) {
 			list.add(key);
@@ -57,7 +64,7 @@ public class Context {
 		return list;
 	}
 
-	public List<Object> getSCValues() {
+	public List<Object> getValues() {
 		List<Object> list = Lists.newArrayList();
 		for (Object value : sc.values()) {
 			list.add(value);
@@ -65,11 +72,7 @@ public class Context {
 		return list;
 	}
 
-	public boolean scHasKey(String key) {
+	public boolean hasKey(String key) {
 		return sc.containsKey(key);
-	}
-
-	public boolean scListHasValue() {
-		return scList.size() > 0 ? true : false;
 	}
 }

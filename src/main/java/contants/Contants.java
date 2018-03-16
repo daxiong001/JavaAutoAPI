@@ -28,6 +28,13 @@ public class Contants {
 	
 	public static final String LABEL = "label";	
 	public static final String ID = "id";
+	
+	public static final String REALNAME = "realName";
+	
+	public static final String ETAG = "etag";
+	public static final String NAME = "name";
+	public static final String PATH = "path";
+	public static final String URL = "url";
 
 	public static final String LOGIN_URL = "/login";
 	public static final String API_URL = "/api.do";

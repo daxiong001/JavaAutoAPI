@@ -4,6 +4,9 @@ import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
 import static org.testng.Assert.expectThrows;
 
 import java.lang.annotation.Annotation;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Iterator;
 import java.util.List;
@@ -13,6 +16,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.testng.annotations.Test;
 
 import com.alibaba.fastjson.JSON;
@@ -23,6 +27,7 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.yzt.common.Response;
 import com.yzt.service.Context;
+import com.yzt.service.ServiceFactory;
 
 import contants.Contants;
 import exception.customsException;
@@ -359,6 +364,66 @@ public class CommonUtils {
 			return jsonOb;
 		} else {
 			return object;
+		}		
+	}
+	/**
+	 * 存储至 context List<Object>容器中
+	 * @param list
+	 * @param clazz
+	 */
+	public static void setObjectToContext(List<String> list,Class<?> clazz){
+		Context context = (Context) ServiceFactory.getInstance(Context.class);
+		List<Map<String, Object>> tempList = context.getScs();
+		int size = tempList.size();
+		boolean flag = false;
+		if (size > 0) {
+			for (Map<String, Object> map : tempList) {
+				if (map.keySet().size() == list.size()) {
+					for (String st : list) {
+						if (map.containsKey(st)) {
+							flag = true;
+						}else {
+							flag = false;
+						}
+					}
+				}
+			}
+		}
+		if (flag) {
+			try {
+				Constructor<?> c = clazz.getDeclaredConstructor();
+				Object cz = c.newInstance();
+				Field[] fds = clazz.getDeclaredFields();
+				for (Field field : fds) {
+					if (!field.isAccessible()) {
+						field.setAccessible(true);
+					}
+					for (Map<String, Object> sg : tempList) {
+						if (sg.containsKey(field.getName())) {
+							field.set(cz, sg.get(field.getName()));
+						}
+					}
+				}
+				context.addObject(cz);
+			} catch (NoSuchMethodException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (SecurityException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InstantiationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IllegalAccessException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IllegalArgumentException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InvocationTargetException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 }
