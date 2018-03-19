@@ -6,10 +6,10 @@ package com.yzt.entity;
  * @author vivi.zhang
  *
  */
-public class Worker {
-	
+public class Worker implements Cloneable {
+
 	private String realname;
-	
+
 	private String id;
 
 	public String getRealname() {
@@ -31,5 +31,16 @@ public class Worker {
 	@Override
 	public String toString() {
 		return "Worker [realname=" + realname + ", id=" + id + "]";
+	}
+
+	@Override
+	public Object clone() {
+		Worker worker = null;
+		try {
+			worker = (Worker) super.clone();
+		} catch (CloneNotSupportedException e) {
+			e.printStackTrace();
+		}
+		return worker;
 	}
 }

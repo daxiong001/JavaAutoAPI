@@ -4,7 +4,7 @@ package com.yzt.entity;
  * @author 13074
  *
  */
-public class CauseMeta {
+public class CauseMeta implements Cloneable{
 	
 	private String label;
 
@@ -30,4 +30,15 @@ public class CauseMeta {
 	public String toString() {
 		return "Meta [label=" + label + ", id=" + id + "]";
 	}
+
+	@Override
+	public Object clone() {
+		CauseMeta causeMeta = null;
+		try {
+			causeMeta = (CauseMeta) super.clone();
+		} catch (CloneNotSupportedException e) {
+			e.printStackTrace();
+		}
+		return causeMeta;
+	}	
 }

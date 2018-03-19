@@ -16,6 +16,7 @@ import com.yzt.entity.Worker;
 import contants.Contants;
 import exception.customsException;
 import utils.CommonUtils;
+import utils.ContextUtil;
 import utils.HttpHelper;
 
 /**
@@ -109,8 +110,11 @@ public class IPSService extends BasicService {
 				.request(HttpMethod.POST);
 		AssertResponeCode(response);
 		// 获取返回值中的ID,默认返回一条数据
-		CommonUtils.analysisJson(response.getJsonString(), context, Contants.TASK_ID);
+		CommonUtils.analysisJson(response.getJsonString(), context, Contants.ID);
 
+		// 返回json 用id存储taskId值，转换下context map存储key 为taskId
+//		context.addValue(Contants.TASK_ID, context.getValue(Contants.ID));
+		ContextUtil.convertContextMapKey(Contants.TASK_ID,Contants.ID);
 		return response;
 	}
 

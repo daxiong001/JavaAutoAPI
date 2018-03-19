@@ -1,6 +1,6 @@
 package com.yzt.entity;
 
-public class SignImage {
+public class SignImage implements Cloneable{
 
 	private String etag;
 	
@@ -56,4 +56,15 @@ public class SignImage {
 	public String toString() {
 		return "SignImage [etag=" + etag + ", id=" + id + ", name=" + name + ", path=" + path + ", url=" + url + "]";
 	}
+
+	@Override
+	public Object clone() {
+		SignImage signImage = null;
+		try {
+			signImage = (SignImage) super.clone();
+		} catch (CloneNotSupportedException e) {
+			e.printStackTrace();
+		}
+		return signImage;
+	}	
 }

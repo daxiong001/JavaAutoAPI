@@ -19,6 +19,7 @@ import com.yzt.service.ServiceFactory;
 
 import contants.Contants;
 import utils.CommonUtils;
+import utils.ContextUtil;
 import utils.DateUtil;
 
 public class IPSTest {
@@ -174,9 +175,10 @@ public class IPSTest {
 	public void pickUpTest(String inputJson) {
 		// 参数化 "taskId"
 		Map<String, Object> changedValues = Maps.newHashMap();
-
-		if (service.getContext().hasKey(Contants.TASK_ID)) {
-			changedValues.put(Contants.TASK_ID, service.getContext().getValue(Contants.TASK_ID));
+		
+		Map<String, Object> result = ContextUtil.getContextMap();
+		if (result != null && result.containsKey(Contants.TASK_ID)) {
+			changedValues.put(Contants.TASK_ID, result.get(Contants.TASK_ID));
 		}
 		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValues).toString();
 		service.pickUp(inputJson);
@@ -193,17 +195,19 @@ public class IPSTest {
 	public void signTest(String inputJson) {
 		// 参数化图片id，签收时仅上传一张图片
 		Map<String, Object> changedValues = Maps.newHashMap();
-		List<String> list = Lists.newArrayList();
+		List<Object> objectList = Lists.newArrayList();
+		List<String> idList = Lists.newArrayList();
 
-		if (!service.getContext().getObjects().isEmpty()) {
-			if (service.getContext().getObjects().get(0) instanceof SignImage) {
-				SignImage signImage = (SignImage) service.getContext().getObjects().get(0);
-				list.add(signImage.getId());
-				changedValues.put("files", list);
-			}			
+		objectList = ContextUtil.getContextObject(SignImage.class);
+		for (Object li : objectList) {
+			SignImage signImage = (SignImage) li;
+			idList.add(signImage.getId());
+			changedValues.put("files", idList);
 		}
-		if (service.getContext().hasKey(Contants.TASK_ID)) {
-			changedValues.put(Contants.TASK_ID, service.getContext().getValue(Contants.TASK_ID));
+
+		Map<String, Object> result = ContextUtil.getContextMap();
+		if (result != null && result.containsKey(Contants.TASK_ID)) {
+			changedValues.put(Contants.TASK_ID, result.get(Contants.TASK_ID));
 		}
 		changedValues.put("signer", "signer");
 		changedValues.put("describe", "describe");		

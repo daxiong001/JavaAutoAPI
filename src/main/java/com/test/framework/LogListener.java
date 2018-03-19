@@ -49,10 +49,10 @@ public class LogListener extends TestListenerAdapter {
 
 	private void logContext() {
 		
-		ContextUtil.analysisContextField(new ContextDoField() {
+		ContextUtil.contextFieldTemplate(null,new ContextDoField() {
 
 			@Override
-			public void execute(Field fd, Method getMethod) {
+			public Object execute(Field fd, Method getMethod,Class clazz) {
 				try {
 					if (fd.getType().isAssignableFrom(List.class)) {
 						List list = (List) getMethod.invoke(context, null);
@@ -85,6 +85,7 @@ public class LogListener extends TestListenerAdapter {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
+				return null;
 			}
 		});
 	}
