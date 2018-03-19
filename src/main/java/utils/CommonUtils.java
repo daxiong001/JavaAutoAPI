@@ -8,6 +8,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.text.DecimalFormat;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -305,7 +306,6 @@ public class CommonUtils {
 	 * @return
 	 */
 	public static Object analysisJsonAndUpdate(Object object, Map<String, Object> changedValue) {
-	/*	Object object = JSON.parse(inputJson);*/
 		if (object instanceof JSONArray) {
 			JSONArray jsonArray = (JSONArray) object;
 			JSONArray jsonAr = new JSONArray();
@@ -405,25 +405,10 @@ public class CommonUtils {
 					}
 				}
 				context.addObject(cz);
-			} catch (NoSuchMethodException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (SecurityException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (InstantiationException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (IllegalAccessException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (IllegalArgumentException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (InvocationTargetException e) {
-				// TODO Auto-generated catch block
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
 	}
+
 }

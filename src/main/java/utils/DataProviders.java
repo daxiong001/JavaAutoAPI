@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -15,6 +16,7 @@ import org.testng.Assert;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
+import com.test.framework.LogListener;
 
 import exception.customsException;
 
@@ -37,6 +39,8 @@ public class DataProviders implements Iterator<Object> {
 	private int currentRowNo = 0;
 	private int columnNum = 0;
 	private List<String> columnName = Lists.newArrayList();
+	
+	private static Logger logger = Logger.getLogger(DataProviders.class);
 
 	private static final String FILE_PATH = System.getProperty("user.dir") + File.separator + "src" + File.separator
 			+ "test" + File.separator + "resource" + File.separator + "testdata" + File.separator;
@@ -80,7 +84,7 @@ public class DataProviders implements Iterator<Object> {
 
 		String filename = FILE_PATH + classname + ".xlsx";
 		File file = new File(filename);
-
+		logger.info("======Excel file path : " + filename + "=======");
 		if (file.exists() && file.isFile()) {
 			try {
 				book = new XSSFWorkbook(file);

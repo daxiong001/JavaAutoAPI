@@ -1,0 +1,78 @@
+[INFO ] 2018-03-17 14:01:12,377 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-03-17 14:01:13,145 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:23)
+===========================class org.testng.internal.TestResult.loginTest run successed!============================
+[INFO ] 2018-03-17 14:01:13,145 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:24)
+************ current context massage ************ start ************
+[INFO ] 2018-03-17 14:01:13,145 method:com.test.framework.LogListener.logContext(LogListener.java:73)
+***context have Map type,size : 1***
+[INFO ] 2018-03-17 14:01:13,146 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjQ3NjA3NCwianRpIjoid2ZiYm5lWjhDZ01TcVl0Z09oNjJTdyIsImlhdCI6MTUyMTI2NjQ3NCwibmJmIjoxNTIxMjY2MzU0LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyNDc2MDc0NjY4LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.B8X7I0z0AEG3c3OxaxyWz58c9bejzhEmnS-j7WOWX7g4_igiw24iOF4n7y-eT8ApZFSFScoe4OEQYdFJRRG6IOfSsWU67zCxcYqtLtlk-uEjYMB2LyhW0MMC4fYM75IHxDNCNxSSJrnce7qEjROVCyrSyQhhPJ8G27OelFxBKqCoa5Lmjhm-oC3lMsoC90acUtVcpJOJFDT3ZM3AoH9PKeduMqT7TyNFTNsvO58VqnjnBADLPkfOJLlGGoz6X9ufuzTngQpXkImEtUW9VvBdQb89T5VxHYI2yeiY-7lDtKRxGKqBr_mCVdZGh_4cop-olZ_br7W60is2bdtnWUkOzQ***
+[INFO ] 2018-03-17 14:01:13,147 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:26)
+************ current context massage ************ end ************
+[INFO ] 2018-03-17 14:01:13,148 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-03-17 14:01:13,298 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:23)
+===========================class org.testng.internal.TestResult.findTaskInstallTest run successed!============================
+[INFO ] 2018-03-17 14:01:13,301 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:24)
+************ current context massage ************ start ************
+[INFO ] 2018-03-17 14:01:13,302 method:com.test.framework.LogListener.logContext(LogListener.java:73)
+***context have Map type,size : 2***
+[INFO ] 2018-03-17 14:01:13,302 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjQ3NjA3NCwianRpIjoid2ZiYm5lWjhDZ01TcVl0Z09oNjJTdyIsImlhdCI6MTUyMTI2NjQ3NCwibmJmIjoxNTIxMjY2MzU0LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyNDc2MDc0NjY4LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.B8X7I0z0AEG3c3OxaxyWz58c9bejzhEmnS-j7WOWX7g4_igiw24iOF4n7y-eT8ApZFSFScoe4OEQYdFJRRG6IOfSsWU67zCxcYqtLtlk-uEjYMB2LyhW0MMC4fYM75IHxDNCNxSSJrnce7qEjROVCyrSyQhhPJ8G27OelFxBKqCoa5Lmjhm-oC3lMsoC90acUtVcpJOJFDT3ZM3AoH9PKeduMqT7TyNFTNsvO58VqnjnBADLPkfOJLlGGoz6X9ufuzTngQpXkImEtUW9VvBdQb89T5VxHYI2yeiY-7lDtKRxGKqBr_mCVdZGh_4cop-olZ_br7W60is2bdtnWUkOzQ***
+[INFO ] 2018-03-17 14:01:13,303 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***waybillId : 1zt003000003***
+[INFO ] 2018-03-17 14:01:13,304 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:26)
+************ current context massage ************ end ************
+[INFO ] 2018-03-17 14:02:23,313 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-03-17 14:02:24,061 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:23)
+===========================class org.testng.internal.TestResult.loginTest run successed!============================
+[INFO ] 2018-03-17 14:02:24,061 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:24)
+************ current context massage ************ start ************
+[INFO ] 2018-03-17 14:02:24,061 method:com.test.framework.LogListener.logContext(LogListener.java:73)
+***context have Map type,size : 1***
+[INFO ] 2018-03-17 14:02:24,061 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjQ3NjE0NSwianRpIjoia3Z4QVJULVk0dTNRdVU0QkVpZHBrQSIsImlhdCI6MTUyMTI2NjU0NSwibmJmIjoxNTIxMjY2NDI1LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyNDc2MTQ1NTg3LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.BTzF2qvNjO7v7dMZNcN2pLzIilj78fAoJVSluLdl_vlzGdVIptG8JKzml4ytJNbuOi-CGqMqma4qSgRc-u-PdKCorK-xG0CqUdwx6aIKHJcJmqmlnDRzRFjSAv-lTExlgf7BQsiPYSk3rWKM-6_fs2RvPK2n4-ReDjscrcyD1GTIDm97ZRhRiZNHmqRncxV-cJqjZRo_bDTFm32GkM_bkOGMSa7bPrXRVbFdgLrYEeBTnl5GZDMi8__sT_Ag6rsmWR8r4yy0SZ0jTxQmdDxgInyGysPuLVAyDXtTllxX6TPfKNyXzs1aKurRf2116RPoJigAB88EoRa1SX7R4te6rg***
+[INFO ] 2018-03-17 14:02:24,062 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:26)
+************ current context massage ************ end ************
+[INFO ] 2018-03-17 14:02:24,065 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-03-17 14:02:24,183 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:23)
+===========================class org.testng.internal.TestResult.findTaskInstallTest run successed!============================
+[INFO ] 2018-03-17 14:02:24,183 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:24)
+************ current context massage ************ start ************
+[INFO ] 2018-03-17 14:02:24,184 method:com.test.framework.LogListener.logContext(LogListener.java:73)
+***context have Map type,size : 2***
+[INFO ] 2018-03-17 14:02:24,184 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjQ3NjE0NSwianRpIjoia3Z4QVJULVk0dTNRdVU0QkVpZHBrQSIsImlhdCI6MTUyMTI2NjU0NSwibmJmIjoxNTIxMjY2NDI1LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyNDc2MTQ1NTg3LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.BTzF2qvNjO7v7dMZNcN2pLzIilj78fAoJVSluLdl_vlzGdVIptG8JKzml4ytJNbuOi-CGqMqma4qSgRc-u-PdKCorK-xG0CqUdwx6aIKHJcJmqmlnDRzRFjSAv-lTExlgf7BQsiPYSk3rWKM-6_fs2RvPK2n4-ReDjscrcyD1GTIDm97ZRhRiZNHmqRncxV-cJqjZRo_bDTFm32GkM_bkOGMSa7bPrXRVbFdgLrYEeBTnl5GZDMi8__sT_Ag6rsmWR8r4yy0SZ0jTxQmdDxgInyGysPuLVAyDXtTllxX6TPfKNyXzs1aKurRf2116RPoJigAB88EoRa1SX7R4te6rg***
+[INFO ] 2018-03-17 14:02:24,184 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***waybillId : 1zt003000003***
+[INFO ] 2018-03-17 14:02:24,185 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:26)
+************ current context massage ************ end ************
+[INFO ] 2018-03-17 14:22:56,961 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-03-17 14:22:57,758 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:23)
+===========================class org.testng.internal.TestResult.loginTest run successed!============================
+[INFO ] 2018-03-17 14:22:57,758 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:24)
+************ current context massage ************ start ************
+[INFO ] 2018-03-17 14:22:57,759 method:com.test.framework.LogListener.logContext(LogListener.java:73)
+***context have Map type,size : 1***
+[INFO ] 2018-03-17 14:22:57,759 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjQ3NzM3OSwianRpIjoiMmFfVHJQU3lkVFZYRHVCR2dHLXhOUSIsImlhdCI6MTUyMTI2Nzc3OSwibmJmIjoxNTIxMjY3NjU5LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyNDc3Mzc5MjcxLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.cz_D_9mvw5Obs--uwzw3J2bVV-L3nFKFSlna2z_IGCDi3bWSuQheFarsuP_HgKgcHFTgttzNERpOETQrbjcI1DQvhmcY3KaMqi7dm-CXe_8mebBRDlbPnQP6wrgV15s92C4sEDPc6P0aCskgZLL03Cdg0uKQ5Uxc1fpghEUBcwOiSunhoHurMHWTh_32WnJinwAkWtKUu3g8YzxgmRCDXdZ2TZhBcO23BkpfIcuOKTpAzdMYT-Oo3TT_dJOHUPFfwc0DM5WjWOI-C9JGl_EiLS6msYxS7QJw5NOEA6v2yzldVMIrtRsd3mY-GklvL410djHdCP4z_x51xB5WOaoi9w***
+[INFO ] 2018-03-17 14:22:57,759 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:26)
+************ current context massage ************ end ************
+[INFO ] 2018-03-17 14:22:57,761 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-03-17 14:22:57,990 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:23)
+===========================class org.testng.internal.TestResult.findTaskInstallTest run successed!============================
+[INFO ] 2018-03-17 14:22:57,991 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:24)
+************ current context massage ************ start ************
+[INFO ] 2018-03-17 14:22:57,991 method:com.test.framework.LogListener.logContext(LogListener.java:73)
+***context have Map type,size : 2***
+[INFO ] 2018-03-17 14:22:57,991 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjQ3NzM3OSwianRpIjoiMmFfVHJQU3lkVFZYRHVCR2dHLXhOUSIsImlhdCI6MTUyMTI2Nzc3OSwibmJmIjoxNTIxMjY3NjU5LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyNDc3Mzc5MjcxLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.cz_D_9mvw5Obs--uwzw3J2bVV-L3nFKFSlna2z_IGCDi3bWSuQheFarsuP_HgKgcHFTgttzNERpOETQrbjcI1DQvhmcY3KaMqi7dm-CXe_8mebBRDlbPnQP6wrgV15s92C4sEDPc6P0aCskgZLL03Cdg0uKQ5Uxc1fpghEUBcwOiSunhoHurMHWTh_32WnJinwAkWtKUu3g8YzxgmRCDXdZ2TZhBcO23BkpfIcuOKTpAzdMYT-Oo3TT_dJOHUPFfwc0DM5WjWOI-C9JGl_EiLS6msYxS7QJw5NOEA6v2yzldVMIrtRsd3mY-GklvL410djHdCP4z_x51xB5WOaoi9w***
+[INFO ] 2018-03-17 14:22:57,992 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***waybillId : 1zt003000003***
+[INFO ] 2018-03-17 14:22:57,992 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:26)
+************ current context massage ************ end ************

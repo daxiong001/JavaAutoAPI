@@ -1,0 +1,44 @@
+[INFO ] 2018-03-17 12:02:06,695 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:23)
+===========================class org.testng.internal.TestResult.loginTest run successed!============================
+[INFO ] 2018-03-17 12:02:06,699 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:24)
+************ current context massage ************ start ************
+[INFO ] 2018-03-17 12:02:06,700 method:com.test.framework.LogListener.logContext(LogListener.java:73)
+***context have Map type,size : 1***
+[INFO ] 2018-03-17 12:02:06,700 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjQ2ODkyOCwianRpIjoiUVFaX2tsbUZtWUdyYTlUODByQ2ktZyIsImlhdCI6MTUyMTI1OTMyOCwibmJmIjoxNTIxMjU5MjA4LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyNDY4OTI4MDU5LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.moWjSP_gOp8QyL9MY0rzlcM2wEJGD8kbCgrWKv3HZ0gObDu0SJzI2t2_We3rU3OZFCBM2icPsLQIkFs_NyKxgVRJl5Uyiii-Kj0i4nCmkAybiAG5l8Jrzw3FSPx6PbObzoKrYZoLIR8vHP2pfGKbqZaNCq1_0amsMBw5o0rfNQcPWM7pgqdkwVuMv4SjtFXsigGu1f2z9O9cGuunuNCzYbfU_BM5qX97p28giA1F7PsxczPY-oHCa5x0V7WozsgNXMVmDJIE6HuDMqHg-yzav_Wlye364cy868AQVyEL_g_3ewaUZ3sqKB1mS968-6VJwol7VIjqUFz09DSF-KAhuA***
+[INFO ] 2018-03-17 12:02:06,701 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:26)
+************ current context massage ************ end ************
+[INFO ] 2018-03-17 12:02:06,839 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:23)
+===========================class org.testng.internal.TestResult.findTaskInstallTest run successed!============================
+[INFO ] 2018-03-17 12:02:06,839 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:24)
+************ current context massage ************ start ************
+[INFO ] 2018-03-17 12:02:06,840 method:com.test.framework.LogListener.logContext(LogListener.java:73)
+***context have Map type,size : 2***
+[INFO ] 2018-03-17 12:02:06,840 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjQ2ODkyOCwianRpIjoiUVFaX2tsbUZtWUdyYTlUODByQ2ktZyIsImlhdCI6MTUyMTI1OTMyOCwibmJmIjoxNTIxMjU5MjA4LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyNDY4OTI4MDU5LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.moWjSP_gOp8QyL9MY0rzlcM2wEJGD8kbCgrWKv3HZ0gObDu0SJzI2t2_We3rU3OZFCBM2icPsLQIkFs_NyKxgVRJl5Uyiii-Kj0i4nCmkAybiAG5l8Jrzw3FSPx6PbObzoKrYZoLIR8vHP2pfGKbqZaNCq1_0amsMBw5o0rfNQcPWM7pgqdkwVuMv4SjtFXsigGu1f2z9O9cGuunuNCzYbfU_BM5qX97p28giA1F7PsxczPY-oHCa5x0V7WozsgNXMVmDJIE6HuDMqHg-yzav_Wlye364cy868AQVyEL_g_3ewaUZ3sqKB1mS968-6VJwol7VIjqUFz09DSF-KAhuA***
+[INFO ] 2018-03-17 12:02:06,841 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***waybillId : 1zt003000003***
+[INFO ] 2018-03-17 12:02:06,841 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:26)
+************ current context massage ************ end ************
+[INFO ] 2018-03-17 12:02:55,305 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:23)
+===========================class org.testng.internal.TestResult.loginTest run successed!============================
+[INFO ] 2018-03-17 12:02:55,307 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:24)
+************ current context massage ************ start ************
+[INFO ] 2018-03-17 12:02:55,307 method:com.test.framework.LogListener.logContext(LogListener.java:73)
+***context have Map type,size : 1***
+[INFO ] 2018-03-17 12:02:55,308 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjQ2ODk3NiwianRpIjoiZUkyUDJZNUFmVU1iVFpQYUc0eDhNZyIsImlhdCI6MTUyMTI1OTM3NiwibmJmIjoxNTIxMjU5MjU2LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyNDY4OTc2NjcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.Uaq0vcM0jq7JRCRf-gNCJcu77PnTwJjeH_LqMZl96urm-y6enpBDy5HU9lTrgkEE0gu_Vd4vKoRVanKSY2tmy_01-xAi4BsAwaUkYrFKWg9oKIVOPFs6zExRdW0-QzkQxtcsUoAWX6256atOD4jcwG306zrXkWLJMirS5Vwc3hnS0cuPaa6M5toEdQ6Pm4ExpHbOGMu2OnVqu6ekMtsSo_Ozh2ECZKgVtxMifBMkqfTmS-DELMJaLkgBF-cpS4XVS6tEjexEddnj14Uth_xOKKvnDVWKmqHubrbs7rs2ixigjL2-HpSHP2ESs4KzecIVDnaOBtamrPgw85ChCUo1nw***
+[INFO ] 2018-03-17 12:02:55,308 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:26)
+************ current context massage ************ end ************
+[INFO ] 2018-03-17 12:02:55,432 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:23)
+===========================class org.testng.internal.TestResult.findTaskInstallTest run successed!============================
+[INFO ] 2018-03-17 12:02:55,432 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:24)
+************ current context massage ************ start ************
+[INFO ] 2018-03-17 12:02:55,432 method:com.test.framework.LogListener.logContext(LogListener.java:73)
+***context have Map type,size : 2***
+[INFO ] 2018-03-17 12:02:55,433 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjQ2ODk3NiwianRpIjoiZUkyUDJZNUFmVU1iVFpQYUc0eDhNZyIsImlhdCI6MTUyMTI1OTM3NiwibmJmIjoxNTIxMjU5MjU2LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyNDY4OTc2NjcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.Uaq0vcM0jq7JRCRf-gNCJcu77PnTwJjeH_LqMZl96urm-y6enpBDy5HU9lTrgkEE0gu_Vd4vKoRVanKSY2tmy_01-xAi4BsAwaUkYrFKWg9oKIVOPFs6zExRdW0-QzkQxtcsUoAWX6256atOD4jcwG306zrXkWLJMirS5Vwc3hnS0cuPaa6M5toEdQ6Pm4ExpHbOGMu2OnVqu6ekMtsSo_Ozh2ECZKgVtxMifBMkqfTmS-DELMJaLkgBF-cpS4XVS6tEjexEddnj14Uth_xOKKvnDVWKmqHubrbs7rs2ixigjL2-HpSHP2ESs4KzecIVDnaOBtamrPgw85ChCUo1nw***
+[INFO ] 2018-03-17 12:02:55,433 method:com.test.framework.LogListener.logContext(LogListener.java:77)
+***waybillId : 1zt003000003***
+[INFO ] 2018-03-17 12:02:55,433 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:26)
+************ current context massage ************ end ************

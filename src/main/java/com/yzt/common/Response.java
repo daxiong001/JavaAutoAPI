@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 import org.apache.commons.lang3.StringUtils;
 
 import com.alibaba.fastjson.JSONObject;
-import com.beust.jcommander.internal.Maps;
+import com.google.common.collect.Maps;
 
 /**
  * 请求响应实体
