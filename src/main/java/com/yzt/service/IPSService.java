@@ -113,7 +113,6 @@ public class IPSService extends BasicService {
 		CommonUtils.analysisJson(response.getJsonString(), context, Contants.ID);
 
 		// 返回json 用id存储taskId值，转换下context map存储key 为taskId
-//		context.addValue(Contants.TASK_ID, context.getValue(Contants.ID));
 		ContextUtil.convertContextMapKey(Contants.TASK_ID,Contants.ID);
 		return response;
 	}

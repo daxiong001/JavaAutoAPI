@@ -3,6 +3,8 @@ package utils;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -120,13 +122,15 @@ public class ContextUtil {
 			@Override
 			public Object execute(Field fd, Method getMethod, Class clazz) {
 				try {
+					Type fdType = fd.getGenericType();
 					if (fd.getType().isAssignableFrom(Map.class)) {
 						Map map = (Map) getMethod.invoke(context, null);
 						if (map.size() > 0) {
 							Iterator iterator = map.keySet().iterator();
 							while (iterator.hasNext()) {
 								Object key = iterator.next();
-								if (key.equals(sourceKey) && map.containsKey(sourceKey) && !map.containsKey(targetKey)) {
+								if (key.equals(sourceKey) && map.containsKey(sourceKey)
+										&& !map.containsKey(targetKey)) {
 									context.addValue(targetKey, context.getValue(sourceKey));
 								}
 							}

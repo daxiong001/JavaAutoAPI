@@ -22,11 +22,11 @@
 			<version>1.1.4</version>
 			<scope>test</scope>
 			<exclusions>
-                <exclusion>
-                    <groupId>org.testng</groupId>
-                    <artifactId>testng</artifactId>
-                </exclusion>
-            </exclusions>
+				<exclusion>
+					<groupId>org.testng</groupId>
+					<artifactId>testng</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.google.inject</groupId>
@@ -34,6 +34,11 @@
 			<version>4.1.0</version>
 			<classifier>no_aop</classifier>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.20</version>
 		</dependency>
 		<dependency>
 			<groupId>org.yaml</groupId>
@@ -84,7 +89,6 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.14.2</version>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>net.sourceforge.jexcelapi</groupId>
@@ -128,15 +132,16 @@
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<properties>
-                        <property>
-                            <name>usedefaultlisteners</name>
-                            <value>false</value>
-                        </property>
-                        <property>
-                            <name>listener</name>
-                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
-                        </property>
-                    </properties>
+						<property>
+							<name>usedefaultlisteners</name>
+							<value>false</value>
+						</property>
+						<property>
+							<name>listener</name>
+							<value>org.uncommons.reportng.HTMLReporter,
+								org.uncommons.reportng.JUnitXMLReporter</value>
+						</property>
+					</properties>
 				</configuration>
 			</plugin>
 			<plugin>
