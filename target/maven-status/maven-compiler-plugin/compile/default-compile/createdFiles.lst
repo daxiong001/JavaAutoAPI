@@ -1,4 +1,5 @@
 com\yzt\entity\Worker.class
+com\yzt\service\OrderService.class
 com\yzt\service\Context.class
 utils\HttpHelper$HttpRequestUpload.class
 com\yzt\service\ServiceFactory.class

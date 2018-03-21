@@ -65,13 +65,17 @@ public class CommonUtils {
 		String value = "";
 		String input = "";
 		StringBuffer sb = new StringBuffer();
-		Pattern pattern = Pattern.compile("inputJson=\\{([\\s\\S]*[^\\}])[\\}]+");
+		Pattern pattern = Pattern.compile("inputJson=([\\s\\S]*)[\\}\\]]+");
 		Matcher matcher = pattern.matcher(data);
 		if (matcher.find()) {
 			value = matcher.group(1);
 		}
 		if (!StringUtils.isEmpty(value)) {
-			input = sb.append("{").append(value).append("}").toString();
+			if (value.startsWith("\\{")) {
+				input = sb.append("{").append(value).append("}").toString();
+			}else if (value.startsWith("\\[")) {
+				input = sb.append("[").append(value).append("]").toString();
+			}			
 			paramsMap.put(Contants.INPUT, input);
 		}
 		return paramsMap;
@@ -219,7 +223,7 @@ public class CommonUtils {
 		for (Map<String, String> map : lists) {
 			for (String key : map.keySet()) {
 				if (key.equals("testFunctionName") && map.get(key).equals(method.getName())) {
-					result[i][0] = CommonUtils.getInputJsonParam(map.toString());
+					result[i][0] = map.get("inputJson");
 					i++;
 				}
 			}

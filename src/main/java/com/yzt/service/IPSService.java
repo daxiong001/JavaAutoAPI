@@ -35,30 +35,8 @@ public class IPSService extends BasicService {
 	
 	private static Logger logger = Logger.getLogger(IPSService.class);
 
-	private String JWT = "Bearer ";
-
-	private Context context;
-
-	public Context getContext() {
-		return context;
-	}
-
 	public IPSService() {
 		this.url = getUrl(URLKEY);
-		this.context = (Context) ServiceFactory.getInstance(Context.class);
-	}
-
-	/**
-	 * 获得jwt并设置到请求头
-	 * 
-	 * @return
-	 */
-	protected Map<String, String> setAuthToHeader() {
-		Map<String, String> header = Maps.newHashMap();
-		if (context.hasKey(Contants.JWT_KEY)) {
-			header.put(Contants.AUTH, (String) context.getValue(Contants.JWT_KEY));			
-		}
-		return header;
 	}
 
 	/**

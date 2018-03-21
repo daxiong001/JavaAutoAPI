@@ -1,424 +1,454 @@
-[INFO ] 2018-03-21 13:07:09,092 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-21 14:52:18,089 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-03-21 14:53:42,526 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-03-21 14:55:03,408 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-03-21 14:56:08,255 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-03-21 14:59:32,910 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-03-21 15:14:36,920 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 13:07:09,863 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:14:37,636 method:com.test.framework.LogListener.onTestFailure(LogListener.java:34)
+===========================class org.testng.internal.TestResult.loginTest run failured!!============================
+[INFO ] 2018-03-21 15:14:37,637 method:com.test.framework.LogListener.onTestFailure(LogListener.java:36)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,638 method:com.test.framework.LogListener.onTestFailure(LogListener.java:38)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:37,642 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.findTaskInstallTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:37,642 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,643 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:37,644 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.findMetaTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:37,645 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,645 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:37,646 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.trunkEndTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:37,647 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,647 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:37,648 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.findTaskFeeTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:37,650 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,650 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:37,652 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.saveTaskTraceTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:37,652 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,653 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:37,658 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.queryUserJztTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:37,658 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,658 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:37,659 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.batDisWorkerTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:37,660 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,660 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:37,661 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.appointmentTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:37,661 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,661 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:37,662 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.pickUpTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:37,662 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,662 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:37,664 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.uploadToSignTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:37,664 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,664 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:37,665 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.signTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:37,665 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:37,665 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:56,688 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-03-21 15:14:57,416 method:com.test.framework.LogListener.onTestFailure(LogListener.java:34)
+===========================class org.testng.internal.TestResult.loginTest run failured!!============================
+[INFO ] 2018-03-21 15:14:57,417 method:com.test.framework.LogListener.onTestFailure(LogListener.java:36)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,418 method:com.test.framework.LogListener.onTestFailure(LogListener.java:38)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:57,420 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.findTaskInstallTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:57,421 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,421 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:57,421 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.findMetaTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:57,422 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,422 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:57,422 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.trunkEndTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:57,422 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,422 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:57,423 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.findTaskFeeTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:57,423 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,423 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:57,424 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.saveTaskTraceTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:57,424 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,424 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:57,424 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.queryUserJztTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:57,424 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,425 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:57,425 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.batDisWorkerTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:57,425 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,425 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:57,425 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.appointmentTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:57,426 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,426 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:57,426 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.pickUpTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:57,426 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,427 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:57,428 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.uploadToSignTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:57,428 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,428 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:14:57,428 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
+===========================null.signTest run skiped!!!!!============================
+[INFO ] 2018-03-21 15:14:57,428 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
+************ current context massage ************ start ************
+[INFO ] 2018-03-21 15:14:57,429 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
+************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:16:06,508 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-03-21 15:19:11,620 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-03-21 15:19:21,940 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-03-21 15:19:22,684 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.loginTest run successed!============================
-[INFO ] 2018-03-21 13:07:09,864 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:22,684 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:09,865 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+[INFO ] 2018-03-21 15:19:22,685 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
 ***context have Map type,size : 1***
-[INFO ] 2018-03-21 13:07:09,866 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:09,866 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:22,686 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:22,686 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
-[INFO ] 2018-03-21 13:07:09,868 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-21 15:19:22,688 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 13:07:09,991 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:19:22,824 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.findTaskInstallTest run successed!============================
-[INFO ] 2018-03-21 13:07:09,992 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:22,824 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:09,992 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 4***
-[INFO ] 2018-03-21 13:07:09,992 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:09,992 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:22,825 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+***context have Map type,size : 3***
+[INFO ] 2018-03-21 15:19:22,825 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:22,825 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 13:07:09,992 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:22,825 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***id : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:09,993 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***taskId : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:09,993 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:22,825 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
-[INFO ] 2018-03-21 13:07:09,993 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-21 15:19:22,826 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 13:07:10,079 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:19:22,953 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.findMetaTest run successed!============================
-[INFO ] 2018-03-21 13:07:10,080 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:22,954 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:10,080 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 5***
-[INFO ] 2018-03-21 13:07:10,080 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:10,080 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:22,955 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+***context have Map type,size : 4***
+[INFO ] 2018-03-21 15:19:22,955 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:22,955 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 13:07:10,080 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:22,955 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:10,080 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:10,080 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***taskId : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:10,081 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***0 : context have List type com.yzt.entity.CauseMeta
-[INFO ] 2018-03-21 13:07:10,081 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:10,081 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:10,081 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:22,955 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***label : ÂÖ∂‰ªñÂéüÂõ†***
+[INFO ] 2018-03-21 15:19:22,956 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
-[INFO ] 2018-03-21 13:07:10,081 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-21 15:19:22,957 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 13:07:10,174 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:19:23,055 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.trunkEndTest run successed!============================
-[INFO ] 2018-03-21 13:07:10,174 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:10,174 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 5***
-[INFO ] 2018-03-21 13:07:10,174 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:10,175 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+***context have Map type,size : 4***
+[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 13:07:10,175 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:10,175 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:10,175 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***taskId : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:10,175 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***0 : context have List type com.yzt.entity.CauseMeta
-[INFO ] 2018-03-21 13:07:10,175 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:10,175 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:10,176 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***label : ÂÖ∂‰ªñÂéüÂõ†***
+[INFO ] 2018-03-21 15:19:23,057 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
-[INFO ] 2018-03-21 13:07:10,176 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-21 15:19:23,057 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 13:07:10,247 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:19:23,132 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.findTaskFeeTest run successed!============================
-[INFO ] 2018-03-21 13:07:10,247 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:23,132 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:10,247 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 8***
-[INFO ] 2018-03-21 13:07:10,248 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+***context have Map type,size : 7***
+[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***installFee : 0.00***
-[INFO ] 2018-03-21 13:07:10,248 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***mediateFee : 0***
-[INFO ] 2018-03-21 13:07:10,248 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:10,248 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 13:07:10,248 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***branchFee : 99.00***
-[INFO ] 2018-03-21 13:07:10,248 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:10,248 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:10,248 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***taskId : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:10,248 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***0 : context have List type com.yzt.entity.CauseMeta
-[INFO ] 2018-03-21 13:07:10,249 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:10,249 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:10,249 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***label : ÂÖ∂‰ªñÂéüÂõ†***
+[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
-[INFO ] 2018-03-21 13:07:10,249 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-21 15:19:23,134 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 13:07:10,329 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:19:23,217 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.saveTaskTraceTest run successed!============================
-[INFO ] 2018-03-21 13:07:10,329 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:10,330 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 8***
-[INFO ] 2018-03-21 13:07:10,330 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+***context have Map type,size : 7***
+[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***installFee : 0.00***
-[INFO ] 2018-03-21 13:07:10,330 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***mediateFee : 0***
-[INFO ] 2018-03-21 13:07:10,330 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:10,330 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 13:07:10,330 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***branchFee : 99.00***
-[INFO ] 2018-03-21 13:07:10,330 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:10,330 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:10,331 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***taskId : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:10,331 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***0 : context have List type com.yzt.entity.CauseMeta
-[INFO ] 2018-03-21 13:07:10,331 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:10,331 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:10,331 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:23,219 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***label : ÂÖ∂‰ªñÂéüÂõ†***
+[INFO ] 2018-03-21 15:19:23,219 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
-[INFO ] 2018-03-21 13:07:10,331 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-21 15:19:23,219 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 13:07:11,525 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:19:25,222 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.queryUserJztTest run successed!============================
-[INFO ] 2018-03-21 13:07:11,525 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:11,526 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 9***
-[INFO ] 2018-03-21 13:07:11,526 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+***context have Map type,size : 8***
+[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***installFee : 0.00***
-[INFO ] 2018-03-21 13:07:11,526 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***mediateFee : 0***
-[INFO ] 2018-03-21 13:07:11,526 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : ¿ˆ∆º***
-[INFO ] 2018-03-21 13:07:11,526 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:11,526 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***realName : ‰∏ΩËêç***
+[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 13:07:11,526 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***branchFee : 99.00***
-[INFO ] 2018-03-21 13:07:11,526 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,224 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 13:07:11,526 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:11,527 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***taskId : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:11,527 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***0 : context have List type com.yzt.entity.CauseMeta
-[INFO ] 2018-03-21 13:07:11,527 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:11,527 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:11,527 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***1 : context have List type com.yzt.entity.Worker
-[INFO ] 2018-03-21 13:07:11,527 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***realname : null***
-[INFO ] 2018-03-21 13:07:11,527 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 13:07:11,527 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:25,224 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***label : ÂÖ∂‰ªñÂéüÂõ†***
+[INFO ] 2018-03-21 15:19:25,224 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
-[INFO ] 2018-03-21 13:07:11,528 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-21 15:19:25,224 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 13:07:11,668 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:19:25,310 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.batDisWorkerTest run successed!============================
-[INFO ] 2018-03-21 13:07:11,668 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:25,310 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:11,668 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 9***
-[INFO ] 2018-03-21 13:07:11,669 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,310 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+***context have Map type,size : 8***
+[INFO ] 2018-03-21 15:19:25,310 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***installFee : 0.00***
-[INFO ] 2018-03-21 13:07:11,669 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,311 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***mediateFee : 0***
-[INFO ] 2018-03-21 13:07:11,669 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : ¿ˆ∆º***
-[INFO ] 2018-03-21 13:07:11,669 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:11,669 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,311 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***realName : ‰∏ΩËêç***
+[INFO ] 2018-03-21 15:19:25,311 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:25,311 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 13:07:11,669 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,311 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***branchFee : 99.00***
-[INFO ] 2018-03-21 13:07:11,669 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,312 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 13:07:11,669 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:11,669 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***taskId : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:11,670 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***0 : context have List type com.yzt.entity.CauseMeta
-[INFO ] 2018-03-21 13:07:11,670 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:11,670 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:11,670 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***1 : context have List type com.yzt.entity.Worker
-[INFO ] 2018-03-21 13:07:11,670 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***realname : null***
-[INFO ] 2018-03-21 13:07:11,670 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 13:07:11,670 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:25,312 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***label : ÂÖ∂‰ªñÂéüÂõ†***
+[INFO ] 2018-03-21 15:19:25,312 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
-[INFO ] 2018-03-21 13:07:11,671 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-21 15:19:25,312 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 13:07:11,785 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:19:25,396 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.appointmentTest run successed!============================
-[INFO ] 2018-03-21 13:07:11,785 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:11,785 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 9***
-[INFO ] 2018-03-21 13:07:11,785 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+***context have Map type,size : 8***
+[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***installFee : 0.00***
-[INFO ] 2018-03-21 13:07:11,785 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***mediateFee : 0***
-[INFO ] 2018-03-21 13:07:11,785 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : ¿ˆ∆º***
-[INFO ] 2018-03-21 13:07:11,785 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:11,786 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***realName : ‰∏ΩËêç***
+[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 13:07:11,786 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***branchFee : 99.00***
-[INFO ] 2018-03-21 13:07:11,786 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 13:07:11,786 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:11,786 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***taskId : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:11,786 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***0 : context have List type com.yzt.entity.CauseMeta
-[INFO ] 2018-03-21 13:07:11,786 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:11,786 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:11,786 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***1 : context have List type com.yzt.entity.Worker
-[INFO ] 2018-03-21 13:07:11,786 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***realname : null***
-[INFO ] 2018-03-21 13:07:11,787 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 13:07:11,787 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***label : ÂÖ∂‰ªñÂéüÂõ†***
+[INFO ] 2018-03-21 15:19:25,398 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
-[INFO ] 2018-03-21 13:07:11,787 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-21 15:19:25,398 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 13:07:11,880 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:19:25,484 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.pickUpTest run successed!============================
-[INFO ] 2018-03-21 13:07:11,880 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:25,484 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:11,880 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 9***
-[INFO ] 2018-03-21 13:07:11,880 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,484 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+***context have Map type,size : 8***
+[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***installFee : 0.00***
-[INFO ] 2018-03-21 13:07:11,880 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***mediateFee : 0***
-[INFO ] 2018-03-21 13:07:11,880 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : ¿ˆ∆º***
-[INFO ] 2018-03-21 13:07:11,880 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:11,880 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***realName : ‰∏ΩËêç***
+[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 13:07:11,880 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***branchFee : 99.00***
-[INFO ] 2018-03-21 13:07:11,881 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 13:07:11,881 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:11,881 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***taskId : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:11,881 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***0 : context have List type com.yzt.entity.CauseMeta
-[INFO ] 2018-03-21 13:07:11,881 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:11,881 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:11,881 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***1 : context have List type com.yzt.entity.Worker
-[INFO ] 2018-03-21 13:07:11,881 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***realname : null***
-[INFO ] 2018-03-21 13:07:11,881 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 13:07:11,881 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***label : ÂÖ∂‰ªñÂéüÂõ†***
+[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
-[INFO ] 2018-03-21 13:07:12,193 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:19:25,720 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.uploadToSignTest run successed!============================
-[INFO ] 2018-03-21 13:07:12,193 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:25,720 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:12,193 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 13***
-[INFO ] 2018-03-21 13:07:12,193 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,720 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+***context have Map type,size : 12***
+[INFO ] 2018-03-21 15:19:25,720 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***installFee : 0.00***
-[INFO ] 2018-03-21 13:07:12,193 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:12,193 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***branchFee : 99.00***
-[INFO ] 2018-03-21 13:07:12,193 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:12,193 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***url : http://yztfile.gz.bcebos.com/WJG9DXSd0lUL2xob.jpg***
-[INFO ] 2018-03-21 13:07:12,193 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,721 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***mediateFee : 0***
-[INFO ] 2018-03-21 13:07:12,193 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : ¿ˆ∆º***
-[INFO ] 2018-03-21 13:07:12,194 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***path : WJG9DXSd0lUL2xob.jpg***
-[INFO ] 2018-03-21 13:07:12,194 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,721 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***realName : ‰∏ΩËêç***
+[INFO ] 2018-03-21 15:19:25,721 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***path : WJHbUQqd0lUL2xpB.jpg***
+[INFO ] 2018-03-21 15:19:25,722 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***name : sign.jpg***
-[INFO ] 2018-03-21 13:07:12,194 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 13:07:12,194 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***branchFee : 99.00***
+[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***etag : 9c5625f94c6611daf27938e5d084667c***
-[INFO ] 2018-03-21 13:07:12,194 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : WJG9DXSd0lUL2xob***
-[INFO ] 2018-03-21 13:07:12,194 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***taskId : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:12,194 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***0 : context have List type com.yzt.entity.CauseMeta
-[INFO ] 2018-03-21 13:07:12,194 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:12,194 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:12,194 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***1 : context have List type com.yzt.entity.Worker
-[INFO ] 2018-03-21 13:07:12,194 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***realname : null***
-[INFO ] 2018-03-21 13:07:12,195 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 13:07:12,195 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***2 : context have List type com.yzt.entity.SignImage
-[INFO ] 2018-03-21 13:07:12,195 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***etag : 9c5625f94c6611daf27938e5d084667c***
-[INFO ] 2018-03-21 13:07:12,195 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : WJG9DXSd0lUL2xob***
-[INFO ] 2018-03-21 13:07:12,195 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***name : sign.jpg***
-[INFO ] 2018-03-21 13:07:12,195 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***path : WJG9DXSd0lUL2xob.jpg***
-[INFO ] 2018-03-21 13:07:12,195 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***url : http://yztfile.gz.bcebos.com/WJG9DXSd0lUL2xob.jpg***
-[INFO ] 2018-03-21 13:07:12,195 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***id : WJHbUQqd0lUL2xpB***
+[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***label : ÂÖ∂‰ªñÂéüÂõ†***
+[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***url : http://yztfile.gz.bcebos.com/WJHbUQqd0lUL2xpB.jpg***
+[INFO ] 2018-03-21 15:19:25,724 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
-[INFO ] 2018-03-21 13:07:12,195 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-21 15:19:25,724 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 13:07:12,277 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-03-21 15:19:25,854 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ===========================class org.testng.internal.TestResult.signTest run successed!============================
-[INFO ] 2018-03-21 13:07:12,277 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
+[INFO ] 2018-03-21 15:19:25,854 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
 ************ current context massage ************ start ************
-[INFO ] 2018-03-21 13:07:12,277 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 13***
-[INFO ] 2018-03-21 13:07:12,277 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,854 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+***context have Map type,size : 12***
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***installFee : 0.00***
-[INFO ] 2018-03-21 13:07:12,277 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgxODQzMCwianRpIjoiOFJVS2lLWDk3aGhEUG5NbVlGQkJpQSIsImlhdCI6MTUyMTYwODgzMCwibmJmIjoxNTIxNjA4NzEwLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODE4NDMwMTU1LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.D3WVboUezf-_tltA75_ggwywXLJhnwPRyIbLvWuzPRWD-7jok3stW12PO-bEkzgf4TZFSoHPkGTXMAKqdYlGSUODUmpb5OvD4S_pzv4WVO_QbtCtfkA2o9AgxVMdf0igL2N2Z85uRK_akLDezIrhn0EgV4hEF50L-Hd34fweWGoxpdV_7LKQJPKx4fvRtMhFThleWJZqQ-EClmTGamotLDtIkM-2WbrsoZw3TwW1Okf_-nCZreMtyIQ9JuV-iPqBGUHLSDvIOtvIGlHADkmxPViHN4jl72KIoD5YFh2LJFUXGMK1nNuQs2Wq2QK_HM3KsusWkqwINweGKRcCkguxZQ***
-[INFO ] 2018-03-21 13:07:12,277 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***branchFee : 99.00***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***url : http://yztfile.gz.bcebos.com/WJG9DXSd0lUL2xob.jpg***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***mediateFee : 0***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : ¿ˆ∆º***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***path : WJG9DXSd0lUL2xob.jpg***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***realName : ‰∏ΩËêç***
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***path : WJHbUQqd0lUL2xpB.jpg***
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***name : sign.jpg***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***branchFee : 99.00***
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
 ***etag : 9c5625f94c6611daf27938e5d084667c***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : WJG9DXSd0lUL2xob***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***taskId : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***0 : context have List type com.yzt.entity.CauseMeta
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***label : ∆‰À˚‘≠“Ú***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***1 : context have List type com.yzt.entity.Worker
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***realname : null***
-[INFO ] 2018-03-21 13:07:12,278 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 13:07:12,279 method:com.test.framework.LogListener$1.execute(LogListener.java:63)
-***2 : context have List type com.yzt.entity.SignImage
-[INFO ] 2018-03-21 13:07:12,279 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***etag : 9c5625f94c6611daf27938e5d084667c***
-[INFO ] 2018-03-21 13:07:12,279 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***id : WJG9DXSd0lUL2xob***
-[INFO ] 2018-03-21 13:07:12,279 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***name : sign.jpg***
-[INFO ] 2018-03-21 13:07:12,279 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***path : WJG9DXSd0lUL2xob.jpg***
-[INFO ] 2018-03-21 13:07:12,279 method:com.test.framework.LogListener$1.execute(LogListener.java:69)
-***url : http://yztfile.gz.bcebos.com/WJG9DXSd0lUL2xob.jpg***
-[INFO ] 2018-03-21 13:07:12,279 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***id : WJHbUQqd0lUL2xpB***
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***label : ÂÖ∂‰ªñÂéüÂõ†***
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
+***url : http://yztfile.gz.bcebos.com/WJHbUQqd0lUL2xpB.jpg***
+[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
 ************ current context massage ************ end ************
+[INFO ] 2018-03-21 15:21:29,375 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-03-21 15:21:29,789 method:com.yzt.service.OrderService.queryWaybillById(OrderService.java:32)
+----ËøêÂçïÂàóË°®-‰øÆÊîπÊü•ËØ¢ÂõûÊòæ----queryWaybillById----ËØ∑Ê±Çurl = http://192.168.100.45:7777/api/order/queryWaybillById ----
+[INFO ] 2018-03-21 15:21:29,789 method:com.yzt.service.OrderService.queryWaybillById(OrderService.java:33)
+----ËøêÂçïÂàóË°®-‰øÆÊîπÊü•ËØ¢ÂõûÊòæ----ÂèëÈÄÅËØ∑Ê±Ç----ÂºÄÂßã----
+[INFO ] 2018-03-21 15:21:30,096 method:com.yzt.service.OrderService.queryWaybillById(OrderService.java:36)
+----ËøêÂçïÂàóË°®-‰øÆÊîπÊü•ËØ¢ÂõûÊòæ----ÂèëÈÄÅËØ∑Ê±Ç----ÁªìÊùü----
+[INFO ] 2018-03-21 15:21:30,096 method:com.yzt.service.OrderService.queryWaybillById(OrderService.java:37)
+----ËøêÂçïÂàóË°®-‰øÆÊîπÊü•ËØ¢ÂõûÊòæ----ËøîÂõûÁªìÊûú----response = com.yzt.common.Response@398dada8 ----

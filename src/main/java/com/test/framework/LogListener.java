@@ -24,27 +24,33 @@ public class LogListener extends TestListenerAdapter {
 	public void onTestSuccess(ITestResult tr) {
 		logger.info("===========================" + tr.getClass() + "." + tr.getName()
 				+ " run successed!============================");
-		logger.info("************ current context massage ************ start ************");
+		logger.info("************ context容器数据信息收集 ************ start ************");
 		logContext();
-		logger.info("************ current context massage ************ end ************");
+		logger.info("************ context容器数据信息收集 ************ end ************");
+		logger.info("##############################################################");
+		logger.info("####################       具体用例日志                         ################");
 	}
 
 	@Override
 	public void onTestFailure(ITestResult tr) {
 		logger.info("===========================" + tr.getClass() + "." + tr.getName()
 				+ " run failured!!============================");
-		logger.info("************ current context massage ************ start ************");
+		logger.info("************ context容器数据信息收集 ************ start ************");
 		logContext();
-		logger.info("************ current context massage ************ end ************");
+		logger.info("************ context容器数据信息收集 ************ end ************");
+		logger.info("##############################################################");
+		logger.info("####################       具体用例日志                         ################");
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult tr) {
 		logger.info("===========================" + tr.getTestName() + "." + tr.getName()
 				+ " run skiped!!!!!============================");
-		logger.info("************ current context massage ************ start ************");
+		logger.info("************ context容器数据信息收集 ************ start ************");
 		logContext();
-		logger.info("************ current context massage ************ end ************");
+		logger.info("************ context容器数据信息收集 ************ end ************");
+		logger.info("##############################################################");
+		logger.info("####################       具体用例日志                         ################");
 	}
 
 	private void logContext() {

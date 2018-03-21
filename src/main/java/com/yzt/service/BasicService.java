@@ -26,13 +26,38 @@ import utils.HttpHelper;
  *
  */
 public class BasicService {
+	
+	protected Context context = (Context) ServiceFactory.getInstance(Context.class);
+	
+	protected String JWT = "Bearer ";
+	
+	public Context getContext() {
+		return context;
+	}
+	
+	public String getJWT() {
+		return JWT;
+	}
+	
+	/**
+	 * 获得jwt并设置到请求头
+	 * 
+	 * @return
+	 */
+	protected Map<String, String> setAuthToHeader() {
+		Map<String, String> header = Maps.newHashMap();
+		if (context.hasKey(Contants.JWT_KEY)) {
+			header.put(Contants.AUTH, (String) context.getValue(Contants.JWT_KEY));			
+		}
+		return header;
+	}
 
 	/**
 	 * 获取参数配置文件中服务器地址
 	 * 
 	 * @return
 	 */
-	public String getUrl(String key) {
+	protected String getUrl(String key) {
 		if (Env.getEnv().containsKey(key)) {
 			return Env.getEnv().get(key);
 		} else {

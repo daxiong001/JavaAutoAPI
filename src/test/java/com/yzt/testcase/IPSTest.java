@@ -24,7 +24,7 @@ import utils.DateUtil;
 
 public class IPSTest {
 
-	private IPSService service = (IPSService) ServiceFactory.getInstance(this.getClass());
+	private IPSService service = (IPSService) ServiceFactory.getInstance(IPSService.class);
 
 	/**
 	 * 登录，获得JWT
