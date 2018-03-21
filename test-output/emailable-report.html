@@ -9,110 +9,15 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num">4,139</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">18,420</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">com.yzt.testcase.IPSTest</td><td><a href="#m0">appointmentTest</a></td><td rowspan="1">1521457117790</td><td rowspan="1">554</td></tr><tr class="passedeven"><td><a href="#m1">batDisWorkerTest</a></td><td rowspan="1">1521457117675</td><td rowspan="1">56</td></tr><tr class="passedeven"><td><a href="#m2">findTaskFeeTest</a></td><td rowspan="1">1521457115534</td><td rowspan="1">38</td></tr><tr class="passedeven"><td><a href="#m3">findTaskInstallTest</a></td><td rowspan="1">1521457115409</td><td rowspan="1">82</td></tr><tr class="passedeven"><td><a href="#m4">loginTest</a></td><td rowspan="1">1521457115010</td><td rowspan="1">347</td></tr><tr class="passedeven"><td><a href="#m5">pickUpTest</a></td><td rowspan="1">1521457118379</td><td rowspan="1">47</td></tr><tr class="passedeven"><td><a href="#m6">queryUserJztTest</a></td><td rowspan="1">1521457115613</td><td rowspan="1">2022</td></tr><tr class="passedeven"><td><a href="#m7">signTest</a></td><td rowspan="1">1521457118656</td><td rowspan="1">53</td></tr><tr class="passedeven"><td><a href="#m8">uploadToSignTest</a></td><td rowspan="1">1521457118427</td><td rowspan="1">199</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.yzt.testcase.IPSTest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1521534310342</td><td rowspan="1">359</td></tr><tr class="passedeven"><td><a href="#m1">taskCountTest</a></td><td rowspan="1">1521534310752</td><td rowspan="1">17555</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.yzt.testcase.IPSTest#appointmentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
-  &quot;name&quot;: &quot;taskInstallController.appointment&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;taskId&quot;: &quot;WIY4q42d0lUBQh4L&quot;,
-      &quot;appointmentTime&quot;: &quot;2018-03-14T06:51:28.928Z&quot;,
-      &quot;timeInterval&quot;: &quot;Afternoon&quot;
-    }
-  ]
-}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.yzt.testcase.IPSTest#batDisWorkerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
-  &quot;name&quot;: &quot;taskInstallController.batDisWorker&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;disWorkerReqs&quot;: [
-        {
-          &quot;dis&quot;: true,
-          &quot;taskId&quot;: &quot;WIY4q42d0lUBQh4L&quot;,
-          &quot;workerId&quot;: &quot;V15m-udoWkkwUQje&quot;,
-          &quot;branchFee&quot;: 99,
-          &quot;installFee&quot;: 0,
-          &quot;mediateFee&quot;: 0
-        }
-      ]
-    }
-  ]
-}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.yzt.testcase.IPSTest#findTaskFeeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
-  &quot;name&quot;: &quot;taskInstallController.findTaskFee&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;waybillId&quot;: &quot;1zt003000003&quot;
-    }
-  ]
-}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.yzt.testcase.IPSTest#findTaskInstallTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
-  &quot;name&quot;: &quot;taskInstallController.findTaskInstall&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;first&quot;: 0,
-      &quot;rows&quot;: 10
-    },
-    {
-      &quot;taskStatus&quot;: &quot;All&quot;,
-      &quot;dateType&quot;: &quot;All&quot;,
-      &quot;trunkSts&quot;: &quot;All&quot;,
-      &quot;beginDate&quot;: null,
-      &quot;endDate&quot;: null,
-      &quot;isNormalSign&quot;: &quot;All&quot;,
-      &quot;waybillId&quot;: &quot;1zt003000001&quot;
-    }
-  ]
-}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.yzt.testcase.IPSTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
+<h2>Default test</h2><h3 id="m0">com.yzt.testcase.IPSTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
   &quot;source&quot;: &quot;core&quot;,
   &quot;mobile&quot;: &quot;17576075478&quot;,
   &quot;password&quot;: &quot;525241&quot;
 }</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.yzt.testcase.IPSTest#pickUpTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
-  &quot;name&quot;: &quot;taskInstallController.pickUp&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;taskId&quot;: &quot;WIY4q42d0lUBQh4L&quot;
-    }
-  ]
-}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.yzt.testcase.IPSTest#queryUserJztTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
-  &quot;name&quot;: &quot;taskInstallController.queryUserJzt&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;first&quot;: 0,
-      &quot;rows&quot;: 5
-    },
-    {
-      &quot;areaCode&quot;: &quot;110101000000&quot;
-    }
-  ]
-}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.yzt.testcase.IPSTest#signTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{
-  &quot;name&quot;: &quot;taskInstallController.sign&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;taskId&quot;: &quot;&quot;,
-      &quot;signer&quot;: &quot;tester2&quot;,
-      &quot;signStatus&quot;: &quot;normal&quot;,
-      &quot;describe&quot;: &quot;测试测试测试测试测试测试&quot;,
-      &quot;files&quot;: [
-        &quot;WIjfrsKd0lUorsus&quot;
-      ],
-      &quot;taskSignPlatFormType&quot;: &quot;ips&quot;
-    }
-  ]
-}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.yzt.testcase.IPSTest#uploadToSignTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.yzt.testcase.IPSTest#taskCountTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{&quot;name&quot;: &quot;taskInstallController.getNodeTypeCount&quot;,&quot;token&quot;: null,&quot;args&quot;: []}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
