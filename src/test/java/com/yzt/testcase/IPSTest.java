@@ -187,7 +187,7 @@ public class IPSTest {
 	//签收时仅上传一张图片
 	@Test(dependsOnMethods = { "pickUpTest" })
 	public void uploadToSignTest() {
-		String filename = "开门密码.jpg";
+		String filename = "sign.jpg";
 		service.uploadToSign(filename);
 	}
 
