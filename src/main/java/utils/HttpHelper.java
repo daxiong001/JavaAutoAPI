@@ -32,6 +32,8 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.yzt.common.HttpMethod;
 import com.yzt.common.Response;
+import com.yzt.service.Context;
+import com.yzt.service.ServiceFactory;
 
 import contants.Contants;
 
@@ -48,11 +50,9 @@ public class HttpHelper {
 	public static final Integer REQUEST_TIMEOUT = 20000;
 	public static final Integer CONNECT_TIMEOUT = 20000;
 	public static final Integer SOCKET_TIMEOUT = 20000;
-	public static final String BOUNDARY = Long.toHexString(System.currentTimeMillis());
-	public static final String CRLF = "\r\n";
 	public static final String UPLOAD_FILE_PATH = System.getProperty("user.dir") + File.separator + "src"
 			+ File.separator + "test" + File.separator + "resource" + File.separator + "uploads" + File.separator;
-
+	public static final String RESULT_CODE = "resultCode";
 	static class HttpRequestUpload {
 		String fileName;
 		File file;
@@ -78,7 +78,7 @@ public class HttpHelper {
 		 * @param header
 		 * @return
 		 */
-		public HttpRequest addHeaders(Map<String, String> header) {
+		public HttpRequest addHeaders(Map<String, String> header) {			
 			this.headers.putAll(header);
 			return this;
 		}
@@ -143,6 +143,12 @@ public class HttpHelper {
 		}
 
 		private void handleHeader(HttpPost httpPost, HttpGet httpGet) {
+			Map<String, String> header = Maps.newHashMap();
+			Context context = (Context) ServiceFactory.getInstance(Context.class);
+			if (context.hasKey(Contants.JWT_KEY)) {
+				header.put(Contants.AUTH, (String) context.getValue(Contants.JWT_KEY));
+				this.headers.putAll(header);
+			}
 			if (httpPost != null) {
 				if (this.uploads.isEmpty()) {
 					this.headers.put(CONTENT_TYPE_NAME, DEFULT_CONTENT_TYPE_VALUE);
@@ -215,12 +221,15 @@ public class HttpHelper {
 			Response respone = new Response();
 			HttpEntity responseEntity = null;
 			String result = "";
-			String code = "";
+			String httpCode = "",resultCode = "";
 			if (httpResponse != null) {
 				try {
-					code = httpResponse.getStatusLine().toString();
+					httpCode = httpResponse.getStatusLine().toString();
 					responseEntity = httpResponse.getEntity();
 					result = EntityUtils.toString(responseEntity);
+					if (result.contains(RESULT_CODE)) {
+						resultCode = (String) CommonUtils.analysisJson(result, RESULT_CODE).getValue(RESULT_CODE);
+					}					
 				} catch (ParseException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -236,7 +245,8 @@ public class HttpHelper {
 						e.printStackTrace();
 					}
 				}
-				respone.setCode(code);
+				respone.setHttpCode(httpCode);
+				respone.setResultCode(resultCode);
 				respone.setJsonString(result);
 			}
 			return respone;

@@ -1,6 +1,6 @@
 <html>  <head>	<meta charset="utf-8">     <title>Test Results Report</title>    <meta name="viewport" content="width=device-width, initial-scale=1">    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">  	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>  </head>
 <body>
-<h2>Test Suite : IPSTest</h2>
+<h2>Test Suite : SCM2.0</h2>
 <table class="table table-striped table-bordered">
 <h3>Summary Reporter</h3>
 <thead>
@@ -16,13 +16,13 @@
 </thead>
 <tbody>
 <tr>
-<td>12</td>
-<td>12</td>
+<td>6</td>
+<td>3</td>
+<td>3</td>
 <td>0</td>
 <td>0</td>
-<td>100%</td>
-<td>2018-03-21 15:19:21</td>
-<td>2018-03-21 15:19:25</td>
+<td>2018-03-23 10:43:58</td>
+<td>2018-03-23 10:43:59</td>
 </tr>
 </tbody>
 
@@ -31,6 +31,7 @@
 <h3>Detail Result</h3>
 <thead>
 <tr>
+<th># Name</th>
 <th># Class Name</th>
 <th># Method Name</th>
 <th># Status</th>
@@ -39,76 +40,46 @@
 </thead>
 <tbody>
 <tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>findMetaTest</td>
+<td>第三方订单-列表查询</td>
+<td>com.yzt.testcase.order.OrderTest</td>
+<td>queryOrderListPageTest</td>
 <td>passed</td>
 <td></td>
 </tr>
 <tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>appointmentTest</td>
+<td>第三方订单-绑定运单列表</td>
+<td>com.yzt.testcase.order.OrderTest</td>
+<td>orderBindWaybillListPageTest</td>
 <td>passed</td>
 <td></td>
 </tr>
 <tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>pickUpTest</td>
+<td>客户中心-订单详情</td>
+<td>com.yzt.testcase.order.OrderTest</td>
+<td>getOrderDetailsTest</td>
 <td>passed</td>
 <td></td>
 </tr>
-<tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>loginTest</td>
-<td>passed</td>
-<td></td>
+<tr class="danger">
+<td>第三方订单-拒绝接单</td>
+<td>com.yzt.testcase.order.OrderTest</td>
+<td>orderRefuseTest</td>
+<td>failed</td>
+<td>java.lang.AssertionError: expected [200] but found [500]</td>
 </tr>
-<tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>batDisWorkerTest</td>
-<td>passed</td>
-<td></td>
+<tr class="danger">
+<td>第三方订单-订单号查询订单</td>
+<td>com.yzt.testcase.order.OrderTest</td>
+<td>queryOrderByIdTest</td>
+<td>failed</td>
+<td>java.lang.AssertionError: expected [200] but found [500]</td>
 </tr>
-<tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>findTaskFeeTest</td>
-<td>passed</td>
-<td></td>
-</tr>
-<tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>trunkEndTest</td>
-<td>passed</td>
-<td></td>
-</tr>
-<tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>uploadToSignTest</td>
-<td>passed</td>
-<td></td>
-</tr>
-<tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>saveTaskTraceTest</td>
-<td>passed</td>
-<td></td>
-</tr>
-<tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>queryUserJztTest</td>
-<td>passed</td>
-<td></td>
-</tr>
-<tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>findTaskInstallTest</td>
-<td>passed</td>
-<td></td>
-</tr>
-<tr  class="success">
-<td>com.yzt.testcase.IPSTest</td>
-<td>signTest</td>
-<td>passed</td>
-<td></td>
+<tr class="danger">
+<td>运单列表-修改查询回显</td>
+<td>com.yzt.testcase.order.OrderTest</td>
+<td>queryWaybillByIdTest</td>
+<td>failed</td>
+<td>java.lang.AssertionError: expected [200] but found [500]</td>
 </tr>
 </tbody>
 </table>

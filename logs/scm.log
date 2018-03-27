@@ -1,454 +1,84 @@
-[INFO ] 2018-03-21 14:52:18,089 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
-[INFO ] 2018-03-21 14:53:42,526 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
-[INFO ] 2018-03-21 14:55:03,408 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
-[INFO ] 2018-03-21 14:56:08,255 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
-[INFO ] 2018-03-21 14:59:32,910 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
-[INFO ] 2018-03-21 15:14:36,920 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-23 16:05:10,246 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:14:37,636 method:com.test.framework.LogListener.onTestFailure(LogListener.java:34)
-===========================class org.testng.internal.TestResult.loginTest run failured!!============================
-[INFO ] 2018-03-21 15:14:37,637 method:com.test.framework.LogListener.onTestFailure(LogListener.java:36)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,638 method:com.test.framework.LogListener.onTestFailure(LogListener.java:38)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:37,642 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.findTaskInstallTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:37,642 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,643 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:37,644 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.findMetaTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:37,645 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,645 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:37,646 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.trunkEndTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:37,647 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,647 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:37,648 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.findTaskFeeTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:37,650 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,650 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:37,652 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.saveTaskTraceTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:37,652 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,653 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:37,658 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.queryUserJztTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:37,658 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,658 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:37,659 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.batDisWorkerTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:37,660 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,660 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:37,661 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.appointmentTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:37,661 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,661 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:37,662 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.pickUpTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:37,662 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,662 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:37,664 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.uploadToSignTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:37,664 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,664 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:37,665 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.signTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:37,665 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:37,665 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:56,688 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-23 16:05:10,704 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <登录> 开始执行 ----
+[INFO ] 2018-03-23 16:05:10,704 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
+[INFO ] 2018-03-23 16:05:10,705 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <login> ----
+[INFO ] 2018-03-23 16:05:10,706 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : {
+  "source": "core",
+  "mobile": "17576075478",
+  "password": "525241"
+} ----
+[INFO ] 2018-03-23 16:05:11,109 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:46)
+---- 请求实际返回结果 : true ----
+[INFO ] 2018-03-23 16:05:11,114 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:14:57,416 method:com.test.framework.LogListener.onTestFailure(LogListener.java:34)
-===========================class org.testng.internal.TestResult.loginTest run failured!!============================
-[INFO ] 2018-03-21 15:14:57,417 method:com.test.framework.LogListener.onTestFailure(LogListener.java:36)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,418 method:com.test.framework.LogListener.onTestFailure(LogListener.java:38)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:57,420 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.findTaskInstallTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:57,421 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,421 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:57,421 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.findMetaTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:57,422 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,422 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:57,422 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.trunkEndTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:57,422 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,422 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:57,423 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.findTaskFeeTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:57,423 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,423 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:57,424 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.saveTaskTraceTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:57,424 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,424 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:57,424 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.queryUserJztTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:57,424 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,425 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:57,425 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.batDisWorkerTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:57,425 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,425 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:57,425 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.appointmentTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:57,426 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,426 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:57,426 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.pickUpTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:57,426 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,427 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:57,428 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.uploadToSignTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:57,428 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,428 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:14:57,428 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:43)
-===========================null.signTest run skiped!!!!!============================
-[INFO ] 2018-03-21 15:14:57,428 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:45)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:14:57,429 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:47)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:16:06,508 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-23 16:05:11,201 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <查询调度任务记录> 开始执行 ----
+[INFO ] 2018-03-23 16:05:11,201 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
+[INFO ] 2018-03-23 16:05:11,202 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <findTaskInstall> ----
+[INFO ] 2018-03-23 16:05:11,202 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"} ----
+[INFO ] 2018-03-23 16:05:11,327 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
+---- 请求实际返回结果 : {"result":{"content":[{"acceptTime":"2018-03-12 14:29:54","appointmentTime":"2018-03-14 \u4E0B\u5348","areaCode":"110101000000","branchFee":99.00,"checkStatus":"check_no","completionRate48":false,"consignee":"tester2","consigneeTel":"","countdown":0,"createDate":"2018-03-12 14:25:31","disPerson":"\u6D4B\u8BD5\u7EC4","disTime":"2018-03-12 14:29:54","goods":"\u95F4\u5385\u67DC\uFF083<\u957F\u5EA6\u22643.5\u7C73\uFF09","id":"WIY4q42d0lUBQh4L","installFee":0.00,"items":1,"jingdong":false,"jingdongConfirm":false,"matchType":"\u4EBA\u5DE5\u5339\u914D","matchingFailureReason":"\u8BE5\u5730\u533A\u6CA1\u5F00\u542F\u81EA\u52A8\u5339\u914D","msfCheck":"\u672A\u6838\u9500","orderSourceCode":"","orgName":"\u6D4B\u8BD5\u8425\u4E1A\u90E8","packingNumber":1,"payArrive":0.00,"payCash":240.00,"payMonth":0.00,"payReturn":0.00,"payType":"\u73B0\u4ED8","pickUpAddress":"128\u53F7","pickUpTel":"18222222222","pickUpTime":"","readOnly":false,"receiveAddress":"\u5317\u4EAC\u5E02\u5317\u4EAC\u5E02\u4E1C\u57CE\u533A","remark":"","replaceCharge":0.00,"serviceType":"\u914D\u9001\u5230\u5BB6\u5E76\u5B89\u88C5","shipper":"tester1","signTime":"2018-03-14 15:53:39","taskStatus":"\u5DF2\u7B7E\u6536","taskStatusShow":"\u5DF2\u7B7E\u6536","taskType":"\u8C03\u5EA6\u4EFB\u52A1","tmail":false,"tracks":"\u8DDF\u8E2A\u6D4B\u8BD5","trunkEndDate":"2018-03-12 14:28:01","volumes":0.000,"waybillId":"1zt003000003","weights":5.0,"worker":"\u5927\u96C4\u6D4B\u8BD5","workerTel":"18673903302"}],"first":true,"last":true,"number":0,"numberOfElements":1,"size":10,"totalElements":1,"totalPages":1}} ----
+[INFO ] 2018-03-23 16:05:26,283 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:11,620 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-23 16:05:26,752 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <登录> 开始执行 ----
+[INFO ] 2018-03-23 16:05:26,752 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
+[INFO ] 2018-03-23 16:05:26,752 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <login> ----
+[INFO ] 2018-03-23 16:05:26,753 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : {
+  "source": "core",
+  "mobile": "17576075478",
+  "password": "525241"
+} ----
+[INFO ] 2018-03-23 16:05:27,106 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:46)
+---- 请求实际返回结果 : true ----
+[INFO ] 2018-03-23 16:05:27,110 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:21,940 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-23 16:05:27,173 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <查询调度任务记录> 开始执行 ----
+[INFO ] 2018-03-23 16:05:27,174 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
+[INFO ] 2018-03-23 16:05:27,174 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <findTaskInstall> ----
+[INFO ] 2018-03-23 16:05:27,174 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"} ----
+[INFO ] 2018-03-23 16:05:27,254 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
+---- 请求实际返回结果 : {"result":{"content":[{"acceptTime":"2018-03-12 14:29:54","appointmentTime":"2018-03-14 \u4E0B\u5348","areaCode":"110101000000","branchFee":99.00,"checkStatus":"check_no","completionRate48":false,"consignee":"tester2","consigneeTel":"","countdown":0,"createDate":"2018-03-12 14:25:31","disPerson":"\u6D4B\u8BD5\u7EC4","disTime":"2018-03-12 14:29:54","goods":"\u95F4\u5385\u67DC\uFF083<\u957F\u5EA6\u22643.5\u7C73\uFF09","id":"WIY4q42d0lUBQh4L","installFee":0.00,"items":1,"jingdong":false,"jingdongConfirm":false,"matchType":"\u4EBA\u5DE5\u5339\u914D","matchingFailureReason":"\u8BE5\u5730\u533A\u6CA1\u5F00\u542F\u81EA\u52A8\u5339\u914D","msfCheck":"\u672A\u6838\u9500","orderSourceCode":"","orgName":"\u6D4B\u8BD5\u8425\u4E1A\u90E8","packingNumber":1,"payArrive":0.00,"payCash":240.00,"payMonth":0.00,"payReturn":0.00,"payType":"\u73B0\u4ED8","pickUpAddress":"128\u53F7","pickUpTel":"18222222222","pickUpTime":"","readOnly":false,"receiveAddress":"\u5317\u4EAC\u5E02\u5317\u4EAC\u5E02\u4E1C\u57CE\u533A","remark":"","replaceCharge":0.00,"serviceType":"\u914D\u9001\u5230\u5BB6\u5E76\u5B89\u88C5","shipper":"tester1","signTime":"2018-03-14 15:53:39","taskStatus":"\u5DF2\u7B7E\u6536","taskStatusShow":"\u5DF2\u7B7E\u6536","taskType":"\u8C03\u5EA6\u4EFB\u52A1","tmail":false,"tracks":"\u8DDF\u8E2A\u6D4B\u8BD5","trunkEndDate":"2018-03-12 14:28:01","volumes":0.000,"waybillId":"1zt003000003","weights":5.0,"worker":"\u5927\u96C4\u6D4B\u8BD5","workerTel":"18673903302"}],"first":true,"last":true,"number":0,"numberOfElements":1,"size":10,"totalElements":1,"totalPages":1}} ----
+[INFO ] 2018-03-23 16:05:57,959 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:22,684 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.loginTest run successed!============================
-[INFO ] 2018-03-21 15:19:22,684 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:22,685 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 1***
-[INFO ] 2018-03-21 15:19:22,686 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:22,686 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:19:22,688 method:utils.DataProviders.<init>(DataProviders.java:87)
+[INFO ] 2018-03-23 16:05:58,412 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <登录> 开始执行 ----
+[INFO ] 2018-03-23 16:05:58,412 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
+[INFO ] 2018-03-23 16:05:58,413 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <login> ----
+[INFO ] 2018-03-23 16:05:58,413 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : {
+  "source": "core",
+  "mobile": "17576075478",
+  "password": "525241"
+} ----
+[INFO ] 2018-03-23 16:05:58,781 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:46)
+---- 请求实际返回结果 : true ----
+[INFO ] 2018-03-23 16:05:58,784 method:utils.DataProviders.<init>(DataProviders.java:87)
 ======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:22,824 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.findTaskInstallTest run successed!============================
-[INFO ] 2018-03-21 15:19:22,824 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:22,825 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 3***
-[INFO ] 2018-03-21 15:19:22,825 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:22,825 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 15:19:22,825 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : WIY4q42d0lUBQh4L***
-[INFO ] 2018-03-21 15:19:22,825 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:19:22,826 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:22,953 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.findMetaTest run successed!============================
-[INFO ] 2018-03-21 15:19:22,954 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:22,955 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 4***
-[INFO ] 2018-03-21 15:19:22,955 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:22,955 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 15:19:22,955 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 15:19:22,955 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : 其他原因***
-[INFO ] 2018-03-21 15:19:22,956 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:19:22,957 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:23,055 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.trunkEndTest run successed!============================
-[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 4***
-[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 15:19:23,056 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : 其他原因***
-[INFO ] 2018-03-21 15:19:23,057 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:19:23,057 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:23,132 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.findTaskFeeTest run successed!============================
-[INFO ] 2018-03-21 15:19:23,132 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 7***
-[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***installFee : 0.00***
-[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***mediateFee : 0***
-[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***branchFee : 99.00***
-[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : 其他原因***
-[INFO ] 2018-03-21 15:19:23,133 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:19:23,134 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:23,217 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.saveTaskTraceTest run successed!============================
-[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 7***
-[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***installFee : 0.00***
-[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***mediateFee : 0***
-[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***branchFee : 99.00***
-[INFO ] 2018-03-21 15:19:23,218 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : V6S8jz0g2NZOqcu0***
-[INFO ] 2018-03-21 15:19:23,219 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : 其他原因***
-[INFO ] 2018-03-21 15:19:23,219 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:19:23,219 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:25,222 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.queryUserJztTest run successed!============================
-[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 8***
-[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***installFee : 0.00***
-[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***mediateFee : 0***
-[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : 丽萍***
-[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 15:19:25,223 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***branchFee : 99.00***
-[INFO ] 2018-03-21 15:19:25,224 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 15:19:25,224 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : 其他原因***
-[INFO ] 2018-03-21 15:19:25,224 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:19:25,224 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:25,310 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.batDisWorkerTest run successed!============================
-[INFO ] 2018-03-21 15:19:25,310 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:25,310 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 8***
-[INFO ] 2018-03-21 15:19:25,310 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***installFee : 0.00***
-[INFO ] 2018-03-21 15:19:25,311 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***mediateFee : 0***
-[INFO ] 2018-03-21 15:19:25,311 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : 丽萍***
-[INFO ] 2018-03-21 15:19:25,311 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:25,311 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 15:19:25,311 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***branchFee : 99.00***
-[INFO ] 2018-03-21 15:19:25,312 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 15:19:25,312 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : 其他原因***
-[INFO ] 2018-03-21 15:19:25,312 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:19:25,312 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:25,396 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.appointmentTest run successed!============================
-[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 8***
-[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***installFee : 0.00***
-[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***mediateFee : 0***
-[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : 丽萍***
-[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***branchFee : 99.00***
-[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 15:19:25,397 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : 其他原因***
-[INFO ] 2018-03-21 15:19:25,398 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:19:25,398 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:25,484 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.pickUpTest run successed!============================
-[INFO ] 2018-03-21 15:19:25,484 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:25,484 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 8***
-[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***installFee : 0.00***
-[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***mediateFee : 0***
-[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : 丽萍***
-[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***branchFee : 99.00***
-[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : WBFzCGwIpM4Z6LUm***
-[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : 其他原因***
-[INFO ] 2018-03-21 15:19:25,485 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:19:25,720 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.uploadToSignTest run successed!============================
-[INFO ] 2018-03-21 15:19:25,720 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:25,720 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 12***
-[INFO ] 2018-03-21 15:19:25,720 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***installFee : 0.00***
-[INFO ] 2018-03-21 15:19:25,721 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***mediateFee : 0***
-[INFO ] 2018-03-21 15:19:25,721 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : 丽萍***
-[INFO ] 2018-03-21 15:19:25,721 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***path : WJHbUQqd0lUL2xpB.jpg***
-[INFO ] 2018-03-21 15:19:25,722 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***name : sign.jpg***
-[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***branchFee : 99.00***
-[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***etag : 9c5625f94c6611daf27938e5d084667c***
-[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : WJHbUQqd0lUL2xpB***
-[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : 其他原因***
-[INFO ] 2018-03-21 15:19:25,723 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***url : http://yztfile.gz.bcebos.com/WJHbUQqd0lUL2xpB.jpg***
-[INFO ] 2018-03-21 15:19:25,724 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:19:25,724 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-21 15:19:25,854 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-===========================class org.testng.internal.TestResult.signTest run successed!============================
-[INFO ] 2018-03-21 15:19:25,854 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:27)
-************ current context massage ************ start ************
-[INFO ] 2018-03-21 15:19:25,854 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-***context have Map type,size : 12***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***installFee : 0.00***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***mediateFee : 0***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***realName : 丽萍***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***path : WJHbUQqd0lUL2xpB.jpg***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***jwt : Bearer eyJraWQiOiI3YTEzMDIzYS0wNDFhLTQwZDctYjNlYi0xODYyOGQ1YzQ5OGUiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyMjgyNjM2MiwianRpIjoiTm5LTVZObldlYkJ2ZXljYm5acEtiQSIsImlhdCI6MTUyMTYxNjc2MiwibmJmIjoxNTIxNjE2NjQyLCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTIyODI2MzYyOTcwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.EbFxWra3Xbpv67Kgl_wcb6ld9MChbMC9aMrixIH6BvmBmWp8GLwu9vLg3gstt2Kp8mk26CQ_4ySbcvTiiRuqSN9GdRaWrQJ5N-t3R6fxvu2FAHonyymnlYrffm0iUWI3WnFSNer8Da_BR2ewu8RtQwnz0tfUSqcpUXx6DjlzwzzhbET041sRCPjtVPu4B7xhdMIq0VToVgAbVplavZP3C5mAuY1mQACJjVYNHwQwI7kajwbrnzLTTbS5cNf9XbiyXPQi5xV9NjiQtEgIc4DwBykWoh79XVFiNgUrIE3WDHdZp8vEzLGR8s1UvTAce2e_mUqE4Vn3mi4EmdC86CSeNA***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***name : sign.jpg***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***waybillId : 1zt003000003***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***branchFee : 99.00***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***etag : 9c5625f94c6611daf27938e5d084667c***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***id : WJHbUQqd0lUL2xpB***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***label : 其他原因***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener$1.execute(LogListener.java:81)
-***url : http://yztfile.gz.bcebos.com/WJHbUQqd0lUL2xpB.jpg***
-[INFO ] 2018-03-21 15:19:25,855 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:29)
-************ current context massage ************ end ************
-[INFO ] 2018-03-21 15:21:29,375 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
-[INFO ] 2018-03-21 15:21:29,789 method:com.yzt.service.OrderService.queryWaybillById(OrderService.java:32)
-----运单列表-修改查询回显----queryWaybillById----请求url = http://192.168.100.45:7777/api/order/queryWaybillById ----
-[INFO ] 2018-03-21 15:21:29,789 method:com.yzt.service.OrderService.queryWaybillById(OrderService.java:33)
-----运单列表-修改查询回显----发送请求----开始----
-[INFO ] 2018-03-21 15:21:30,096 method:com.yzt.service.OrderService.queryWaybillById(OrderService.java:36)
-----运单列表-修改查询回显----发送请求----结束----
-[INFO ] 2018-03-21 15:21:30,096 method:com.yzt.service.OrderService.queryWaybillById(OrderService.java:37)
-----运单列表-修改查询回显----返回结果----response = com.yzt.common.Response@398dada8 ----
+[INFO ] 2018-03-23 16:05:58,851 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <查询调度任务记录> 开始执行 ----
+[INFO ] 2018-03-23 16:05:58,851 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
+[INFO ] 2018-03-23 16:05:58,851 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <findTaskInstall> ----
+[INFO ] 2018-03-23 16:05:58,852 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"} ----
+[INFO ] 2018-03-23 16:05:58,946 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
+---- 请求实际返回结果 : {"result":{"content":[{"acceptTime":"2018-03-12 14:29:54","appointmentTime":"2018-03-14 \u4E0B\u5348","areaCode":"110101000000","branchFee":99.00,"checkStatus":"check_no","completionRate48":false,"consignee":"tester2","consigneeTel":"","countdown":0,"createDate":"2018-03-12 14:25:31","disPerson":"\u6D4B\u8BD5\u7EC4","disTime":"2018-03-12 14:29:54","goods":"\u95F4\u5385\u67DC\uFF083<\u957F\u5EA6\u22643.5\u7C73\uFF09","id":"WIY4q42d0lUBQh4L","installFee":0.00,"items":1,"jingdong":false,"jingdongConfirm":false,"matchType":"\u4EBA\u5DE5\u5339\u914D","matchingFailureReason":"\u8BE5\u5730\u533A\u6CA1\u5F00\u542F\u81EA\u52A8\u5339\u914D","msfCheck":"\u672A\u6838\u9500","orderSourceCode":"","orgName":"\u6D4B\u8BD5\u8425\u4E1A\u90E8","packingNumber":1,"payArrive":0.00,"payCash":240.00,"payMonth":0.00,"payReturn":0.00,"payType":"\u73B0\u4ED8","pickUpAddress":"128\u53F7","pickUpTel":"18222222222","pickUpTime":"","readOnly":false,"receiveAddress":"\u5317\u4EAC\u5E02\u5317\u4EAC\u5E02\u4E1C\u57CE\u533A","remark":"","replaceCharge":0.00,"serviceType":"\u914D\u9001\u5230\u5BB6\u5E76\u5B89\u88C5","shipper":"tester1","signTime":"2018-03-14 15:53:39","taskStatus":"\u5DF2\u7B7E\u6536","taskStatusShow":"\u5DF2\u7B7E\u6536","taskType":"\u8C03\u5EA6\u4EFB\u52A1","tmail":false,"tracks":"\u8DDF\u8E2A\u6D4B\u8BD5","trunkEndDate":"2018-03-12 14:28:01","volumes":0.000,"waybillId":"1zt003000003","weights":5.0,"worker":"\u5927\u96C4\u6D4B\u8BD5","workerTel":"18673903302"}],"first":true,"last":true,"number":0,"numberOfElements":1,"size":10,"totalElements":1,"totalPages":1}} ----

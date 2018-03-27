@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 12, Failures: 1, Errors: 0, Skipped: 11, Time elapsed: 1.163 sec <<< FAILURE! - in TestSuite
-loginTest(com.yzt.testcase.IPSTest)  Time elapsed: 0.303 sec  <<< FAILURE!
-exception.customsException: 登录失败，请确认登录账户有效性！
-	at com.yzt.service.IPSService.login(IPSService.java:59)
-	at com.yzt.testcase.IPSTest.loginTest(IPSTest.java:36)
-

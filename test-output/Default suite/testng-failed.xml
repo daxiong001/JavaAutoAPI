@@ -5,7 +5,7 @@
     <classes>
       <class name="com.yzt.testcase.order.OrderTest">
         <methods>
-          <include name="queryWaybillByIdTest"/>
+          <include name="getOrderDetailsTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.yzt.testcase.order.OrderTest -->
     </classes>

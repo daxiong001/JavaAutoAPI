@@ -14,21 +14,22 @@ import com.google.common.collect.Maps;
  *
  */
 public class Response {
-	private String code = "";
+	private String httpCode = "";
+	private String resultCode = "";
 	private String jsonString = "";
 	private Map<String, Object> paramtersMap = Maps.newHashMap();
 	
-	public void setCode(String statusLine) {
+	public void setHttpCode(String statusLine) {
 		String [] tokens = StringUtils.split(statusLine.trim(), " ");
-		this.code = tokens[tokens.length - 1];
+		this.httpCode = tokens[tokens.length - 1];
 	}
 	
 	public void setJsonString(String jsonString) {
 		this.jsonString = jsonString;
 	}
 	
-	public String getCode() {
-		return this.code;
+	public String getHttpCode() {
+		return this.httpCode;
 	}
 	
 	public String getJsonString() {
@@ -42,4 +43,12 @@ public class Response {
 	public Map<String, Object> getParamterMap() {
 		return this.paramtersMap;
 	}
+
+	public String getResultCode() {
+		return resultCode;
+	}
+
+	public void setResultCode(String resultCode) {
+		this.resultCode = resultCode;
+	}	
 }

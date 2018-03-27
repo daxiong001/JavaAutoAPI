@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SCM2.0 Test Suite">
-	<test name="IPSTest">
+	<test name="SCM2.0">
 		<classes>
-			<class name="com.yzt.testcase.IPSTest">
+			<!-- <class name="com.yzt.testcase.IPSTest">
 				<methods>
 					<include name="loginTest" />
 					<include name="findTaskInstallTest" />
@@ -18,6 +18,11 @@
 					<include name="uploadToSignTest" />
 					<include name="signTest" />
 				</methods>
+			</class> -->
+			<class name="com.yzt.testcase.order.OrderTest">
+				<!-- <methods>
+					<include name="queryWaybillByIdTest" />
+				</methods> -->
 			</class>
 		</classes>
 	</test>

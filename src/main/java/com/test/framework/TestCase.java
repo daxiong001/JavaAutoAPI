@@ -2,6 +2,10 @@ package com.test.framework;
 
 public class TestCase {
 	/*
+	 * 用例名
+	 */
+	private String name;
+	/*
 	 * 用例类名
 	 */
 	private String className;
@@ -48,5 +52,13 @@ public class TestCase {
 
 	public void setStatus(Integer status) {
 		this.status = status;
-	}	
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 }

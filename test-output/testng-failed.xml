@@ -5,24 +5,15 @@
     <listener class-name="com.test.framework.LogListener"/>
     <listener class-name="com.test.framework.Reporter"/>
   </listeners>
-  <test thread-count="5" name="IPSTest(failed)">
+  <test thread-count="5" name="SCM2.0(failed)">
     <classes>
-      <class name="com.yzt.testcase.IPSTest">
+      <class name="com.yzt.testcase.order.OrderTest">
         <methods>
-          <include name="findTaskFeeTest"/>
-          <include name="pickUpTest"/>
-          <include name="findTaskInstallTest"/>
-          <include name="findMetaTest"/>
-          <include name="appointmentTest"/>
-          <include name="loginTest" invocation-numbers="0"/>
-          <include name="saveTaskTraceTest"/>
-          <include name="trunkEndTest"/>
-          <include name="uploadToSignTest"/>
-          <include name="queryUserJztTest"/>
-          <include name="batDisWorkerTest"/>
-          <include name="signTest"/>
+          <include name="queryOrderByIdTest" invocation-numbers="0"/>
+          <include name="orderRefuseTest" invocation-numbers="0"/>
+          <include name="queryWaybillByIdTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.yzt.testcase.IPSTest -->
+      </class> <!-- com.yzt.testcase.order.OrderTest -->
     </classes>
-  </test> <!-- IPSTest(failed) -->
+  </test> <!-- SCM2.0(failed) -->
 </suite> <!-- Failed suite [SCM2.0 Test Suite] -->

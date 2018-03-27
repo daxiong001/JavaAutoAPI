@@ -1,14 +1,8 @@
 package utils;
 
-import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
-import static org.testng.Assert.expectThrows;
-
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.text.DecimalFormat;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -17,16 +11,13 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.xmlbeans.impl.xb.xsdschema.Public;
-import org.testng.annotations.Test;
-
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.alibaba.fastjson.TypeReference;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import com.yzt.common.Response;
+import com.test.framework.ExcelMeta;
+import com.test.framework.LogProxyFactory;
 import com.yzt.service.Context;
 import com.yzt.service.ServiceFactory;
 
@@ -222,8 +213,8 @@ public class CommonUtils {
 		lists = CommonUtils.getExcelData(classname);
 		for (Map<String, String> map : lists) {
 			for (String key : map.keySet()) {
-				if (key.equals("testFunctionName") && map.get(key).equals(method.getName())) {
-					result[i][0] = map.get("inputJson");
+				if (key.equals(ExcelMeta.TESTFUNCTIONNAME.getName()) && map.get(key).equals(method.getName())) {
+					result[i][0] = map.get(ExcelMeta.INPUTJSON.getName());
 					i++;
 				}
 			}
@@ -241,12 +232,13 @@ public class CommonUtils {
 	 * @param list
 	 *            待获取json的key
 	 */
-	public static Context analysisJson(String inputJson, Context context, List<String> list) {
-		Object object = JSON.parse(inputJson);		
+	public static Context analysisJson(String inputJson, List<String> list) {
+		Object object = JSON.parse(inputJson);	
+		Context context = (Context) ServiceFactory.getInstance(Context.class);
 		if (object instanceof JSONArray) {
 			JSONArray jsonArray = (JSONArray) object;
 			for (int i = 0; i < jsonArray.size(); i++) {
-				analysisJson(jsonArray.get(i).toString(), context, list);
+				analysisJson(jsonArray.get(i).toString(), list);
 			}
 		} else if (object instanceof JSONObject) {
 			JSONObject jsonObject = (JSONObject) object;		
@@ -257,7 +249,7 @@ public class CommonUtils {
 					context.addValue(jsonKey, jsonObject.get(jsonKey));					
 				}else if (jsonObject.get(jsonKey) instanceof JSONObject
 						|| jsonObject.get(jsonKey) instanceof JSONArray) {
-					analysisJson(jsonObject.get(jsonKey).toString(), context, list);
+					analysisJson(jsonObject.get(jsonKey).toString(), list);
 				}				
 			}
 			if (!tempMap.isEmpty()) {
@@ -275,13 +267,14 @@ public class CommonUtils {
 	 * @param key
 	 * @return
 	 */
-	public static Context analysisJson(String inputJson, Context context, String key) {
+	public static Context analysisJson(String inputJson, String key) {
 		Object object = JSON.parse(inputJson);
 		Map<String, Object> tempMap = Maps.newHashMap();
+		Context context = (Context) ServiceFactory.getInstance(Context.class);
 		if (object instanceof JSONArray) {
 			JSONArray jsonArray = (JSONArray) object;
 			for (int i = 0; i < jsonArray.size(); i++) {
-				analysisJson(jsonArray.get(i).toString(), context, key);
+				analysisJson(jsonArray.get(i).toString(), key);
 			}
 		} else if (object instanceof JSONObject) {
 			JSONObject jsonObject = (JSONObject) object;
@@ -291,7 +284,7 @@ public class CommonUtils {
 					context.addValue(jsonKey, jsonObject.get(jsonKey));
 				} else if (jsonObject.get(jsonKey) instanceof JSONObject
 						|| jsonObject.get(jsonKey) instanceof JSONArray) {
-					analysisJson(jsonObject.get(jsonKey).toString(), context, key);
+					analysisJson(jsonObject.get(jsonKey).toString(), key);
 				}
 			}
 			if (!tempMap.isEmpty()) {
@@ -370,10 +363,18 @@ public class CommonUtils {
 			return object;
 		}		
 	}
+	
 	/**
-	 * 存储至 context List<Object>容器中
-	 * @param list
-	 * @param clazz
+	 * 直接存储键值对至context Map<String, Object> sc容器
+	 */
+	public static void setKeyValueToContext(String key,String value){
+		Context context = (Context) ServiceFactory.getInstance(Context.class);
+		context.addValue(key, value);
+	}
+	/**
+	 * 存储至 context List<Object> objects容器中
+	 * @param list entity实体类对应的所有属性名字
+	 * @param clazz entity实体类对象
 	 */
 	public static void setObjectToContext(List<String> list,Class<?> clazz){
 		Context context = (Context) ServiceFactory.getInstance(Context.class);
@@ -413,6 +414,11 @@ public class CommonUtils {
 				e.printStackTrace();
 			}
 		}
+	}
+	
+	public static Object getServiceProxyInstance(Class clazz) {
+		LogProxyFactory logProxyFactory = new LogProxyFactory();
+		return logProxyFactory.getProxyInstance(clazz);
 	}
 
 }

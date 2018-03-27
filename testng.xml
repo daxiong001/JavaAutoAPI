@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SCM2.0 Test Suite">
+	<test name="SCM2.0">
+		<classes>
+		<!-- 	<class name="com.yzt.testcase.IPSTest" /> -->
+			<class name="com.yzt.testcase.order.OrderTest" />
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="com.test.framework.LogListener" />
+		<listener class-name="com.test.framework.Reporter" />
+	</listeners>
+</suite>

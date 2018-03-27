@@ -1,28 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="11" total="13" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="737" started-at="2018-03-21T07:21:29Z" finished-at="2018-03-21T07:21:30Z">
+  <suite name="Default suite" duration-ms="1007" started-at="2018-03-23T08:05:57Z" finished-at="2018-03-23T08:05:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="737" started-at="2018-03-21T07:21:29Z" finished-at="2018-03-21T07:21:30Z">
-      <class name="com.yzt.testcase.order.OrderTest">
-        <test-method status="PASS" signature="queryWaybillByIdTest(java.lang.String)[pri:0, instance:com.yzt.testcase.order.OrderTest@51c8530f]" name="queryWaybillByIdTest" duration-ms="314" started-at="2018-03-21T07:21:29Z" data-provider="testData" finished-at="2018-03-21T07:21:30Z">
+    <test name="Default test" duration-ms="1007" started-at="2018-03-23T08:05:57Z" finished-at="2018-03-23T08:05:58Z">
+      <class name="com.yzt.testcase.IPSTest">
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@525b461a]" name="loginTest" duration-ms="376" started-at="2018-03-23T08:05:58Z" data-provider="testData" finished-at="2018-03-23T08:05:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[
-  {
-    "waybillId": "1zt000002"
-  }
-]]]>
+                <![CDATA[{
+  "source": "core",
+  "mobile": "17576075478",
+  "password": "525241"
+}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- queryWaybillByIdTest -->
-      </class> <!-- com.yzt.testcase.order.OrderTest -->
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@525b461a]" name="findTaskInstallTest" duration-ms="108" started-at="2018-03-23T08:05:58Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.loginTest" finished-at="2018-03-23T08:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "taskInstallController.findTaskInstall",
+  "token": "null",
+  "args": [
+    {
+      "first": 0,
+      "rows": 10
+    },
+    {
+      "taskStatus": "All",
+      "dateType": "All",
+      "trunkSts": "All",
+      "beginDate": null,
+      "endDate": null,
+      "isNormalSign": "All",
+      "waybillId": "1zt003000001"
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTaskInstallTest -->
+      </class> <!-- com.yzt.testcase.IPSTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

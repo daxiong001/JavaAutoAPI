@@ -3,6 +3,7 @@ package com.yzt.testcase;
 import java.lang.reflect.Method;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -11,6 +12,7 @@ import org.testng.annotations.Test;
 import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
+import com.test.framework.CaseMeta;
 import com.yzt.entity.CauseMeta;
 import com.yzt.entity.SignImage;
 import com.yzt.service.Context;
@@ -26,32 +28,20 @@ public class IPSTest {
 
 	private IPSService service = (IPSService) ServiceFactory.getInstance(IPSService.class);
 
-	/**
-	 * 登录，获得JWT
-	 * 
-	 * @param inputJson
-	 */
 	@Test(dataProvider = "testData")
+	@CaseMeta("登录")
 	public void loginTest(String inputJson) {
 		Assert.assertTrue(service.login(inputJson));
 	}
 
-	/**
-	 * 调度任务计数
-	 * 
-	 * @param inputJson
-	 */
 	@Test(dataProvider = "testData", dependsOnMethods = { "loginTest" })
+	@CaseMeta("调度任务统计")
 	public void taskCountTest(String inputJson) {
 		service.taskCount(inputJson);
 	}
 
-	/**
-	 * 根据运单号查找调度任务记录，获得taskID
-	 * 
-	 * @param inputJson
-	 */
 	@Test(dataProvider = "testData", dependsOnMethods = { "loginTest" })
+	@CaseMeta("查询调度任务记录")
 	public void findTaskInstallTest(String inputJson) {
 		Map<String, Object> changedValue = Maps.newHashMap();
 		changedValue.put("waybillId", "1zt003000003");
@@ -59,45 +49,40 @@ public class IPSTest {
 		service.findTaskInstall(inputJson);
 	}
 
-	/**
-	 * 查找增加跟踪信息的原因及其ID
-	 * 
-	 * @param inputJson
-	 */
+	@CaseMeta("查找增加跟踪信息")
 	@Test(dataProvider = "testData", dependsOnMethods = { "findTaskInstallTest" })
 	public void findMetaTest(String inputJson) {
 		service.findMeta(inputJson);
 	}
 
-	/**
-	 * 添加跟踪信息
-	 * 
-	 * @param inputJson
-	 */
+	@CaseMeta("添加跟踪信息")
 	@Test(dataProvider = "testData", dependsOnMethods = { "findMetaTest" })
 	public void saveTaskTraceTest(String inputJson) {
 		Map<String, Object> changedValue = Maps.newHashMap();
-		if (service.getContext().hasKey(Contants.TASK_ID)) {
-			String taskId = (String) service.getContext().getValue(Contants.TASK_ID);
+		Context context = (Context) ServiceFactory.getInstance(Context.class);
+		if (context.hasKey(Contants.TASK_ID)) {
+			String taskId = (String) context.getValue(Contants.TASK_ID);
 			changedValue.put("id", taskId);
 		}
-		if (service.getContext().hasKey(Contants.其他原因)) {
-			String abnormalCauseId = (String) service.getContext().getValue(Contants.其他原因);
+		if (context.hasKey(Contants.其他原因)) {
+			String abnormalCauseId = (String) context.getValue(Contants.其他原因);
 			changedValue.put("abnormalCauseId", abnormalCauseId);
+		}
+		for (Entry<String, Object> keyv : changedValue.entrySet()) {
+			System.out.println(keyv.getKey() + " ==== " + keyv.getValue());
 		}
 		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValue).toString();
 		service.saveTaskTrace(inputJson);
 	}
 
-	/**
-	 * 干线结束
-	 */
+	@CaseMeta("干线结束")
 	@Test(dataProvider = "testData", dependsOnMethods = { "findTaskInstallTest" })
 	public void trunkEndTest(String inputJson) {
 		Map<String, Object> changedValue = Maps.newHashMap();
+		Context context = (Context) ServiceFactory.getInstance(Context.class);
 		List<String> list = Lists.newArrayList();
-		if (service.getContext().hasKey(Contants.TASK_ID)) {
-			String taskId = (String) service.getContext().getValue(Contants.TASK_ID);
+		if (context.hasKey(Contants.TASK_ID)) {
+			String taskId = (String) context.getValue(Contants.TASK_ID);
 			list.add(taskId);
 			changedValue.put("taskIds", list);
 		}
@@ -105,16 +90,13 @@ public class IPSTest {
 		service.trunkEnd(inputJson);
 	}
 
-	/**
-	 * 查询调度任务
-	 * 
-	 * @param inputJson
-	 */
+	@CaseMeta("查询调度任务")
 	@Test(dataProvider = "testData", dependsOnMethods = { "findTaskInstallTest" })
 	public void findTaskFeeTest(String inputJson) {
 		Map<String, Object> changedValue = Maps.newHashMap();
-		if (service.getContext().hasKey(Contants.WAYBILL_ID)) {
-			String waybillId = (String) service.getContext().getValue(Contants.WAYBILL_ID);
+		Context context = (Context) ServiceFactory.getInstance(Context.class);
+		if (context.hasKey(Contants.WAYBILL_ID)) {
+			String waybillId = (String) context.getValue(Contants.WAYBILL_ID);
 			changedValue.put("waybillId", waybillId);
 		}
 		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValue).toString();
@@ -122,10 +104,12 @@ public class IPSTest {
 	}
 
 	@Test(dataProvider = "testData", dependsOnMethods = { "findTaskFeeTest" })
+	@CaseMeta("查询待分配师傅")
 	public void queryUserJztTest(String inputJson) {
 		Map<String, Object> changedValue = Maps.newHashMap();
-		if (service.getContext().hasKey(Contants.WAYBILL_ID)) {
-			String waybillId = (String) service.getContext().getValue(Contants.WAYBILL_ID);
+		Context context = (Context) ServiceFactory.getInstance(Context.class);
+		if (context.hasKey(Contants.WAYBILL_ID)) {
+			String waybillId = (String) context.getValue(Contants.WAYBILL_ID);
 			changedValue.put(Contants.WAYBILL_ID, waybillId);
 		}
 		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValue).toString();
@@ -133,24 +117,25 @@ public class IPSTest {
 	}
 
 	@Test(dataProvider = "testData", dependsOnMethods = { "queryUserJztTest" })
+	@CaseMeta("分配师傅")
 	public void batDisWorkerTest(String inputJson) {
 		// 参数化 "waybillId"，"branchFee"，"installFee"，"mediateFee"，"workerId";
 		Map<String, Object> changedValues = Maps.newHashMap();
-
-		if (service.getContext().hasKey(Contants.TASK_ID)) {
-			changedValues.put(Contants.TASK_ID, service.getContext().getValue(Contants.TASK_ID));
+		Context context = (Context) ServiceFactory.getInstance(Context.class);
+		if (context.hasKey(Contants.TASK_ID)) {
+			changedValues.put(Contants.TASK_ID, context.getValue(Contants.TASK_ID));
 		}
-		if (service.getContext().hasKey(Contants.WORKER_ID)) {
-			changedValues.put(Contants.WORKER_ID, service.getContext().getValue(Contants.WORKER_ID));
+		if (context.hasKey(Contants.WORKER_ID)) {
+			changedValues.put(Contants.WORKER_ID, context.getValue(Contants.WORKER_ID));
 		}
-		if (service.getContext().hasKey(Contants.BRANCH_FEE)) {
-			changedValues.put(Contants.BRANCH_FEE, service.getContext().getValue(Contants.BRANCH_FEE));
+		if (context.hasKey(Contants.BRANCH_FEE)) {
+			changedValues.put(Contants.BRANCH_FEE, context.getValue(Contants.BRANCH_FEE));
 		}
-		if (service.getContext().hasKey(Contants.INSTALL_FEE)) {
-			changedValues.put(Contants.INSTALL_FEE, service.getContext().getValue(Contants.INSTALL_FEE));
+		if (context.hasKey(Contants.INSTALL_FEE)) {
+			changedValues.put(Contants.INSTALL_FEE, context.getValue(Contants.INSTALL_FEE));
 		}
-		if (service.getContext().hasKey(Contants.MEDIATE_FEE)) {
-			changedValues.put(Contants.MEDIATE_FEE, service.getContext().getValue(Contants.MEDIATE_FEE));
+		if (context.hasKey(Contants.MEDIATE_FEE)) {
+			changedValues.put(Contants.MEDIATE_FEE, context.getValue(Contants.MEDIATE_FEE));
 		}
 
 		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValues).toString();
@@ -158,12 +143,13 @@ public class IPSTest {
 	}
 
 	@Test(dataProvider = "testData", dependsOnMethods = { "batDisWorkerTest" })
+	@CaseMeta("预约")
 	public void appointmentTest(String inputJson) {
 		// 参数化 "taskId"
 		Map<String, Object> changedValues = Maps.newHashMap();
-
-		if (service.getContext().hasKey(Contants.TASK_ID)) {
-			changedValues.put(Contants.TASK_ID, service.getContext().getValue(Contants.TASK_ID));
+		Context context = (Context) ServiceFactory.getInstance(Context.class);
+		if (context.hasKey(Contants.TASK_ID)) {
+			changedValues.put(Contants.TASK_ID, context.getValue(Contants.TASK_ID));
 		}
 		changedValues.put("appointmentTime", DateUtil.getCurrentDate(DateUtil.FORMAT16));
 
@@ -172,10 +158,11 @@ public class IPSTest {
 	}
 
 	@Test(dataProvider = "testData", dependsOnMethods = { "appointmentTest" })
+	@CaseMeta("提货")
 	public void pickUpTest(String inputJson) {
 		// 参数化 "taskId"
 		Map<String, Object> changedValues = Maps.newHashMap();
-		
+
 		Map<String, Object> result = ContextUtil.getContextMap();
 		if (result != null && result.containsKey(Contants.TASK_ID)) {
 			changedValues.put(Contants.TASK_ID, result.get(Contants.TASK_ID));
@@ -184,14 +171,16 @@ public class IPSTest {
 		service.pickUp(inputJson);
 	}
 
-	//签收时仅上传一张图片
+	// 签收时仅上传一张图片
 	@Test(dependsOnMethods = { "pickUpTest" })
+	@CaseMeta("上传一张签收图片")
 	public void uploadToSignTest() {
 		String filename = "sign.jpg";
 		service.uploadToSign(filename);
 	}
 
 	@Test(dataProvider = "testData", dependsOnMethods = { "uploadToSignTest" })
+	@CaseMeta("签收内容提交")
 	public void signTest(String inputJson) {
 		// 参数化图片id，签收时仅上传一张图片
 		Map<String, Object> changedValues = Maps.newHashMap();
@@ -210,7 +199,7 @@ public class IPSTest {
 			changedValues.put(Contants.TASK_ID, result.get(Contants.TASK_ID));
 		}
 		changedValues.put("signer", "signer");
-		changedValues.put("describe", "describe");		
+		changedValues.put("describe", "describe");
 		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValues).toString();
 		service.sign(inputJson);
 	}
