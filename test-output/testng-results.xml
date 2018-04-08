@@ -1,57 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="11" total="13" passed="2">
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1007" started-at="2018-03-23T08:05:57Z" finished-at="2018-03-23T08:05:58Z">
+  <suite name="SCM2.0 Test Suite" duration-ms="802" started-at="2018-04-08T04:37:14Z" finished-at="2018-04-08T04:37:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1007" started-at="2018-03-23T08:05:57Z" finished-at="2018-03-23T08:05:58Z">
-      <class name="com.yzt.testcase.IPSTest">
-        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@525b461a]" name="loginTest" duration-ms="376" started-at="2018-03-23T08:05:58Z" data-provider="testData" finished-at="2018-03-23T08:05:58Z">
+    <test name="SCM2.0" duration-ms="802" started-at="2018-04-08T04:37:14Z" finished-at="2018-04-08T04:37:14Z">
+      <class name="com.yzt.testcase.order.OrderTest">
+        <test-method status="PASS" signature="orderBindWaybillListPageTest(java.lang.String)[pri:0, instance:com.yzt.testcase.order.OrderTest@768b970c]" name="orderBindWaybillListPageTest" duration-ms="317" started-at="2018-04-08T04:37:14Z" data-provider="testData" finished-at="2018-04-08T04:37:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "525241"
-}]]>
+                <![CDATA[[
+  {
+    "page": 1,
+    "size": 10
+  },
+  {
+    "waybillId": "1ZT18032100000001",//运单号
+    "receivePhone": "",//收货人手机号 
+    "receiveName": "",//收货人名称
+    "clientName": "",//发货人名称
+    "startBillingTime":"",//开单开始时间
+    "endBillingTime":""//开单结束时间
+  }
+]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@525b461a]" name="findTaskInstallTest" duration-ms="108" started-at="2018-03-23T08:05:58Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.loginTest" finished-at="2018-03-23T08:05:58Z">
+        </test-method> <!-- orderBindWaybillListPageTest -->
+        <test-method status="PASS" signature="queryOrderListPageTest(java.lang.String)[pri:0, instance:com.yzt.testcase.order.OrderTest@768b970c]" name="queryOrderListPageTest" duration-ms="11" started-at="2018-04-08T04:37:14Z" data-provider="testData" finished-at="2018-04-08T04:37:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{
-  "name": "taskInstallController.findTaskInstall",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-      "rows": 10
-    },
-    {
-      "taskStatus": "All",
-      "dateType": "All",
-      "trunkSts": "All",
-      "beginDate": null,
-      "endDate": null,
-      "isNormalSign": "All",
-      "waybillId": "1zt003000001"
-    }
-  ]
-}]]>
+                <![CDATA[[
+  {
+    "page": 1,
+    "size": 10
+  },
+  {
+    "startDate":"2018-03-21 00:00:00",
+    "endDate":"2018-03-21 23:59:59",
+    "waybillId": "1ZT18032100000001",//运单号
+    "orderState": "",//订单状态
+    "consignorName": ""//发货人
+  }
+]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findTaskInstallTest -->
-      </class> <!-- com.yzt.testcase.IPSTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- queryOrderListPageTest -->
+      </class> <!-- com.yzt.testcase.order.OrderTest -->
+    </test> <!-- SCM2.0 -->
+  </suite> <!-- SCM2.0 Test Suite -->
 </testng-results>

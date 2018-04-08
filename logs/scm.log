@@ -1,84 +1,160 @@
-[INFO ] 2018-03-23 16:05:10,246 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-23 16:05:10,704 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
----- 测试用例 : <登录> 开始执行 ----
-[INFO ] 2018-03-23 16:05:10,704 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-03-23 16:05:10,705 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
----- 测试用例逻辑方法 : <login> ----
-[INFO ] 2018-03-23 16:05:10,706 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
----- 请求实际入参 : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "525241"
-} ----
-[INFO ] 2018-03-23 16:05:11,109 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:46)
----- 请求实际返回结果 : true ----
-[INFO ] 2018-03-23 16:05:11,114 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-23 16:05:11,201 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
----- 测试用例 : <查询调度任务记录> 开始执行 ----
-[INFO ] 2018-03-23 16:05:11,201 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-03-23 16:05:11,202 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
----- 测试用例逻辑方法 : <findTaskInstall> ----
-[INFO ] 2018-03-23 16:05:11,202 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
----- 请求实际入参 : {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"} ----
-[INFO ] 2018-03-23 16:05:11,327 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
----- 请求实际返回结果 : {"result":{"content":[{"acceptTime":"2018-03-12 14:29:54","appointmentTime":"2018-03-14 \u4E0B\u5348","areaCode":"110101000000","branchFee":99.00,"checkStatus":"check_no","completionRate48":false,"consignee":"tester2","consigneeTel":"","countdown":0,"createDate":"2018-03-12 14:25:31","disPerson":"\u6D4B\u8BD5\u7EC4","disTime":"2018-03-12 14:29:54","goods":"\u95F4\u5385\u67DC\uFF083<\u957F\u5EA6\u22643.5\u7C73\uFF09","id":"WIY4q42d0lUBQh4L","installFee":0.00,"items":1,"jingdong":false,"jingdongConfirm":false,"matchType":"\u4EBA\u5DE5\u5339\u914D","matchingFailureReason":"\u8BE5\u5730\u533A\u6CA1\u5F00\u542F\u81EA\u52A8\u5339\u914D","msfCheck":"\u672A\u6838\u9500","orderSourceCode":"","orgName":"\u6D4B\u8BD5\u8425\u4E1A\u90E8","packingNumber":1,"payArrive":0.00,"payCash":240.00,"payMonth":0.00,"payReturn":0.00,"payType":"\u73B0\u4ED8","pickUpAddress":"128\u53F7","pickUpTel":"18222222222","pickUpTime":"","readOnly":false,"receiveAddress":"\u5317\u4EAC\u5E02\u5317\u4EAC\u5E02\u4E1C\u57CE\u533A","remark":"","replaceCharge":0.00,"serviceType":"\u914D\u9001\u5230\u5BB6\u5E76\u5B89\u88C5","shipper":"tester1","signTime":"2018-03-14 15:53:39","taskStatus":"\u5DF2\u7B7E\u6536","taskStatusShow":"\u5DF2\u7B7E\u6536","taskType":"\u8C03\u5EA6\u4EFB\u52A1","tmail":false,"tracks":"\u8DDF\u8E2A\u6D4B\u8BD5","trunkEndDate":"2018-03-12 14:28:01","volumes":0.000,"waybillId":"1zt003000003","weights":5.0,"worker":"\u5927\u96C4\u6D4B\u8BD5","workerTel":"18673903302"}],"first":true,"last":true,"number":0,"numberOfElements":1,"size":10,"totalElements":1,"totalPages":1}} ----
-[INFO ] 2018-03-23 16:05:26,283 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-23 16:05:26,752 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
----- 测试用例 : <登录> 开始执行 ----
-[INFO ] 2018-03-23 16:05:26,752 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-03-23 16:05:26,752 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
----- 测试用例逻辑方法 : <login> ----
-[INFO ] 2018-03-23 16:05:26,753 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
----- 请求实际入参 : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "525241"
-} ----
-[INFO ] 2018-03-23 16:05:27,106 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:46)
----- 请求实际返回结果 : true ----
-[INFO ] 2018-03-23 16:05:27,110 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-23 16:05:27,173 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
----- 测试用例 : <查询调度任务记录> 开始执行 ----
-[INFO ] 2018-03-23 16:05:27,174 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-03-23 16:05:27,174 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
----- 测试用例逻辑方法 : <findTaskInstall> ----
-[INFO ] 2018-03-23 16:05:27,174 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
----- 请求实际入参 : {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"} ----
-[INFO ] 2018-03-23 16:05:27,254 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
----- 请求实际返回结果 : {"result":{"content":[{"acceptTime":"2018-03-12 14:29:54","appointmentTime":"2018-03-14 \u4E0B\u5348","areaCode":"110101000000","branchFee":99.00,"checkStatus":"check_no","completionRate48":false,"consignee":"tester2","consigneeTel":"","countdown":0,"createDate":"2018-03-12 14:25:31","disPerson":"\u6D4B\u8BD5\u7EC4","disTime":"2018-03-12 14:29:54","goods":"\u95F4\u5385\u67DC\uFF083<\u957F\u5EA6\u22643.5\u7C73\uFF09","id":"WIY4q42d0lUBQh4L","installFee":0.00,"items":1,"jingdong":false,"jingdongConfirm":false,"matchType":"\u4EBA\u5DE5\u5339\u914D","matchingFailureReason":"\u8BE5\u5730\u533A\u6CA1\u5F00\u542F\u81EA\u52A8\u5339\u914D","msfCheck":"\u672A\u6838\u9500","orderSourceCode":"","orgName":"\u6D4B\u8BD5\u8425\u4E1A\u90E8","packingNumber":1,"payArrive":0.00,"payCash":240.00,"payMonth":0.00,"payReturn":0.00,"payType":"\u73B0\u4ED8","pickUpAddress":"128\u53F7","pickUpTel":"18222222222","pickUpTime":"","readOnly":false,"receiveAddress":"\u5317\u4EAC\u5E02\u5317\u4EAC\u5E02\u4E1C\u57CE\u533A","remark":"","replaceCharge":0.00,"serviceType":"\u914D\u9001\u5230\u5BB6\u5E76\u5B89\u88C5","shipper":"tester1","signTime":"2018-03-14 15:53:39","taskStatus":"\u5DF2\u7B7E\u6536","taskStatusShow":"\u5DF2\u7B7E\u6536","taskType":"\u8C03\u5EA6\u4EFB\u52A1","tmail":false,"tracks":"\u8DDF\u8E2A\u6D4B\u8BD5","trunkEndDate":"2018-03-12 14:28:01","volumes":0.000,"waybillId":"1zt003000003","weights":5.0,"worker":"\u5927\u96C4\u6D4B\u8BD5","workerTel":"18673903302"}],"first":true,"last":true,"number":0,"numberOfElements":1,"size":10,"totalElements":1,"totalPages":1}} ----
-[INFO ] 2018-03-23 16:05:57,959 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-23 16:05:58,412 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
----- 测试用例 : <登录> 开始执行 ----
-[INFO ] 2018-03-23 16:05:58,412 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-03-23 16:05:58,413 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
----- 测试用例逻辑方法 : <login> ----
-[INFO ] 2018-03-23 16:05:58,413 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
----- 请求实际入参 : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "525241"
-} ----
-[INFO ] 2018-03-23 16:05:58,781 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:46)
----- 请求实际返回结果 : true ----
-[INFO ] 2018-03-23 16:05:58,784 method:utils.DataProviders.<init>(DataProviders.java:87)
-======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
-[INFO ] 2018-03-23 16:05:58,851 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
----- 测试用例 : <查询调度任务记录> 开始执行 ----
-[INFO ] 2018-03-23 16:05:58,851 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-03-23 16:05:58,851 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
----- 测试用例逻辑方法 : <findTaskInstall> ----
-[INFO ] 2018-03-23 16:05:58,852 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
----- 请求实际入参 : {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"} ----
-[INFO ] 2018-03-23 16:05:58,946 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
----- 请求实际返回结果 : {"result":{"content":[{"acceptTime":"2018-03-12 14:29:54","appointmentTime":"2018-03-14 \u4E0B\u5348","areaCode":"110101000000","branchFee":99.00,"checkStatus":"check_no","completionRate48":false,"consignee":"tester2","consigneeTel":"","countdown":0,"createDate":"2018-03-12 14:25:31","disPerson":"\u6D4B\u8BD5\u7EC4","disTime":"2018-03-12 14:29:54","goods":"\u95F4\u5385\u67DC\uFF083<\u957F\u5EA6\u22643.5\u7C73\uFF09","id":"WIY4q42d0lUBQh4L","installFee":0.00,"items":1,"jingdong":false,"jingdongConfirm":false,"matchType":"\u4EBA\u5DE5\u5339\u914D","matchingFailureReason":"\u8BE5\u5730\u533A\u6CA1\u5F00\u542F\u81EA\u52A8\u5339\u914D","msfCheck":"\u672A\u6838\u9500","orderSourceCode":"","orgName":"\u6D4B\u8BD5\u8425\u4E1A\u90E8","packingNumber":1,"payArrive":0.00,"payCash":240.00,"payMonth":0.00,"payReturn":0.00,"payType":"\u73B0\u4ED8","pickUpAddress":"128\u53F7","pickUpTel":"18222222222","pickUpTime":"","readOnly":false,"receiveAddress":"\u5317\u4EAC\u5E02\u5317\u4EAC\u5E02\u4E1C\u57CE\u533A","remark":"","replaceCharge":0.00,"serviceType":"\u914D\u9001\u5230\u5BB6\u5E76\u5B89\u88C5","shipper":"tester1","signTime":"2018-03-14 15:53:39","taskStatus":"\u5DF2\u7B7E\u6536","taskStatusShow":"\u5DF2\u7B7E\u6536","taskType":"\u8C03\u5EA6\u4EFB\u52A1","tmail":false,"tracks":"\u8DDF\u8E2A\u6D4B\u8BD5","trunkEndDate":"2018-03-12 14:28:01","volumes":0.000,"waybillId":"1zt003000003","weights":5.0,"worker":"\u5927\u96C4\u6D4B\u8BD5","workerTel":"18673903302"}],"first":true,"last":true,"number":0,"numberOfElements":1,"size":10,"totalElements":1,"totalPages":1}} ----
+[INFO ] 2018-04-08 12:35:15,617 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-04-08 12:35:16,225 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <运单列表-修改查询回显> 开始执行 ----
+[INFO ] 2018-04-08 12:35:16,226 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
+[INFO ] 2018-04-08 12:35:16,226 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <queryWaybillById> ----
+[INFO ] 2018-04-08 12:35:16,227 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : [
+  {
+    "waybillId": "1ZT18032100000001"
+  }
+] ----
+[INFO ] 2018-04-08 12:35:16,627 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
+---- 请求实际返回结果 : {"msg":"运单不存在","resultCode":"500"} ----
+[INFO ] 2018-04-08 12:36:01,742 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-04-08 12:36:02,206 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <客户中心-订单详情> 开始执行 ----
+[INFO ] 2018-04-08 12:36:02,206 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
+[INFO ] 2018-04-08 12:36:02,207 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <getOrderDetails> ----
+[INFO ] 2018-04-08 12:36:02,207 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : [
+  {
+    "waybillId": "1ZT18032100000001"
+  }
+] ----
+[INFO ] 2018-04-08 12:36:02,539 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
+---- 请求实际返回结果 : {"msg":"订单号不存在","resultCode":"500"} ----
+[INFO ] 2018-04-08 12:36:16,264 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-04-08 12:36:16,726 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <第三方订单-列表查询> 开始执行 ----
+[INFO ] 2018-04-08 12:36:16,726 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
+[INFO ] 2018-04-08 12:36:16,727 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <queryOrderListPage> ----
+[INFO ] 2018-04-08 12:36:16,727 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : [
+  {
+    "page": 1,
+    "size": 10
+  },
+  {
+    "startDate":"2018-03-21 00:00:00",
+    "endDate":"2018-03-21 23:59:59",
+    "waybillId": "1ZT18032100000001",//运单号
+    "orderState": "",//订单状态
+    "consignorName": ""//发货人
+  }
+] ----
+[INFO ] 2018-04-08 12:36:17,114 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
+---- 请求实际返回结果 : {"content":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0},"resultCode":"200"} ----
+[INFO ] 2018-04-08 12:36:31,265 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-04-08 12:36:31,724 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <第三方订单-拒绝接单> 开始执行 ----
+[INFO ] 2018-04-08 12:36:31,724 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
+[INFO ] 2018-04-08 12:36:31,725 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <orderRefuse> ----
+[INFO ] 2018-04-08 12:36:31,725 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : [
+    {
+        "orderNo":"TMSAB1803060029"//订单号
+    }
+] ----
+[INFO ] 2018-04-08 12:36:32,057 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
+---- 请求实际返回结果 : {"msg":"订单不存在，无法进行拒绝接单操作","resultCode":"500"} ----
+[INFO ] 2018-04-08 12:37:00,073 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-04-08 12:37:00,560 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <第三方订单-列表查询> 开始执行 ----
+[INFO ] 2018-04-08 12:37:00,560 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
+[INFO ] 2018-04-08 12:37:00,560 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <queryOrderListPage> ----
+[INFO ] 2018-04-08 12:37:00,560 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : [
+  {
+    "page": 1,
+    "size": 10
+  },
+  {
+    "waybillId": "1ZT18032100000001",//运单号
+    "receivePhone": "",//收货人手机号 
+    "receiveName": "",//收货人名称
+    "clientName": "",//发货人名称
+    "startBillingTime":"",//开单开始时间
+    "endBillingTime":""//开单结束时间
+  }
+] ----
+[INFO ] 2018-04-08 12:37:00,919 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
+---- 请求实际返回结果 : {"content":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0},"resultCode":"200"} ----
+[INFO ] 2018-04-08 12:37:14,069 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-04-08 12:37:14,479 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <第三方订单-列表查询> 开始执行 ----
+[INFO ] 2018-04-08 12:37:14,479 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
+[INFO ] 2018-04-08 12:37:14,479 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <queryOrderListPage> ----
+[INFO ] 2018-04-08 12:37:14,479 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : [
+  {
+    "page": 1,
+    "size": 10
+  },
+  {
+    "waybillId": "1ZT18032100000001",//运单号
+    "receivePhone": "",//收货人手机号 
+    "receiveName": "",//收货人名称
+    "clientName": "",//发货人名称
+    "startBillingTime":"",//开单开始时间
+    "endBillingTime":""//开单结束时间
+  }
+] ----
+[INFO ] 2018-04-08 12:37:14,755 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
+---- 请求实际返回结果 : {"content":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0},"resultCode":"200"} ----
+[INFO ] 2018-04-08 12:37:14,792 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+====class org.testng.internal.TestResult.orderBindWaybillListPageTest 执行成功!====
+[INFO ] 2018-04-08 12:37:14,794 method:utils.DataProviders.<init>(DataProviders.java:87)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-04-08 12:37:14,847 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:33)
+---- 测试用例 : <第三方订单-列表查询> 开始执行 ----
+[INFO ] 2018-04-08 12:37:14,848 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑类 : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
+[INFO ] 2018-04-08 12:37:14,848 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:37)
+---- 测试用例逻辑方法 : <queryOrderListPage> ----
+[INFO ] 2018-04-08 12:37:14,848 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:39)
+---- 请求实际入参 : [
+  {
+    "page": 1,
+    "size": 10
+  },
+  {
+    "startDate":"2018-03-21 00:00:00",
+    "endDate":"2018-03-21 23:59:59",
+    "waybillId": "1ZT18032100000001",//运单号
+    "orderState": "",//订单状态
+    "consignorName": ""//发货人
+  }
+] ----
+[INFO ] 2018-04-08 12:37:14,857 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:44)
+---- 请求实际返回结果 : {"content":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0},"resultCode":"200"} ----
+[INFO ] 2018-04-08 12:37:14,859 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+====class org.testng.internal.TestResult.queryOrderListPageTest 执行成功!====
+[INFO ] 2018-04-08 12:37:14,890 method:com.test.framework.LogListener.onFinish(LogListener.java:40)
+**** context容器数据信息收集汇总    **** start ****
+[INFO ] 2018-04-08 12:37:14,936 method:com.test.framework.LogListener$1.execute(LogListener.java:74)
+***容器 Map<String, Object> sc 包含1个键值对，具体参数如下所示 ***
+[INFO ] 2018-04-08 12:37:14,937 method:com.test.framework.LogListener$1.execute(LogListener.java:78)
+** resultCode : 200 **
+[INFO ] 2018-04-08 12:37:14,937 method:com.test.framework.LogListener$1.execute(LogListener.java:56)
+*** 实体容器 List<Object> objects 具体参数如下所示  ***
+[INFO ] 2018-04-08 12:37:14,937 method:com.test.framework.LogListener.onFinish(LogListener.java:42)
+**** context容器数据信息收集汇总    **** end ****
