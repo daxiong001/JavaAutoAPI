@@ -5,7 +5,19 @@
     <classes>
       <class name="com.yzt.testcase.IPSTest">
         <methods>
+          <include name="findTaskFeeTest"/>
+          <include name="pickUpTest"/>
+          <include name="findTaskInstallTest"/>
+          <include name="findMetaTest"/>
+          <include name="appointmentTest"/>
+          <include name="trunkEndTest"/>
+          <include name="batDisWorkerTest"/>
+          <include name="signTest"/>
           <include name="loginTest" invocation-numbers="0"/>
+          <include name="taskCountTest"/>
+          <include name="saveTaskTraceTest"/>
+          <include name="uploadToSignTest"/>
+          <include name="queryUserJztTest"/>
         </methods>
       </class> <!-- com.yzt.testcase.IPSTest -->
     </classes>

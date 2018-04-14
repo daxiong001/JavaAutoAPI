@@ -53,16 +53,13 @@ public class DataProviders implements Iterator<Object> {
 
 	private static Logger logger = Logger.getLogger(DataProviders.class);
 
-//	private static final String FILE_PATH = System.getProperty("user.dir") + File.separator + "src" + File.separator
-//			+ "test" + File.separator + "resource" + File.separator + "testdata" + File.separator;	
-	
 	private static final String FILE_PATH = System.getProperty("user.dir") + File.separator + "src" + File.separator
-			+ "test" + File.separator + "resource" + File.separator + "remote.data" + File.separator;	
-	
+			+ "test" + File.separator + "resource" + File.separator + "testdata" + File.separator;	
+
 	public DataProviders(){}
 	
 	public DataProviders(String classname, String methodname) {
-		testdataInit();
+
 		int dotNum = classname.indexOf(".");
 
 		if (dotNum > 0) {
@@ -93,7 +90,7 @@ public class DataProviders implements Iterator<Object> {
 	}
 
 	public DataProviders(String classname) {
-		testdataInit();
+
 		int dotNum = classname.indexOf(".");
 
 		if (dotNum > 0) {
@@ -148,50 +145,5 @@ public class DataProviders implements Iterator<Object> {
 		}
 		this.currentRowNo++;
 		return data;
-	}
-	
-	private void testdataInit() {
-//		String localPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
-//				+ File.separator + "resource" + File.separator + "remote.data";
-//		File localPathFileConfig = new File(localPath + File.separator + ".git");
-//		String localPath = "C:\\workspace\\1111";
-//		String localPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
-//				+ File.separator + "resource" + File.separator + "testdata";
-		String remotePath = "http://git.1ziton.com/vivi.zhang/remote.data.git";
-		String username = "zhangwei@1zitong";
-		String password = "1qaz2wsx";
-		String branch = "master";
-		File localPathFile = new File(FILE_PATH);
-		try {
-			if (!localPathFile.exists()) {
-				gitClone(remotePath, branch, FILE_PATH, username, password);
-			} else {
-				gitPull(remotePath, branch, FILE_PATH);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	private void gitClone(String remotePath, String branch, String localPath, String username, String password) {
-		File localPathFile = new File(localPath);
-		UsernamePasswordCredentialsProvider usernamePasswordCredentialsProvider = new UsernamePasswordCredentialsProvider(
-				username, password);
-		try {
-			Git.cloneRepository().setURI(remotePath).setBranch(branch).setDirectory(localPathFile)
-					.setCredentialsProvider(usernamePasswordCredentialsProvider).call();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	private void gitPull(String remotePath, String branch, String localPath) {
-		try {
-			File localPathFile = new File(localPath);
-			Git git = new Git(new FileRepository(localPath + ".git"));
-			git.pull().setRemoteBranchName(branch).call();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 	}
 }

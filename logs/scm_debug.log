@@ -1,338 +1,161 @@
-[INFO ] 2018-04-10 17:10:54,877 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:10:55,297 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:08:53,204 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:08:53,834 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <ç™»å½•> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:10:55,298 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:08:53,834 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:10:55,298 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:08:53,835 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <login> ----
-[INFO ] 2018-04-10 17:10:55,299 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "525241"
-} ----
-[INFO ] 2018-04-10 17:10:55,503 method:com.test.framework.LogListener.onTestFailure(LogListener.java:30)
-====class org.testng.internal.TestResult.loginTest  æ‰§è¡Œå¤±è´¥!!====
-[INFO ] 2018-04-10 17:10:55,507 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findTaskInstallTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,510 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.taskCountTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,518 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findMetaTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,526 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findTaskFeeTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,531 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.trunkEndTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,536 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.queryUserJztTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,543 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.saveTaskTraceTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,546 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.batDisWorkerTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,551 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.appointmentTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,554 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.pickUpTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,556 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.uploadToSignTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,561 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.signTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:10:55,598 method:com.test.framework.LogListener.onFinish(LogListener.java:40)
-**** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** start ****
-[INFO ] 2018-04-10 17:10:55,600 method:com.test.framework.LogListener.onFinish(LogListener.java:42)
-**** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** end ****
-[INFO ] 2018-04-10 17:11:22,297 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:11:22,779 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <µÇÂ¼> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:11:22,779 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:11:22,779 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <login> ----
-[INFO ] 2018-04-10 17:11:22,779 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "525241"
-} ----
-[INFO ] 2018-04-10 17:11:23,072 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\OrderTest.xlsx=======
-[INFO ] 2018-04-10 17:11:23,112 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <µÚÈı·½¶©µ¥-ÁĞ±í²éÑ¯> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:11:23,112 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
-[INFO ] 2018-04-10 17:11:23,112 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <queryOrderListPage> ----
-[INFO ] 2018-04-10 17:11:23,112 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : [
-  {
-    "page": 1,
-    "size": 10
-  },
-  {
-    "waybillId": "1ZT18032100000001",//ÔËµ¥ºÅ
-    "receivePhone": "",//ÊÕ»õÈËÊÖ»úºÅ 
-    "receiveName": "",//ÊÕ»õÈËÃû³Æ
-    "clientName": "",//·¢»õÈËÃû³Æ
-    "startBillingTime":"",//¿ªµ¥¿ªÊ¼Ê±¼ä
-    "endBillingTime":""//¿ªµ¥½áÊøÊ±¼ä
-  }
-] ----
-[INFO ] 2018-04-10 17:11:23,192 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"content":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0},"resultCode":"200"} ----
-[INFO ] 2018-04-10 17:11:23,266 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\OrderTest.xlsx=======
-[INFO ] 2018-04-10 17:11:23,302 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <µÚÈı·½¶©µ¥-ÁĞ±í²éÑ¯> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:11:23,302 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
-[INFO ] 2018-04-10 17:11:23,302 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <queryOrderListPage> ----
-[INFO ] 2018-04-10 17:11:23,302 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : [
-  {
-    "page": 1,
-    "size": 10
-  },
-  {
-    "startDate":"2018-03-21 00:00:00",
-    "endDate":"2018-03-21 23:59:59",
-    "waybillId": "1ZT18032100000001",//ÔËµ¥ºÅ
-    "orderState": "",//¶©µ¥×´Ì¬
-    "consignorName": ""//·¢»õÈË
-  }
-] ----
-[INFO ] 2018-04-10 17:11:23,361 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"content":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0},"resultCode":"200"} ----
-[INFO ] 2018-04-10 17:18:07,514 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:18:07,993 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <µÇÂ¼> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:18:07,994 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:18:07,994 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <login> ----
-[INFO ] 2018-04-10 17:18:07,994 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "525241"
-} ----
-[INFO ] 2018-04-10 17:18:08,308 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\OrderTest.xlsx=======
-[INFO ] 2018-04-10 17:18:08,348 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <µÚÈı·½¶©µ¥-ÁĞ±í²éÑ¯> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:18:08,348 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
-[INFO ] 2018-04-10 17:18:08,348 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <queryOrderListPage> ----
-[INFO ] 2018-04-10 17:18:08,349 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : [
-  {
-    "page": 1,
-    "size": 10
-  },
-  {
-    "waybillId": "1ZT18032100000001",//ÔËµ¥ºÅ
-    "receivePhone": "",//ÊÕ»õÈËÊÖ»úºÅ 
-    "receiveName": "",//ÊÕ»õÈËÃû³Æ
-    "clientName": "",//·¢»õÈËÃû³Æ
-    "startBillingTime":"",//¿ªµ¥¿ªÊ¼Ê±¼ä
-    "endBillingTime":""//¿ªµ¥½áÊøÊ±¼ä
-  }
-] ----
-[INFO ] 2018-04-10 17:18:08,373 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"content":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0},"resultCode":"200"} ----
-[INFO ] 2018-04-10 17:18:08,443 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\OrderTest.xlsx=======
-[INFO ] 2018-04-10 17:18:08,482 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <µÚÈı·½¶©µ¥-ÁĞ±í²éÑ¯> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:18:08,482 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
-[INFO ] 2018-04-10 17:18:08,482 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <queryOrderListPage> ----
-[INFO ] 2018-04-10 17:18:08,482 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : [
-  {
-    "page": 1,
-    "size": 10
-  },
-  {
-    "startDate":"2018-03-21 00:00:00",
-    "endDate":"2018-03-21 23:59:59",
-    "waybillId": "1ZT18032100000001",//ÔËµ¥ºÅ
-    "orderState": "",//¶©µ¥×´Ì¬
-    "consignorName": ""//·¢»õÈË
-  }
-] ----
-[INFO ] 2018-04-10 17:18:08,490 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"content":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0},"resultCode":"200"} ----
-[INFO ] 2018-04-10 17:21:56,152 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:22:11,557 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <ç™»å½•> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:22:11,557 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:22:11,557 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <login> ----
-[INFO ] 2018-04-10 17:22:11,557 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "525241"
-} ----
-[INFO ] 2018-04-10 17:22:14,006 method:com.test.framework.LogListener.onTestFailure(LogListener.java:30)
-====class org.testng.internal.TestResult.loginTest  æ‰§è¡Œå¤±è´¥!!====
-[INFO ] 2018-04-10 17:22:14,010 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findTaskInstallTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,012 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.taskCountTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,014 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findMetaTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,016 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findTaskFeeTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,017 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.trunkEndTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,018 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.queryUserJztTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,020 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.saveTaskTraceTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,022 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.batDisWorkerTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,031 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.appointmentTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,032 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.pickUpTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,038 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.uploadToSignTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,041 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.signTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:22:14,096 method:com.test.framework.LogListener.onFinish(LogListener.java:40)
-**** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** start ****
-[INFO ] 2018-04-10 17:23:28,836 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:23:29,299 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <ç™»å½•> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:23:29,299 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:23:29,299 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <login> ----
-[INFO ] 2018-04-10 17:23:29,299 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "525241"
-} ----
-[INFO ] 2018-04-10 17:28:07,601 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:28:08,036 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <ç™»å½•> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:28:08,036 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:28:08,036 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <login> ----
-[INFO ] 2018-04-10 17:28:08,037 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "525241"
-} ----
-[INFO ] 2018-04-10 17:28:08,248 method:com.test.framework.LogListener.onTestFailure(LogListener.java:30)
-====class org.testng.internal.TestResult.loginTest  æ‰§è¡Œå¤±è´¥!!====
-[INFO ] 2018-04-10 17:28:08,253 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findTaskInstallTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,255 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.taskCountTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,257 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findMetaTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,258 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findTaskFeeTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,259 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.trunkEndTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,263 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.queryUserJztTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,265 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.saveTaskTraceTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,267 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.batDisWorkerTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,269 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.appointmentTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,270 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.pickUpTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,273 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.uploadToSignTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,274 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.signTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:28:08,308 method:com.test.framework.LogListener.onFinish(LogListener.java:40)
-**** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** start ****
-[INFO ] 2018-04-10 17:28:08,311 method:com.test.framework.LogListener.onFinish(LogListener.java:42)
-**** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** end ****
-[INFO ] 2018-04-10 17:30:20,492 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:30:20,927 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <ç™»å½•> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:30:20,928 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:30:20,928 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <login> ----
-[INFO ] 2018-04-10 17:30:20,928 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "525241"
-} ----
-[INFO ] 2018-04-10 17:30:21,300 method:com.test.framework.LogListener.onTestFailure(LogListener.java:30)
-====class org.testng.internal.TestResult.loginTest  æ‰§è¡Œå¤±è´¥!!====
-[INFO ] 2018-04-10 17:30:21,303 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findTaskInstallTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,304 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.taskCountTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,306 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findMetaTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,307 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findTaskFeeTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,308 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.trunkEndTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,310 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.queryUserJztTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,311 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.saveTaskTraceTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,313 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.batDisWorkerTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,314 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.appointmentTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,315 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.pickUpTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,318 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.uploadToSignTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,319 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
-====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.signTest æœªæ‰§è¡Œ!!!====
-[INFO ] 2018-04-10 17:30:21,363 method:com.test.framework.LogListener.onFinish(LogListener.java:40)
-**** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** start ****
-[INFO ] 2018-04-10 17:30:21,365 method:com.test.framework.LogListener.onFinish(LogListener.java:42)
-**** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** end ****
-[INFO ] 2018-04-10 17:33:55,992 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:33:56,406 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <ç™»å½•> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:33:56,406 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:33:56,406 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <login> ----
-[INFO ] 2018-04-10 17:33:56,406 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+[INFO ] 2018-04-14 15:08:53,838 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
 ---- è¯·æ±‚å®é™…å…¥å‚ : {
   "source": "core",
   "mobile": "17576075478",
   "password": "123456"
 } ----
-[INFO ] 2018-04-10 17:33:56,633 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:45)
+[INFO ] 2018-04-14 15:08:54,166 method:com.test.framework.LogListener.onTestFailure(LogListener.java:30)
+====class org.testng.internal.TestResult.loginTest  æ‰§è¡Œå¤±è´¥!!====
+[INFO ] 2018-04-14 15:08:54,170 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findTaskInstallTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,172 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.taskCountTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,174 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findMetaTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,176 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.findTaskFeeTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,178 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.trunkEndTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,185 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.queryUserJztTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,186 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.saveTaskTraceTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,189 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.batDisWorkerTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,190 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.appointmentTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,191 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.pickUpTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,202 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.uploadToSignTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,205 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====ç”±äºä¾èµ–çš„æµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥ï¼Œå¯¼è‡´ null.signTest æœªæ‰§è¡Œ!!!====
+[INFO ] 2018-04-14 15:08:54,261 method:com.test.framework.LogListener.onFinish(LogListener.java:40)
+**** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** start ****
+[INFO ] 2018-04-14 15:08:54,264 method:com.test.framework.LogListener.onFinish(LogListener.java:42)
+**** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** end ****
+[INFO ] 2018-04-14 15:09:30,820 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:09:31,271 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+---- ²âÊÔÓÃÀı : <µÇÂ¼> ¿ªÊ¼Ö´ĞĞ ----
+[INFO ] 2018-04-14 15:09:31,271 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+---- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
+[INFO ] 2018-04-14 15:09:31,272 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- ²âÊÔÓÃÀıÂß¼­·½·¨ : <login> ----
+[INFO ] 2018-04-14 15:09:31,272 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- ÇëÇóÊµ¼ÊÈë²Î : {
+  "source": "core",
+  "mobile": "17576075478",
+  "password": "123456"
+} ----
+[INFO ] 2018-04-14 15:09:31,600 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-04-14 15:09:31,642 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+---- ²âÊÔÓÃÀı : <µÚÈı·½¶©µ¥-ÁĞ±í²éÑ¯> ¿ªÊ¼Ö´ĞĞ ----
+[INFO ] 2018-04-14 15:09:31,642 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+---- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
+[INFO ] 2018-04-14 15:09:31,642 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- ²âÊÔÓÃÀıÂß¼­·½·¨ : <queryOrderListPage> ----
+[INFO ] 2018-04-14 15:09:31,642 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- ÇëÇóÊµ¼ÊÈë²Î : [
+  {
+    "page": 1,
+    "size": 10
+  },
+  {
+    "waybillId": "1ZT18032100000001",//ÔËµ¥ºÅ
+    "receivePhone": "",//ÊÕ»õÈËÊÖ»úºÅ 
+    "receiveName": "",//ÊÕ»õÈËÃû³Æ
+    "clientName": "",//·¢»õÈËÃû³Æ
+    "startBillingTime":"",//¿ªµ¥¿ªÊ¼Ê±¼ä
+    "endBillingTime":""//¿ªµ¥½áÊøÊ±¼ä
+  }
+] ----
+[INFO ] 2018-04-14 15:09:32,664 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
+---- ÇëÇóÊµ¼Ê·µ»Ø½á¹û :  ----
+[INFO ] 2018-04-14 15:09:32,670 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\OrderTest.xlsx=======
+[INFO ] 2018-04-14 15:09:32,709 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+---- ²âÊÔÓÃÀı : <µÚÈı·½¶©µ¥-ÁĞ±í²éÑ¯> ¿ªÊ¼Ö´ĞĞ ----
+[INFO ] 2018-04-14 15:09:32,709 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+---- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
+[INFO ] 2018-04-14 15:09:32,709 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- ²âÊÔÓÃÀıÂß¼­·½·¨ : <queryOrderListPage> ----
+[INFO ] 2018-04-14 15:09:32,709 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- ÇëÇóÊµ¼ÊÈë²Î : [
+  {
+    "page": 1,
+    "size": 10
+  },
+  {
+    "startDate":"2018-03-21 00:00:00",
+    "endDate":"2018-03-21 23:59:59",
+    "waybillId": "1ZT18032100000001",//ÔËµ¥ºÅ
+    "orderState": "",//¶©µ¥×´Ì¬
+    "consignorName": ""//·¢»õÈË
+  }
+] ----
+[INFO ] 2018-04-14 15:09:33,734 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
+---- ÇëÇóÊµ¼Ê·µ»Ø½á¹û :  ----
+[INFO ] 2018-04-14 15:11:01,728 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:11:02,197 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+---- æµ‹è¯•ç”¨ä¾‹ : <ç™»å½•> å¼€å§‹æ‰§è¡Œ ----
+[INFO ] 2018-04-14 15:11:02,197 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
+[INFO ] 2018-04-14 15:11:02,197 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <login> ----
+[INFO ] 2018-04-14 15:11:02,197 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- è¯·æ±‚å®é™…å…¥å‚ : {
+  "source": "core",
+  "mobile": "17576075478",
+  "password": "123456"
+} ----
+[INFO ] 2018-04-14 15:14:17,684 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:18,159 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+---- æµ‹è¯•ç”¨ä¾‹ : <ç™»å½•> å¼€å§‹æ‰§è¡Œ ----
+[INFO ] 2018-04-14 15:14:18,160 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
+[INFO ] 2018-04-14 15:14:18,160 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <login> ----
+[INFO ] 2018-04-14 15:14:18,160 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- è¯·æ±‚å®é™…å…¥å‚ : {
+  "source": "core",
+  "mobile": "18000000000",
+  "password": "123456"
+} ----
+[INFO ] 2018-04-14 15:14:18,507 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:45)
 ---- è¯·æ±‚å®é™…è¿”å›ç»“æœ : true ----
-[INFO ] 2018-04-10 17:33:56,637 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:28,136 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:28,521 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+---- æµ‹è¯•ç”¨ä¾‹ : <ç™»å½•> å¼€å§‹æ‰§è¡Œ ----
+[INFO ] 2018-04-14 15:14:28,521 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
+[INFO ] 2018-04-14 15:14:28,522 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <login> ----
+[INFO ] 2018-04-14 15:14:28,522 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- è¯·æ±‚å®é™…å…¥å‚ : {
+  "source": "core",
+  "mobile": "18000000000",
+  "password": "123456"
+} ----
+[INFO ] 2018-04-14 15:14:28,845 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:45)
+---- è¯·æ±‚å®é™…è¿”å›ç»“æœ : true ----
+[INFO ] 2018-04-14 15:14:28,847 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.loginTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:33:56,716 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:33:56,759 method:com.yzt.testcase.IPSTest.findTaskInstallTest(IPSTest.java:52)
+[INFO ] 2018-04-14 15:14:28,848 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:28,909 method:com.yzt.testcase.IPSTest.findTaskInstallTest(IPSTest.java:52)
 å‚æ•°åŒ–å‰å…¥å‚ï¼šinputJson = {
   "name": "taskInstallController.findTaskInstall",
   "token": "null",
@@ -352,43 +175,43 @@
     }
   ]
 }
-[INFO ] 2018-04-10 17:33:56,769 method:com.yzt.testcase.IPSTest.findTaskInstallTest(IPSTest.java:54)
+[INFO ] 2018-04-14 15:14:28,920 method:com.yzt.testcase.IPSTest.findTaskInstallTest(IPSTest.java:54)
 å‚æ•°åŒ–åå…¥å‚å˜æ›´ï¼šinputJson = {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"}
-[INFO ] 2018-04-10 17:33:56,770 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:28,921 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <æŸ¥è¯¢è°ƒåº¦ä»»åŠ¡è®°å½•> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:33:56,770 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:28,921 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:33:56,770 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:28,921 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <findTaskInstall> ----
-[INFO ] 2018-04-10 17:33:56,770 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+[INFO ] 2018-04-14 15:14:28,921 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
 ---- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"} ----
-[INFO ] 2018-04-10 17:33:56,836 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0}} ----
-[INFO ] 2018-04-10 17:33:56,838 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:28,994 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
+---- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"content":[{"acceptTime":"2018-03-12 14:29:54","appointmentTime":"2018-03-29 \u4E0B\u5348","areaCode":"110101000000","branchFee":99.00,"checkStatus":"check_blurry","clientIsVip":false,"completionRate48":false,"consignee":"tester2","consigneeTel":"","countdown":0,"createDate":"2018-03-12 14:25:31","disPerson":"\u6D4B\u8BD5\u7EC4","disTime":"2018-03-12 14:29:54","goods":"\u95F4\u5385\u67DC\uFF083<\u957F\u5EA6\u22643.5\u7C73\uFF09","id":"WIY4q42d0lUBQh4L","installFee":0.00,"items":1,"jingdong":true,"jingdongConfirm":false,"matchType":"\u4EBA\u5DE5\u5339\u914D","matchingFailureReason":"\u8BE5\u5730\u533A\u6CA1\u5F00\u542F\u81EA\u52A8\u5339\u914D","msfCheck":"\u672A\u6838\u9500","orderSourceCode":"ddbh","orgName":"\u6D4B\u8BD5\u8425\u4E1A\u90E8","packingNumber":3,"payArrive":0.00,"payCash":240.00,"payMonth":0.00,"payReturn":0.00,"payType":"\u73B0\u4ED8","pickUpAddress":"128\u53F7","pickUpTel":"18222222222","pickUpTime":"","readOnly":false,"receiveAddress":"\u5317\u4EAC\u5E02\u5317\u4EAC\u5E02\u4E1C\u57CE\u533A","remark":"","replaceCharge":0.00,"serviceType":"\u914D\u9001\u5230\u5BB6\u5E76\u5B89\u88C5","shipper":"tester1","signTime":"2018-03-14 15:53:39","taskStatus":"\u5DF2\u7B7E\u6536","taskStatusShow":"\u5DF2\u7B7E\u6536","taskType":"\u8C03\u5EA6\u4EFB\u52A1","tmail":false,"tracks":"\u8DDF\u8E2A\u6D4B\u8BD5","trunkEndDate":"2018-03-12 14:28:01","volumes":0.000,"waybillId":"1zt003000003","weights":5.0,"worker":"\u5927\u96C4\u6D4B\u8BD5","workerTel":"18673903302"}],"first":true,"last":true,"number":0,"numberOfElements":1,"size":10,"totalElements":1,"totalPages":1}} ----
+[INFO ] 2018-04-14 15:14:28,995 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.findTaskInstallTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:33:56,907 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:33:56,944 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:28,997 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:29,058 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <è°ƒåº¦ä»»åŠ¡ç»Ÿè®¡> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:33:56,944 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:29,058 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:33:56,944 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:29,058 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <taskCount> ----
-[INFO ] 2018-04-10 17:33:56,945 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+[INFO ] 2018-04-14 15:14:29,058 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
 ---- è¯·æ±‚å®é™…å…¥å‚ : {"name": "taskInstallController.getNodeTypeCount","token": null,"args": []} ----
-[INFO ] 2018-04-10 17:34:04,740 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"all":221426,"doSign":214979,"invalid":6580,"waitAppointment":2185,"waitArrive":3622,"waitDistribution":21,"waitSign":619}} ----
-[INFO ] 2018-04-10 17:34:04,741 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:41,962 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
+---- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"all":151225,"distributionWaitAccept":1,"doSign":134124,"invalid":3026,"waitAppointment":5492,"waitArrive":6984,"waitDistribution":1581,"waitSign":3043}} ----
+[INFO ] 2018-04-14 15:14:41,963 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.taskCountTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:34:04,841 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:04,876 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:41,963 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:41,996 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <æŸ¥æ‰¾å¢åŠ è·Ÿè¸ªä¿¡æ¯> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:34:04,876 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:41,997 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:04,876 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:41,997 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <findMeta> ----
-[INFO ] 2018-04-10 17:34:04,876 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+[INFO ] 2018-04-14 15:14:41,997 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
 ---- è¯·æ±‚å®é™…å…¥å‚ : {
   "name": "commonController.findMeta",
   "token": "null",
@@ -402,714 +225,197 @@
     }
   ]
 } ----
-[INFO ] 2018-04-10 17:34:04,928 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
+[INFO ] 2018-04-14 15:14:42,052 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
 ---- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"content":[{"id":"V6TDqbMg2NZOqcv8","label":"\u5546\u5BB6\u539F\u56E0","name":"Cause01","order":1,"type":"AbnormalCause"},{"id":"V6TC8l8g2NZOqcvz","label":"\u6536\u8D27\u4EBA\u539F\u56E0","name":"Cause02","order":2,"type":"AbnormalCause"},{"id":"V6S_TG0g2NZOqcu7","label":"\u4E13\u7EBF\u539F\u56E0","name":"Cause03","order":3,"type":"AbnormalCause"},{"id":"V6S87zsg2NZO_WaC","label":"\u7EC8\u7AEF\u539F\u56E0","name":"Cause04","order":4,"type":"AbnormalCause"},{"id":"V6S8jz0g2NZOqcu0","label":"\u5176\u4ED6\u539F\u56E0","name":"Cause05","order":5,"type":"AbnormalCause"}],"first":true,"last":true,"number":0,"numberOfElements":5,"size":9999,"totalElements":5,"totalPages":1}} ----
-[INFO ] 2018-04-10 17:34:04,929 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:42,053 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.findMetaTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:34:05,007 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:05,049 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:42,054 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:42,090 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <æŸ¥è¯¢è°ƒåº¦ä»»åŠ¡> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:34:05,049 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:42,090 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:05,049 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:42,090 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <findTaskFee> ----
-[INFO ] 2018-04-10 17:34:05,049 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+[INFO ] 2018-04-14 15:14:42,091 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
 ---- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"waybillId":"1zt003000003"}],"name":"taskInstallController.findTaskFee","token":"null"} ----
-[INFO ] 2018-04-10 17:34:05,091 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"branchFee":0,"installFee":0,"mediateFee":0}} ----
-[INFO ] 2018-04-10 17:34:05,092 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:42,143 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
+---- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"branchFee":99.00,"installFee":0.00,"mediateFee":0}} ----
+[INFO ] 2018-04-14 15:14:42,144 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.findTaskFeeTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:34:05,163 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:05,193 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:42,145 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:42,186 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <å¹²çº¿ç»“æŸ> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:34:05,193 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:42,187 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:05,193 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:42,187 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <trunkEnd> ----
-[INFO ] 2018-04-10 17:34:05,193 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"pickUpCode":"1qaz","pickUpTel":"18222222222","addrCode":"110101001000","logisticsBill":"1qaz2wsx3edc","pickUpAddress":"128å·","taskIds":["WIYu1Bqd0lUBQh3H"],"abnoSource":"ips"}],"name":"taskInstallController.trunkEnd","token":"null"} ----
-[INFO ] 2018-04-10 17:34:05,256 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
+[INFO ] 2018-04-14 15:14:42,187 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"pickUpCode":"1qaz","pickUpTel":"18222222222","addrCode":"110101001000","logisticsBill":"1qaz2wsx3edc","pickUpAddress":"128å·","taskIds":["WIY4q42d0lUBQh4L"],"abnoSource":"ips"}],"name":"taskInstallController.trunkEnd","token":"null"} ----
+[INFO ] 2018-04-14 15:14:42,453 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
 ---- è¯·æ±‚å®é™…è¿”å›ç»“æœä¸ºç©º  : {} ----
-[INFO ] 2018-04-10 17:34:05,257 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:42,454 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.trunkEndTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:34:05,327 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:05,356 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:42,455 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:42,485 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <æŸ¥è¯¢å¾…åˆ†é…å¸ˆå‚…> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:34:05,356 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:42,485 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:05,356 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:42,485 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <queryUserJzt> ----
-[INFO ] 2018-04-10 17:34:05,356 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+[INFO ] 2018-04-14 15:14:42,485 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
 ---- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"rows":5,"first":0},{"areaCode":"110101000000"}],"name":"taskInstallController.queryUserJzt","token":"null"} ----
-[INFO ] 2018-04-10 17:34:06,164 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"content":[{"id":"WIXxB8uMqFVp3jlh","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"13833075252","order":5,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"120.0","realName":"\u82CF\u5EFA\u4E1C"},{"id":"VyDM-f9lGztrqFyp","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"17600619336","order":0,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"180.0","realName":"\u8D75\u91D1\u59D4"},{"id":"V69MDjFcQEV4NMp9","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":5,"mobile":"17611177395","order":12,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"120.0","realName":"\u4E01\u5BA3\u5EB7"},{"carWeight":200.00,"id":"WIQEqoCMqFVAunRO","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"15724701297","order":0,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"230.0","realName":"\u803F\u4E9A\u96C4"},{"carAamount":2,"carWeight":100.00,"id":"WIEfMTMbyNoAJbP8","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"13331135872","order":7,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"160.0","realName":"\u7EAA\u9E4F\u8F89"}],"first":true,"last":false,"number":0,"numberOfElements":5,"size":5,"totalElements":34,"totalPages":7}} ----
-[INFO ] 2018-04-10 17:34:06,166 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:44,808 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
+---- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"content":[{"businessScope":"","carAamount":10,"carWeight":10000.00,"id":"V15m-udoWkkwUQje","install":"\u5730\u677F\u3001\u6C11\u7528\u5BB6\u5177\u3001\u536B\u6D74\u3001\u95E8\u7A97\u3001\u6D82\u6599\u3001\u706F\u5177\u3001\u96C6\u6210\u540A\u9876","maxOrder":1000,"mobile":"18673903302","order":255,"peisong":"\u5730\u677F\u3001\u6C11\u7528\u5BB6\u5177\u3001\u536B\u6D74\u3001\u95E8\u7A97\u3001\u6D82\u6599\u3001\u706F\u5177\u3001\u96C6\u6210\u540A\u9876","priority":"280.0","realName":"\u5927\u96C4\u6D4B\u8BD5"},{"carAamount":300,"carWeight":50000.00,"id":"WBEfrm0IpM49NKGd","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":1000,"mobile":"13809776666","order":0,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"240.0","realName":"\u6D4B\u8BD5\u7F51\u70B9"},{"id":"WD8847ad0lVt9Kfj","install":"\u6C11\u7528\u5BB6\u5177\u3001\u5730\u677F","maxOrder":50,"mobile":"18319678141","order":8,"peisong":"\u6C11\u7528\u5BB6\u5177\u3001\u5730\u677F","priority":"120.0","realName":"\u6768\u5E08\u5085"},{"businessScope":"1","carAamount":1,"carWeight":1.00,"id":"V8paioNcQEVx2nMY","install":"\u536B\u6D74","maxOrder":6,"mobile":"13714004401","order":128,"peisong":"\u96C6\u6210\u540A\u9876\u3001\u536B\u6D74\u3001\u706F\u5177","priority":"160.0","realName":"\u5C0F\u660E"},{"id":"WHbZOdCd0lUqe7Fo","install":"\u96C6\u6210\u540A\u9876\u3001\u5730\u677F\u3001\u6C11\u7528\u5BB6\u5177\u3001\u706F\u5177\u3001\u95E8\u7A97\u3001\u6D82\u6599\u3001\u536B\u6D74","maxOrder":1001,"mobile":"13888887777","order":30,"peisong":"\u96C6\u6210\u540A\u9876\u3001\u5730\u677F\u3001\u6C11\u7528\u5BB6\u5177\u3001\u706F\u5177\u3001\u95E8\u7A97\u3001\u536B\u6D74","priority":"160.0","realName":"lzbaby"}],"first":true,"last":false,"number":0,"numberOfElements":5,"size":5,"totalElements":34,"totalPages":7}} ----
+[INFO ] 2018-04-14 15:14:44,809 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.queryUserJztTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:34:06,233 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:06,263 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:44,809 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:44,839 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <æ·»åŠ è·Ÿè¸ªä¿¡æ¯> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:34:06,263 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:44,839 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:06,265 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:44,839 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <saveTaskTrace> ----
-[INFO ] 2018-04-10 17:34:06,265 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"trackContent":"è·Ÿè¸ªæµ‹è¯•","TrackType":"task","nextTrack":true,"abnormalCauseId":"V6S8jz0g2NZOqcu0","id":"WIYHd7Wd0lUBQhjR","nextTrackDate":"2018-03-12T04:52:35.436Z"}],"name":"taskTraceController.saveTaskTrace","token":"null"} ----
-[INFO ] 2018-04-10 17:34:06,367 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
+[INFO ] 2018-04-14 15:14:44,840 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"trackContent":"è·Ÿè¸ªæµ‹è¯•","TrackType":"task","nextTrack":true,"abnormalCauseId":"V6S8jz0g2NZOqcu0","id":"WIY4q42d0lUBQh4L","nextTrackDate":"2018-03-12T04:52:35.436Z"}],"name":"taskTraceController.saveTaskTrace","token":"null"} ----
+[INFO ] 2018-04-14 15:14:45,044 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
 ---- è¯·æ±‚å®é™…è¿”å›ç»“æœä¸ºç©º  : {} ----
-[INFO ] 2018-04-10 17:34:06,368 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:45,046 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.saveTaskTraceTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:34:06,435 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:06,478 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:45,048 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:45,094 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <åˆ†é…å¸ˆå‚…> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:34:06,478 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:45,095 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:06,478 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:45,095 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <batDisWorker> ----
-[INFO ] 2018-04-10 17:34:06,478 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"disWorkerReqs":[{"installFee":0,"mediateFee":0,"workerId":"V15m-udoWkkwUQje","branchFee":0,"taskId":"WIY4q42d0lUBQh4L","dis":true}]}],"name":"taskInstallController.batDisWorker","token":"null"} ----
-[INFO ] 2018-04-10 17:34:06,578 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
+[INFO ] 2018-04-14 15:14:45,095 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"disWorkerReqs":[{"installFee":0.00,"mediateFee":0,"workerId":"V15m-udoWkkwUQje","branchFee":99.00,"taskId":"WIY4q42d0lUBQh4L","dis":true}]}],"name":"taskInstallController.batDisWorker","token":"null"} ----
+[INFO ] 2018-04-14 15:14:45,150 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
 ---- è¯·æ±‚å®é™…è¿”å›ç»“æœä¸ºç©º  : {} ----
-[INFO ] 2018-04-10 17:34:06,579 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:45,151 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.batDisWorkerTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:34:06,648 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:06,680 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:45,151 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:45,180 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <é¢„çº¦> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:34:06,680 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:45,180 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:06,681 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:45,180 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <appointment> ----
-[INFO ] 2018-04-10 17:34:06,681 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"appointmentTime":"2018-04-10T17:34:06.680Z","timeInterval":"Afternoon","taskId":"WIY4q42d0lUBQh4L"}],"name":"taskInstallController.appointment","token":"null"} ----
-[INFO ] 2018-04-10 17:34:06,755 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
+[INFO ] 2018-04-14 15:14:45,180 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"appointmentTime":"2018-04-14T15:14:45.179Z","timeInterval":"Afternoon","taskId":"WIY4q42d0lUBQh4L"}],"name":"taskInstallController.appointment","token":"null"} ----
+[INFO ] 2018-04-14 15:14:45,237 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
 ---- è¯·æ±‚å®é™…è¿”å›ç»“æœä¸ºç©º  : {} ----
-[INFO ] 2018-04-10 17:34:06,756 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:45,240 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.appointmentTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:34:06,818 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:06,848 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:45,241 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:45,287 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <æè´§> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:34:06,848 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:45,287 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:06,848 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:45,288 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <pickUp> ----
-[INFO ] 2018-04-10 17:34:06,848 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{}],"name":"taskInstallController.pickUp","token":"null"} ----
-[INFO ] 2018-04-10 17:34:06,891 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
+[INFO ] 2018-04-14 15:14:45,288 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"taskId":"WIY4q42d0lUBQh4L"}],"name":"taskInstallController.pickUp","token":"null"} ----
+[INFO ] 2018-04-14 15:14:45,331 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
 ---- è¯·æ±‚å®é™…è¿”å›ç»“æœä¸ºç©º  : {} ----
-[INFO ] 2018-04-10 17:34:06,892 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:45,332 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.pickUpTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:34:06,893 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:45,333 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <ä¸Šä¼ ä¸€å¼ ç­¾æ”¶å›¾ç‰‡> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:34:06,893 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:45,333 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:06,893 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:45,333 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <uploadToSign> ----
-[INFO ] 2018-04-10 17:34:06,893 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+[INFO ] 2018-04-14 15:14:45,333 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
 ---- è¯·æ±‚å®é™…å…¥å‚ : sign.jpg ----
-[INFO ] 2018-04-10 17:34:07,620 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : [{"etag":"9c5625f94c6611daf27938e5d084667c","id":"WKu58tyd0lUoH9s1","name":"sign.jpg","path":"WKu58tyd0lUoH9s1.jpg","url":"http://yztfile.gz.bcebos.com/WKu58tyd0lUoH9s1.jpg"}] ----
-[INFO ] 2018-04-10 17:34:07,621 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:45,484 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
+---- è¯·æ±‚å®é™…è¿”å›ç»“æœ : [{"etag":"9c5625f94c6611daf27938e5d084667c","id":"WLDAaROd0lVxY-L5","name":"sign.jpg","path":"WLDAaROd0lVxY-L5.jpg","url":"http://yztfile.gz.bcebos.com/WLDAaROd0lVxY-L5.jpg"}] ----
+[INFO ] 2018-04-14 15:14:45,485 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.uploadToSignTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:34:07,686 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:07,714 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+[INFO ] 2018-04-14 15:14:45,485 method:utils.DataProviders.<init>(DataProviders.java:102)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-14 15:14:45,511 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
 ---- æµ‹è¯•ç”¨ä¾‹ : <ç­¾æ”¶å†…å®¹æäº¤> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:34:07,714 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+[INFO ] 2018-04-14 15:14:45,512 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:07,714 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+[INFO ] 2018-04-14 15:14:45,512 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
 ---- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <sign> ----
-[INFO ] 2018-04-10 17:34:07,715 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"taskSignPlatFormType":"ips","signStatus":"normal","files":["WKu58tyd0lUoH9s1"],"describe":"describe","signer":"signer"}],"name":"taskInstallController.sign","token":"null"} ----
-[INFO ] 2018-04-10 17:34:07,790 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"code":100,"cause":"com.yzt.microservice.framework.mvc.api.ApiException: ä»»åŠ¡Idä¸ºç©ºï¼\n\tat com.yzt.microservice.framework.mvc.api.APIs.error(APIs.java:22)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService.sign(TaskInstallService.java:2885)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService$$FastClassBySpringCGLIB$$6e446214.invoke(<generated>)\n\tat org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)\n\tat org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)\n\tat org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)\n\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)\n\tat org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService$$EnhancerBySpringCGLIB$$4e8b202f.sign(<generated>)\n\tat com.yzt.microservice.core.ips.controller.TaskInstallController.sign(TaskInstallController.java:161)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.yzt.microservice.framework.mvc.api.ApiExporter.handle(ApiExporter.java:164)\n\tat com.yzt.microservice.framework.mvc.api.ApiExporter.handleRequest(ApiExporter.java:122)\n\tat org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:51)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:648)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:729)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)\n\tat org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)\n\tat org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)\n\tat org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)\n\tat org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)\n\tat org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)\n\tat org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)\n\tat org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:107)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.lang.Thread.run(Thread.java:745)\n","error":"ä»»åŠ¡Idä¸ºç©ºï¼","type":"com.yzt.microservice.framework.mvc.api.ApiException"} ----
-[INFO ] 2018-04-10 17:34:07,792 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+[INFO ] 2018-04-14 15:14:45,512 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"taskSignPlatFormType":"ips","signStatus":"normal","files":["WLDAaROd0lVxY-L5"],"describe":"describe","taskId":"WIY4q42d0lUBQh4L","signer":"signer"}],"name":"taskInstallController.sign","token":"null"} ----
+[INFO ] 2018-04-14 15:14:45,567 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
+---- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"code":100,"cause":"com.yzt.microservice.framework.mvc.api.ApiException: æ­¤ä»»åŠ¡çŠ¶æ€ä¸å¯ä»¥æ“ä½œç­¾æ”¶\n\tat com.yzt.microservice.framework.mvc.api.APIs.error(APIs.java:22)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService.sign(TaskInstallService.java:2943)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService$$FastClassBySpringCGLIB$$6e446214.invoke(<generated>)\n\tat org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)\n\tat org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)\n\tat org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)\n\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)\n\tat org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService$$EnhancerBySpringCGLIB$$a2ac6372.sign(<generated>)\n\tat com.yzt.microservice.core.ips.controller.TaskInstallController.sign(TaskInstallController.java:161)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.yzt.microservice.framework.mvc.api.ApiExporter.handle(ApiExporter.java:164)\n\tat com.yzt.microservice.framework.mvc.api.ApiExporter.handleRequest(ApiExporter.java:122)\n\tat org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:51)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:648)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:729)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)\n\tat org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)\n\tat org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)\n\tat org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)\n\tat org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)\n\tat org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)\n\tat org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)\n\tat org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:107)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.lang.Thread.run(Thread.java:745)\n","error":"æ­¤ä»»åŠ¡çŠ¶æ€ä¸å¯ä»¥æ“ä½œç­¾æ”¶","type":"com.yzt.microservice.framework.mvc.api.ApiException"} ----
+[INFO ] 2018-04-14 15:14:45,569 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
 ====class org.testng.internal.TestResult.signTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:34:07,820 method:com.test.framework.LogListener.onFinish(LogListener.java:40)
+[INFO ] 2018-04-14 15:14:45,609 method:com.test.framework.LogListener.onFinish(LogListener.java:40)
 **** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** start ****
-[INFO ] 2018-04-10 17:34:07,821 method:com.test.framework.LogListener$1.execute(LogListener.java:73)
-***å®¹å™¨ Map<String, Object> sc åŒ…å«5ä¸ªé”®å€¼å¯¹ï¼Œå…·ä½“å‚æ•°å¦‚ä¸‹æ‰€ç¤º ***
-[INFO ] 2018-04-10 17:34:07,821 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-** installFee : 0 **
-[INFO ] 2018-04-10 17:34:07,821 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+[INFO ] 2018-04-14 15:14:45,610 method:com.test.framework.LogListener$1.execute(LogListener.java:73)
+***å®¹å™¨ Map<String, Object> sc åŒ…å«7ä¸ªé”®å€¼å¯¹ï¼Œå…·ä½“å‚æ•°å¦‚ä¸‹æ‰€ç¤º ***
+[INFO ] 2018-04-14 15:14:45,610 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+** installFee : 0.00 **
+[INFO ] 2018-04-14 15:14:45,610 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
 ** mediateFee : 0 **
-[INFO ] 2018-04-10 17:34:07,822 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-** jwt : Bearer eyJraWQiOiIwMzk2N2ZhZS1jODE5LTQ1MGUtOGY1Mi1mNzgxYjQzYmE3MmYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyNDU2MjQzOCwianRpIjoiRWVKaTc4MVNkUGdGR2k5NkhQaFgxUSIsImlhdCI6MTUyMzM1MjgzOCwibmJmIjoxNTIzMzUyNzE4LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5rWL6K-VLeaItOmbhOWdpFwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTI0NTYyNDM4NTAwLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.S_M7-4g-vIwQk9W6uAp4w5uVvKxL7OErc0u8DpFNCWOCvZIzWu2F4XdMnUanB5P6yv7MaqTkszk5RfLJbEI4sIHGCfusi-d0e3tZs9yF4nB5zSo6m1crPUMNRZS_bdwzUPIJdNEGDVJymStD1pZgAkvAUpvuRKcwNi8v1T0rpCSS99hecdor4EcPts2Ykr7_3PVf4pNaZeayryJt8EBvWZZa9-jOw7gI1eCJlOOZHq5Gbk_QMMeSP2nnKlPRvE9CRn91Y_9PLWz_Vv3yw6H7jcXS5P_gCGRJfM-lzY7cXXoTA65serbAkldBfYiIjqDjCtEg8gZNPIOUjyfMbHp4vg **
-[INFO ] 2018-04-10 17:34:07,822 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+[INFO ] 2018-04-14 15:14:45,610 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+** jwt : Bearer eyJraWQiOiIwMzk2N2ZhZS1jODE5LTQ1MGUtOGY1Mi1mNzgxYjQzYmE3MmYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyNDg5OTY3MCwianRpIjoiQUNJT2NQcXU5azM1NTE2WXNKYmFBQSIsImlhdCI6MTUyMzY5MDA3MCwibmJmIjoxNTIzNjg5OTUwLCJzdWIiOiIxODAwMDAwMDAwMCIsImF0dHJpYnV0ZXMiOiJ7XCJiaXJ0aGRheVwiOjYzMTAzNjgwMDAwMCxcImNvZGVcIjpcInl6dHB0XCIsXCJuaWNrTmFtZVwiOlwi5rWL6K-V57uEXCIsXCJtb2JpbGVcIjpcIjE4MDAwMDAwMDAwXCIsXCJyZWFsTmFtZVwiOlwi5rWL6K-V57uEXCIsXCJlbWFpbFZlcmlmeVwiOnRydWUsXCIkZXhwaXJhdGlvbi10aW1lXCI6MTUyNDg5OTY3MDgzMixcImVtYWlsXCI6XCI1MTQ1OTAzOTlAcXEuY29tXCIsXCJzdGF0dXNcIjpcImFjdGl2YXRlZFwifSJ9.XOHyCjlDu1LGHgaGBgtQOAbL2yzZkUzo62yUGip63sdB2t6Nh1a0TW4rWBMbjaaHKDvtRiWDfbB2zbsZI_uAlsZh3TJ2x9N0SApM1gwIhJXJhkVUMQ0xUdrJIYPdLVbH_0dyy6KuL02yRZxZ_JuQObSKtLARanEx-nPour3NEEt20EyQlxHNLsfSoMBcLAjcLLTB971g2PmqY2xJhPKuRuZYkfGIsoXKWGLk-WYzOXJXrMRHcsZUGdoet1bbT0uekqxm76FoQYuqCqbuCsciw6SkoF2wt1_1IqypjElNLP4PxiDCpQjjV05t-tqvRmOGVmzLLWoFrAyRtvXhrngScw **
+[INFO ] 2018-04-14 15:14:45,610 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
 ** waybillId : 1zt003000003 **
-[INFO ] 2018-04-10 17:34:07,822 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-** branchFee : 0 **
-[INFO ] 2018-04-10 17:34:07,822 method:com.test.framework.LogListener$1.execute(LogListener.java:55)
+[INFO ] 2018-04-14 15:14:45,611 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+** branchFee : 99.00 **
+[INFO ] 2018-04-14 15:14:45,611 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+** id : WIY4q42d0lUBQh4L **
+[INFO ] 2018-04-14 15:14:45,611 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+** taskId : WIY4q42d0lUBQh4L **
+[INFO ] 2018-04-14 15:14:45,611 method:com.test.framework.LogListener$1.execute(LogListener.java:55)
 *** å®ä½“å®¹å™¨ List<Object> objects å…·ä½“å‚æ•°å¦‚ä¸‹æ‰€ç¤º  ***
-[INFO ] 2018-04-10 17:34:07,822 method:com.test.framework.LogListener$1.execute(LogListener.java:55)
+[INFO ] 2018-04-14 15:14:45,611 method:com.test.framework.LogListener$1.execute(LogListener.java:55)
 *** å®ä½“å®¹å™¨ List<Object> objects å…·ä½“å‚æ•°å¦‚ä¸‹æ‰€ç¤º  ***
-[INFO ] 2018-04-10 17:34:07,822 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
+[INFO ] 2018-04-14 15:14:45,611 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
 ** ç¬¬0ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.CauseMeta **
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,611 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :label = å•†å®¶åŸå›  *
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,611 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :id = V6TDqbMg2NZOqcv8 *
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
+[INFO ] 2018-04-14 15:14:45,611 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
 ** ç¬¬1ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.CauseMeta **
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,611 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :label = æ”¶è´§äººåŸå›  *
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,611 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :id = V6TC8l8g2NZOqcvz *
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
 ** ç¬¬2ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.CauseMeta **
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :label = ä¸“çº¿åŸå›  *
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :id = V6S_TG0g2NZOqcu7 *
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
 ** ç¬¬3ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.CauseMeta **
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :label = ç»ˆç«¯åŸå›  *
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :id = V6S87zsg2NZO_WaC *
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
 ** ç¬¬4ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.CauseMeta **
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :label = å…¶ä»–åŸå›  *
-[INFO ] 2018-04-10 17:34:07,823 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :id = V6S8jz0g2NZOqcu0 *
-[INFO ] 2018-04-10 17:34:07,824 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
 ** ç¬¬5ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.SignImage **
-[INFO ] 2018-04-10 17:34:07,824 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.SignImage åŒ…å«å±æ€§ :etag = 9c5625f94c6611daf27938e5d084667c *
-[INFO ] 2018-04-10 17:34:07,824 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.SignImage åŒ…å«å±æ€§ :id = WKu58tyd0lUoH9s1 *
-[INFO ] 2018-04-10 17:34:07,824 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+* com.yzt.entity.SignImage åŒ…å«å±æ€§ :id = WLDAaROd0lVxY-L5 *
+[INFO ] 2018-04-14 15:14:45,612 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
 * com.yzt.entity.SignImage åŒ…å«å±æ€§ :name = sign.jpg *
-[INFO ] 2018-04-10 17:34:07,824 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.SignImage åŒ…å«å±æ€§ :path = WKu58tyd0lUoH9s1.jpg *
-[INFO ] 2018-04-10 17:34:07,824 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.SignImage åŒ…å«å±æ€§ :url = http://yztfile.gz.bcebos.com/WKu58tyd0lUoH9s1.jpg *
-[INFO ] 2018-04-10 17:34:07,824 method:com.test.framework.LogListener.onFinish(LogListener.java:42)
-**** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** end ****
-[INFO ] 2018-04-10 17:34:20,422 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:20,899 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <µÇÂ¼> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:20,900 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:20,900 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <login> ----
-[INFO ] 2018-04-10 17:34:20,900 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "123456"
-} ----
-[INFO ] 2018-04-10 17:34:21,133 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:45)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : true ----
-[INFO ] 2018-04-10 17:34:21,208 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:21,250 method:com.yzt.testcase.IPSTest.findTaskInstallTest(IPSTest.java:52)
-²ÎÊı»¯Ç°Èë²Î£ºinputJson = {
-  "name": "taskInstallController.findTaskInstall",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-      "rows": 10
-    },
-    {
-      "taskStatus": "All",
-      "dateType": "All",
-      "trunkSts": "All",
-      "beginDate": null,
-      "endDate": null,
-      "isNormalSign": "All",
-      "waybillId": "1zt003000001"
-    }
-  ]
-}
-[INFO ] 2018-04-10 17:34:21,260 method:com.yzt.testcase.IPSTest.findTaskInstallTest(IPSTest.java:54)
-²ÎÊı»¯ºóÈë²Î±ä¸ü£ºinputJson = {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"}
-[INFO ] 2018-04-10 17:34:21,261 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <²éÑ¯µ÷¶ÈÈÎÎñ¼ÇÂ¼> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:21,261 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:21,261 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <findTaskInstall> ----
-[INFO ] 2018-04-10 17:34:21,261 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"} ----
-[INFO ] 2018-04-10 17:34:21,310 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"result":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0}} ----
-[INFO ] 2018-04-10 17:34:21,396 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:21,434 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <µ÷¶ÈÈÎÎñÍ³¼Æ> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:21,435 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:21,435 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <taskCount> ----
-[INFO ] 2018-04-10 17:34:21,436 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {"name": "taskInstallController.getNodeTypeCount","token": null,"args": []} ----
-[INFO ] 2018-04-10 17:34:29,289 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"result":{"all":221426,"doSign":214979,"invalid":6580,"waitAppointment":2185,"waitArrive":3622,"waitDistribution":21,"waitSign":619}} ----
-[INFO ] 2018-04-10 17:34:29,411 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:29,450 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <²éÕÒÔö¼Ó¸ú×ÙĞÅÏ¢> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:29,451 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:29,451 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <findMeta> ----
-[INFO ] 2018-04-10 17:34:29,451 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {
-  "name": "commonController.findMeta",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-      "rows": 9999
-    },
-    {
-      "type": "AbnormalCause"
-    }
-  ]
-} ----
-[INFO ] 2018-04-10 17:34:29,503 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"result":{"content":[{"id":"V6TDqbMg2NZOqcv8","label":"\u5546\u5BB6\u539F\u56E0","name":"Cause01","order":1,"type":"AbnormalCause"},{"id":"V6TC8l8g2NZOqcvz","label":"\u6536\u8D27\u4EBA\u539F\u56E0","name":"Cause02","order":2,"type":"AbnormalCause"},{"id":"V6S_TG0g2NZOqcu7","label":"\u4E13\u7EBF\u539F\u56E0","name":"Cause03","order":3,"type":"AbnormalCause"},{"id":"V6S87zsg2NZO_WaC","label":"\u7EC8\u7AEF\u539F\u56E0","name":"Cause04","order":4,"type":"AbnormalCause"},{"id":"V6S8jz0g2NZOqcu0","label":"\u5176\u4ED6\u539F\u56E0","name":"Cause05","order":5,"type":"AbnormalCause"}],"first":true,"last":true,"number":0,"numberOfElements":5,"size":9999,"totalElements":5,"totalPages":1}} ----
-[INFO ] 2018-04-10 17:34:29,571 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:29,601 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <²éÑ¯µ÷¶ÈÈÎÎñ> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:29,601 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:29,601 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <findTaskFee> ----
-[INFO ] 2018-04-10 17:34:29,601 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {"args":[{"waybillId":"1zt003000003"}],"name":"taskInstallController.findTaskFee","token":"null"} ----
-[INFO ] 2018-04-10 17:34:29,643 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"result":{"branchFee":0,"installFee":0,"mediateFee":0}} ----
-[INFO ] 2018-04-10 17:34:29,710 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:29,741 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <¸ÉÏß½áÊø> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:29,741 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:29,741 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <trunkEnd> ----
-[INFO ] 2018-04-10 17:34:29,742 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {"args":[{"pickUpCode":"1qaz","pickUpTel":"18222222222","addrCode":"110101001000","logisticsBill":"1qaz2wsx3edc","pickUpAddress":"128ºÅ","taskIds":["WIYu1Bqd0lUBQh3H"],"abnoSource":"ips"}],"name":"taskInstallController.trunkEnd","token":"null"} ----
-[INFO ] 2018-04-10 17:34:29,802 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹ûÎª¿Õ  : {} ----
-[INFO ] 2018-04-10 17:34:29,870 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:29,899 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <²éÑ¯´ı·ÖÅäÊ¦¸µ> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:29,899 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:29,899 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <queryUserJzt> ----
-[INFO ] 2018-04-10 17:34:29,899 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {"args":[{"rows":5,"first":0},{"areaCode":"110101000000"}],"name":"taskInstallController.queryUserJzt","token":"null"} ----
-[INFO ] 2018-04-10 17:34:30,705 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"result":{"content":[{"id":"WIXxB8uMqFVp3jlh","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"13833075252","order":5,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"120.0","realName":"\u82CF\u5EFA\u4E1C"},{"id":"VyDM-f9lGztrqFyp","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"17600619336","order":0,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"180.0","realName":"\u8D75\u91D1\u59D4"},{"id":"V69MDjFcQEV4NMp9","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":5,"mobile":"17611177395","order":12,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"120.0","realName":"\u4E01\u5BA3\u5EB7"},{"carWeight":200.00,"id":"WIQEqoCMqFVAunRO","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"15724701297","order":0,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"230.0","realName":"\u803F\u4E9A\u96C4"},{"carAamount":2,"carWeight":100.00,"id":"WIEfMTMbyNoAJbP8","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"13331135872","order":7,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"160.0","realName":"\u7EAA\u9E4F\u8F89"}],"first":true,"last":false,"number":0,"numberOfElements":5,"size":5,"totalElements":34,"totalPages":7}} ----
-[INFO ] 2018-04-10 17:34:30,773 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:30,803 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <Ìí¼Ó¸ú×ÙĞÅÏ¢> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:30,803 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:30,803 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <saveTaskTrace> ----
-[INFO ] 2018-04-10 17:34:30,803 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {"args":[{"trackContent":"¸ú×Ù²âÊÔ","TrackType":"task","nextTrack":true,"abnormalCauseId":"V6S8jz0g2NZOqcu0","id":"WIYHd7Wd0lUBQhjR","nextTrackDate":"2018-03-12T04:52:35.436Z"}],"name":"taskTraceController.saveTaskTrace","token":"null"} ----
-[INFO ] 2018-04-10 17:34:30,850 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹ûÎª¿Õ  : {} ----
-[INFO ] 2018-04-10 17:34:30,914 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:30,945 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <·ÖÅäÊ¦¸µ> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:30,945 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:30,945 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <batDisWorker> ----
-[INFO ] 2018-04-10 17:34:30,945 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {"args":[{"disWorkerReqs":[{"installFee":0,"mediateFee":0,"workerId":"V15m-udoWkkwUQje","branchFee":0,"taskId":"WIY4q42d0lUBQh4L","dis":true}]}],"name":"taskInstallController.batDisWorker","token":"null"} ----
-[INFO ] 2018-04-10 17:34:31,005 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹ûÎª¿Õ  : {} ----
-[INFO ] 2018-04-10 17:34:31,068 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:31,096 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <Ô¤Ô¼> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:31,096 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:31,096 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <appointment> ----
-[INFO ] 2018-04-10 17:34:31,096 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {"args":[{"appointmentTime":"2018-04-10T17:34:31.095Z","timeInterval":"Afternoon","taskId":"WIY4q42d0lUBQh4L"}],"name":"taskInstallController.appointment","token":"null"} ----
-[INFO ] 2018-04-10 17:34:31,156 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹ûÎª¿Õ  : {} ----
-[INFO ] 2018-04-10 17:34:31,224 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:31,250 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <Ìá»õ> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:31,250 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:31,250 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <pickUp> ----
-[INFO ] 2018-04-10 17:34:31,250 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {"args":[{}],"name":"taskInstallController.pickUp","token":"null"} ----
-[INFO ] 2018-04-10 17:34:31,303 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹ûÎª¿Õ  : {} ----
-[INFO ] 2018-04-10 17:34:31,304 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <ÉÏ´«Ò»ÕÅÇ©ÊÕÍ¼Æ¬> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:31,305 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:31,305 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <uploadToSign> ----
-[INFO ] 2018-04-10 17:34:31,305 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : sign.jpg ----
-[INFO ] 2018-04-10 17:34:31,475 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : [{"etag":"9c5625f94c6611daf27938e5d084667c","id":"WKu6CmCd0lUoH9s8","name":"sign.jpg","path":"WKu6CmCd0lUoH9s8.jpg","url":"http://yztfile.gz.bcebos.com/WKu6CmCd0lUoH9s8.jpg"}] ----
-[INFO ] 2018-04-10 17:34:31,549 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:34:31,575 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <Ç©ÊÕÄÚÈİÌá½»> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:31,575 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:34:31,575 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <sign> ----
-[INFO ] 2018-04-10 17:34:31,575 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : {"args":[{"taskSignPlatFormType":"ips","signStatus":"normal","files":["WKu6CmCd0lUoH9s8"],"describe":"describe","signer":"signer"}],"name":"taskInstallController.sign","token":"null"} ----
-[INFO ] 2018-04-10 17:34:31,631 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"code":100,"cause":"com.yzt.microservice.framework.mvc.api.ApiException: ÈÎÎñIdÎª¿Õ£¡\n\tat com.yzt.microservice.framework.mvc.api.APIs.error(APIs.java:22)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService.sign(TaskInstallService.java:2885)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService$$FastClassBySpringCGLIB$$6e446214.invoke(<generated>)\n\tat org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)\n\tat org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)\n\tat org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)\n\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)\n\tat org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService$$EnhancerBySpringCGLIB$$4e8b202f.sign(<generated>)\n\tat com.yzt.microservice.core.ips.controller.TaskInstallController.sign(TaskInstallController.java:161)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.yzt.microservice.framework.mvc.api.ApiExporter.handle(ApiExporter.java:164)\n\tat com.yzt.microservice.framework.mvc.api.ApiExporter.handleRequest(ApiExporter.java:122)\n\tat org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:51)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:648)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:729)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)\n\tat org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)\n\tat org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)\n\tat org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)\n\tat org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)\n\tat org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)\n\tat org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)\n\tat org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:107)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.lang.Thread.run(Thread.java:745)\n","error":"ÈÎÎñIdÎª¿Õ£¡","type":"com.yzt.microservice.framework.mvc.api.ApiException"} ----
-[INFO ] 2018-04-10 17:34:31,699 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\OrderTest.xlsx=======
-[INFO ] 2018-04-10 17:34:31,724 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <µÚÈı·½¶©µ¥-ÁĞ±í²éÑ¯> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:31,725 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
-[INFO ] 2018-04-10 17:34:31,725 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <queryOrderListPage> ----
-[INFO ] 2018-04-10 17:34:31,725 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : [
-  {
-    "page": 1,
-    "size": 10
-  },
-  {
-    "waybillId": "1ZT18032100000001",//ÔËµ¥ºÅ
-    "receivePhone": "",//ÊÕ»õÈËÊÖ»úºÅ 
-    "receiveName": "",//ÊÕ»õÈËÃû³Æ
-    "clientName": "",//·¢»õÈËÃû³Æ
-    "startBillingTime":"",//¿ªµ¥¿ªÊ¼Ê±¼ä
-    "endBillingTime":""//¿ªµ¥½áÊøÊ±¼ä
-  }
-] ----
-[INFO ] 2018-04-10 17:34:31,735 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"content":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0},"resultCode":"200"} ----
-[INFO ] 2018-04-10 17:34:31,812 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\OrderTest.xlsx=======
-[INFO ] 2018-04-10 17:34:31,854 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- ²âÊÔÓÃÀı : <µÚÈı·½¶©µ¥-ÁĞ±í²éÑ¯> ¿ªÊ¼Ö´ĞĞ ----
-[INFO ] 2018-04-10 17:34:31,855 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- ²âÊÔÓÃÀıÂß¼­Àà : <class com.yzt.service.OrderService$$EnhancerByCGLIB$$4a1dd9c> ----
-[INFO ] 2018-04-10 17:34:31,855 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- ²âÊÔÓÃÀıÂß¼­·½·¨ : <queryOrderListPage> ----
-[INFO ] 2018-04-10 17:34:31,855 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- ÇëÇóÊµ¼ÊÈë²Î : [
-  {
-    "page": 1,
-    "size": 10
-  },
-  {
-    "startDate":"2018-03-21 00:00:00",
-    "endDate":"2018-03-21 23:59:59",
-    "waybillId": "1ZT18032100000001",//ÔËµ¥ºÅ
-    "orderState": "",//¶©µ¥×´Ì¬
-    "consignorName": ""//·¢»õÈË
-  }
-] ----
-[INFO ] 2018-04-10 17:34:31,862 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- ÇëÇóÊµ¼Ê·µ»Ø½á¹û : {"content":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0},"resultCode":"200"} ----
-[INFO ] 2018-04-10 17:42:13,473 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:13,959 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <ç™»å½•> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:13,959 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:13,960 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <login> ----
-[INFO ] 2018-04-10 17:42:13,960 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "123456"
-} ----
-[INFO ] 2018-04-10 17:42:14,200 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:45)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : true ----
-[INFO ] 2018-04-10 17:42:14,208 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.loginTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:14,288 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:14,346 method:com.yzt.testcase.IPSTest.findTaskInstallTest(IPSTest.java:52)
-å‚æ•°åŒ–å‰å…¥å‚ï¼šinputJson = {
-  "name": "taskInstallController.findTaskInstall",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-      "rows": 10
-    },
-    {
-      "taskStatus": "All",
-      "dateType": "All",
-      "trunkSts": "All",
-      "beginDate": null,
-      "endDate": null,
-      "isNormalSign": "All",
-      "waybillId": "1zt003000001"
-    }
-  ]
-}
-[INFO ] 2018-04-10 17:42:14,357 method:com.yzt.testcase.IPSTest.findTaskInstallTest(IPSTest.java:54)
-å‚æ•°åŒ–åå…¥å‚å˜æ›´ï¼šinputJson = {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"}
-[INFO ] 2018-04-10 17:42:14,357 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <æŸ¥è¯¢è°ƒåº¦ä»»åŠ¡è®°å½•> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:14,357 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:14,357 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <findTaskInstall> ----
-[INFO ] 2018-04-10 17:42:14,357 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"rows":10,"first":0},{"dateType":"All","waybillId":"1zt003000003","trunkSts":"All","isNormalSign":"All","taskStatus":"All"}],"name":"taskInstallController.findTaskInstall","token":"null"} ----
-[INFO ] 2018-04-10 17:42:14,404 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"content":[],"first":true,"last":true,"number":0,"numberOfElements":0,"size":10,"totalElements":0,"totalPages":0}} ----
-[INFO ] 2018-04-10 17:42:14,405 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.findTaskInstallTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:14,489 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:14,559 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <è°ƒåº¦ä»»åŠ¡ç»Ÿè®¡> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:14,559 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:14,559 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <taskCount> ----
-[INFO ] 2018-04-10 17:42:14,559 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"name": "taskInstallController.getNodeTypeCount","token": null,"args": []} ----
-[INFO ] 2018-04-10 17:42:22,138 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"all":221427,"doSign":214980,"invalid":6580,"waitAppointment":2185,"waitArrive":3621,"waitDistribution":22,"waitSign":619}} ----
-[INFO ] 2018-04-10 17:42:22,139 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.taskCountTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:22,256 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:22,307 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <æŸ¥æ‰¾å¢åŠ è·Ÿè¸ªä¿¡æ¯> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:22,307 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:22,308 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <findMeta> ----
-[INFO ] 2018-04-10 17:42:22,308 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {
-  "name": "commonController.findMeta",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-      "rows": 9999
-    },
-    {
-      "type": "AbnormalCause"
-    }
-  ]
-} ----
-[INFO ] 2018-04-10 17:42:22,356 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"content":[{"id":"V6TDqbMg2NZOqcv8","label":"\u5546\u5BB6\u539F\u56E0","name":"Cause01","order":1,"type":"AbnormalCause"},{"id":"V6TC8l8g2NZOqcvz","label":"\u6536\u8D27\u4EBA\u539F\u56E0","name":"Cause02","order":2,"type":"AbnormalCause"},{"id":"V6S_TG0g2NZOqcu7","label":"\u4E13\u7EBF\u539F\u56E0","name":"Cause03","order":3,"type":"AbnormalCause"},{"id":"V6S87zsg2NZO_WaC","label":"\u7EC8\u7AEF\u539F\u56E0","name":"Cause04","order":4,"type":"AbnormalCause"},{"id":"V6S8jz0g2NZOqcu0","label":"\u5176\u4ED6\u539F\u56E0","name":"Cause05","order":5,"type":"AbnormalCause"}],"first":true,"last":true,"number":0,"numberOfElements":5,"size":9999,"totalElements":5,"totalPages":1}} ----
-[INFO ] 2018-04-10 17:42:22,357 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.findMetaTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:22,425 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:22,453 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <æŸ¥è¯¢è°ƒåº¦ä»»åŠ¡> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:22,454 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:22,454 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <findTaskFee> ----
-[INFO ] 2018-04-10 17:42:22,454 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"waybillId":"1zt003000003"}],"name":"taskInstallController.findTaskFee","token":"null"} ----
-[INFO ] 2018-04-10 17:42:22,497 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"branchFee":0,"installFee":0,"mediateFee":0}} ----
-[INFO ] 2018-04-10 17:42:22,497 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.findTaskFeeTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:22,567 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:22,597 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <å¹²çº¿ç»“æŸ> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:22,597 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:22,597 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <trunkEnd> ----
-[INFO ] 2018-04-10 17:42:22,597 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"pickUpCode":"1qaz","pickUpTel":"18222222222","addrCode":"110101001000","logisticsBill":"1qaz2wsx3edc","pickUpAddress":"128å·","taskIds":["WIYu1Bqd0lUBQh3H"],"abnoSource":"ips"}],"name":"taskInstallController.trunkEnd","token":"null"} ----
-[INFO ] 2018-04-10 17:42:22,657 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœä¸ºç©º  : {} ----
-[INFO ] 2018-04-10 17:42:22,658 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.trunkEndTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:22,727 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:22,757 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <æŸ¥è¯¢å¾…åˆ†é…å¸ˆå‚…> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:22,757 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:22,757 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <queryUserJzt> ----
-[INFO ] 2018-04-10 17:42:22,758 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"rows":5,"first":0},{"areaCode":"110101000000"}],"name":"taskInstallController.queryUserJzt","token":"null"} ----
-[INFO ] 2018-04-10 17:42:23,553 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"result":{"content":[{"id":"WIXxB8uMqFVp3jlh","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"13833075252","order":5,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"120.0","realName":"\u82CF\u5EFA\u4E1C"},{"id":"VyDM-f9lGztrqFyp","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"17600619336","order":0,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"180.0","realName":"\u8D75\u91D1\u59D4"},{"id":"V69MDjFcQEV4NMp9","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":5,"mobile":"17611177395","order":12,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"120.0","realName":"\u4E01\u5BA3\u5EB7"},{"carWeight":200.00,"id":"WIQEqoCMqFVAunRO","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"15724701297","order":0,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"230.0","realName":"\u803F\u4E9A\u96C4"},{"carAamount":2,"carWeight":100.00,"id":"WIEfMTMbyNoAJbP8","install":"\u6C11\u7528\u5BB6\u5177","maxOrder":10,"mobile":"13331135872","order":7,"peisong":"\u6C11\u7528\u5BB6\u5177","priority":"160.0","realName":"\u7EAA\u9E4F\u8F89"}],"first":true,"last":false,"number":0,"numberOfElements":5,"size":5,"totalElements":34,"totalPages":7}} ----
-[INFO ] 2018-04-10 17:42:23,554 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.queryUserJztTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:23,625 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:23,655 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <æ·»åŠ è·Ÿè¸ªä¿¡æ¯> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:23,655 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:23,655 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <saveTaskTrace> ----
-[INFO ] 2018-04-10 17:42:23,656 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"trackContent":"è·Ÿè¸ªæµ‹è¯•","TrackType":"task","nextTrack":true,"abnormalCauseId":"V6S8jz0g2NZOqcu0","id":"WIYHd7Wd0lUBQhjR","nextTrackDate":"2018-03-12T04:52:35.436Z"}],"name":"taskTraceController.saveTaskTrace","token":"null"} ----
-[INFO ] 2018-04-10 17:42:23,709 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœä¸ºç©º  : {} ----
-[INFO ] 2018-04-10 17:42:23,711 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.saveTaskTraceTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:23,779 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:23,813 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <åˆ†é…å¸ˆå‚…> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:23,814 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:23,814 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <batDisWorker> ----
-[INFO ] 2018-04-10 17:42:23,814 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"disWorkerReqs":[{"installFee":0,"mediateFee":0,"workerId":"V15m-udoWkkwUQje","branchFee":0,"taskId":"WIY4q42d0lUBQh4L","dis":true}]}],"name":"taskInstallController.batDisWorker","token":"null"} ----
-[INFO ] 2018-04-10 17:42:23,874 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœä¸ºç©º  : {} ----
-[INFO ] 2018-04-10 17:42:23,875 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.batDisWorkerTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:23,947 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:23,976 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <é¢„çº¦> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:23,976 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:23,976 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <appointment> ----
-[INFO ] 2018-04-10 17:42:23,976 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"appointmentTime":"2018-04-10T17:42:23.976Z","timeInterval":"Afternoon","taskId":"WIY4q42d0lUBQh4L"}],"name":"taskInstallController.appointment","token":"null"} ----
-[INFO ] 2018-04-10 17:42:24,035 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœä¸ºç©º  : {} ----
-[INFO ] 2018-04-10 17:42:24,038 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.appointmentTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:24,111 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:24,161 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <æè´§> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:24,161 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:24,161 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <pickUp> ----
-[INFO ] 2018-04-10 17:42:24,161 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{}],"name":"taskInstallController.pickUp","token":"null"} ----
-[INFO ] 2018-04-10 17:42:24,206 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:48)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœä¸ºç©º  : {} ----
-[INFO ] 2018-04-10 17:42:24,206 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.pickUpTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:24,208 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <ä¸Šä¼ ä¸€å¼ ç­¾æ”¶å›¾ç‰‡> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:24,208 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:24,208 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <uploadToSign> ----
-[INFO ] 2018-04-10 17:42:24,208 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : sign.jpg ----
-[INFO ] 2018-04-10 17:42:24,360 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : [{"etag":"9c5625f94c6611daf27938e5d084667c","id":"WKu72DOd0lUoH9t6","name":"sign.jpg","path":"WKu72DOd0lUoH9t6.jpg","url":"http://yztfile.gz.bcebos.com/WKu72DOd0lUoH9t6.jpg"}] ----
-[INFO ] 2018-04-10 17:42:24,361 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.uploadToSignTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:24,435 method:utils.DataProviders.<init>(DataProviders.java:105)
-======Excel file path : C:\workspace\tms\src\test\resource\remote.data\IPSTest.xlsx=======
-[INFO ] 2018-04-10 17:42:24,463 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
----- æµ‹è¯•ç”¨ä¾‹ : <ç­¾æ”¶å†…å®¹æäº¤> å¼€å§‹æ‰§è¡Œ ----
-[INFO ] 2018-04-10 17:42:24,463 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘ç±» : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
-[INFO ] 2018-04-10 17:42:24,465 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
----- æµ‹è¯•ç”¨ä¾‹é€»è¾‘æ–¹æ³• : <sign> ----
-[INFO ] 2018-04-10 17:42:24,465 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
----- è¯·æ±‚å®é™…å…¥å‚ : {"args":[{"taskSignPlatFormType":"ips","signStatus":"normal","files":["WKu72DOd0lUoH9t6"],"describe":"describe","signer":"signer"}],"name":"taskInstallController.sign","token":"null"} ----
-[INFO ] 2018-04-10 17:42:24,518 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:43)
----- è¯·æ±‚å®é™…è¿”å›ç»“æœ : {"code":100,"cause":"com.yzt.microservice.framework.mvc.api.ApiException: ä»»åŠ¡Idä¸ºç©ºï¼\n\tat com.yzt.microservice.framework.mvc.api.APIs.error(APIs.java:22)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService.sign(TaskInstallService.java:2885)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService$$FastClassBySpringCGLIB$$6e446214.invoke(<generated>)\n\tat org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)\n\tat org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)\n\tat org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)\n\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)\n\tat org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)\n\tat com.yzt.microservice.core.ips.service.TaskInstallService$$EnhancerBySpringCGLIB$$4e8b202f.sign(<generated>)\n\tat com.yzt.microservice.core.ips.controller.TaskInstallController.sign(TaskInstallController.java:161)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.yzt.microservice.framework.mvc.api.ApiExporter.handle(ApiExporter.java:164)\n\tat com.yzt.microservice.framework.mvc.api.ApiExporter.handleRequest(ApiExporter.java:122)\n\tat org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:51)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:648)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:729)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)\n\tat org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)\n\tat org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)\n\tat org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)\n\tat org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)\n\tat org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)\n\tat org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)\n\tat org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)\n\tat org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)\n\tat org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:107)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.lang.Thread.run(Thread.java:745)\n","error":"ä»»åŠ¡Idä¸ºç©ºï¼","type":"com.yzt.microservice.framework.mvc.api.ApiException"} ----
-[INFO ] 2018-04-10 17:42:24,519 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
-====class org.testng.internal.TestResult.signTest æ‰§è¡ŒæˆåŠŸ!====
-[INFO ] 2018-04-10 17:42:24,548 method:com.test.framework.LogListener.onFinish(LogListener.java:40)
-**** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** start ****
-[INFO ] 2018-04-10 17:42:24,548 method:com.test.framework.LogListener$1.execute(LogListener.java:73)
-***å®¹å™¨ Map<String, Object> sc åŒ…å«5ä¸ªé”®å€¼å¯¹ï¼Œå…·ä½“å‚æ•°å¦‚ä¸‹æ‰€ç¤º ***
-[INFO ] 2018-04-10 17:42:24,549 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-** installFee : 0 **
-[INFO ] 2018-04-10 17:42:24,549 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-** mediateFee : 0 **
-[INFO ] 2018-04-10 17:42:24,549 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-** jwt : Bearer eyJraWQiOiIwMzk2N2ZhZS1jODE5LTQ1MGUtOGY1Mi1mNzgxYjQzYmE3MmYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyNDU2MjkzNiwianRpIjoialc2SXdsOEhNbldGQVVDc0ZXdklUUSIsImlhdCI6MTUyMzM1MzMzNiwibmJmIjoxNTIzMzUzMjE2LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5rWL6K-VLeaItOmbhOWdpFwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTI0NTYyOTM2MDcxLFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.OOL1mGaFavpxvucgw12nDOKKrQA2kPHf6G_1TsheTuRlGaNySHn8ep-L5uEAT_29WSxZ9hdiHbA-mA5eEmYjfZQlmNsNz8YYJ25abM7DgVolw1xdtGoG5v5ji-c_DfDTLRTxsJ7DkA9ZxavUFxgxYRoX_k7iQRXGhiUudFP4hGdz9iZZXMd118uF0kxeFpP5JoJJYZ--rksA_JYpPXgBEsLHSSN7PVzyDaoJcNJiUOkX28CPUt2gFFCnZy_wkFTB_yD0MlikQnSwc9bx-7n5OFoD4unZE1sv8nXDxy859ahz-xYMJBiVRffYXpal2wQY5JNViGGt2Ng8iDOF5BH92A **
-[INFO ] 2018-04-10 17:42:24,549 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-** waybillId : 1zt003000003 **
-[INFO ] 2018-04-10 17:42:24,549 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
-** branchFee : 0 **
-[INFO ] 2018-04-10 17:42:24,549 method:com.test.framework.LogListener$1.execute(LogListener.java:55)
-*** å®ä½“å®¹å™¨ List<Object> objects å…·ä½“å‚æ•°å¦‚ä¸‹æ‰€ç¤º  ***
-[INFO ] 2018-04-10 17:42:24,549 method:com.test.framework.LogListener$1.execute(LogListener.java:55)
-*** å®ä½“å®¹å™¨ List<Object> objects å…·ä½“å‚æ•°å¦‚ä¸‹æ‰€ç¤º  ***
-[INFO ] 2018-04-10 17:42:24,549 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
-** ç¬¬0ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.CauseMeta **
-[INFO ] 2018-04-10 17:42:24,549 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :label = å•†å®¶åŸå›  *
-[INFO ] 2018-04-10 17:42:24,549 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :id = V6TDqbMg2NZOqcv8 *
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
-** ç¬¬1ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.CauseMeta **
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :label = æ”¶è´§äººåŸå›  *
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :id = V6TC8l8g2NZOqcvz *
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
-** ç¬¬2ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.CauseMeta **
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :label = ä¸“çº¿åŸå›  *
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :id = V6S_TG0g2NZOqcu7 *
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
-** ç¬¬3ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.CauseMeta **
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :label = ç»ˆç«¯åŸå›  *
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :id = V6S87zsg2NZO_WaC *
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
-** ç¬¬4ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.CauseMeta **
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :label = å…¶ä»–åŸå›  *
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.CauseMeta åŒ…å«å±æ€§ :id = V6S8jz0g2NZOqcu0 *
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:59)
-** ç¬¬5ä¸ªå®ä½“ç±»å‹æ˜¯  : com.yzt.entity.SignImage **
-[INFO ] 2018-04-10 17:42:24,550 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.SignImage åŒ…å«å±æ€§ :etag = 9c5625f94c6611daf27938e5d084667c *
-[INFO ] 2018-04-10 17:42:24,551 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.SignImage åŒ…å«å±æ€§ :id = WKu72DOd0lUoH9t6 *
-[INFO ] 2018-04-10 17:42:24,551 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.SignImage åŒ…å«å±æ€§ :name = sign.jpg *
-[INFO ] 2018-04-10 17:42:24,551 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.SignImage åŒ…å«å±æ€§ :path = WKu72DOd0lUoH9t6.jpg *
-[INFO ] 2018-04-10 17:42:24,551 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
-* com.yzt.entity.SignImage åŒ…å«å±æ€§ :url = http://yztfile.gz.bcebos.com/WKu72DOd0lUoH9t6.jpg *
-[INFO ] 2018-04-10 17:42:24,551 method:com.test.framework.LogListener.onFinish(LogListener.java:42)
+[INFO ] 2018-04-14 15:14:45,613 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+* com.yzt.entity.SignImage åŒ…å«å±æ€§ :path = WLDAaROd0lVxY-L5.jpg *
+[INFO ] 2018-04-14 15:14:45,613 method:com.test.framework.LogListener$1.execute(LogListener.java:65)
+* com.yzt.entity.SignImage åŒ…å«å±æ€§ :url = http://yztfile.gz.bcebos.com/WLDAaROd0lVxY-L5.jpg *
+[INFO ] 2018-04-14 15:14:45,614 method:com.test.framework.LogListener.onFinish(LogListener.java:42)
 **** contextå®¹å™¨æ•°æ®ä¿¡æ¯æ”¶é›†æ±‡æ€»    **** end ****

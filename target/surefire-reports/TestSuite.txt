@@ -1,4 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.663 sec
+Tests run: 15, Failures: 3, Errors: 0, Skipped: 12, Time elapsed: 4.218 sec <<< FAILURE!
+loginTest(com.yzt.testcase.IPSTest)  Time elapsed: 0.329 sec  <<< FAILURE!
+exception.customsException: 登录失败，请确认登录账户有效性！
+	at com.yzt.service.IPSService.login(IPSService.java:60)
+	at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2.CGLIB$login$11(<generated>)
+	at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2$$FastClassByCGLIB$$f6190cce.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:40)
+	at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2.login(<generated>)
+	at com.yzt.testcase.IPSTest.loginTest(IPSTest.java:37)
+
+orderBindWaybillListPageTest(com.yzt.testcase.order.OrderTest)  Time elapsed: 1.03 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at utils.AssertUtil.AssertResponeResultCode(AssertUtil.java:26)
+	at com.yzt.testcase.order.OrderTest.orderBindWaybillListPageTest(OrderTest.java:52)
+
+queryOrderListPageTest(com.yzt.testcase.order.OrderTest)  Time elapsed: 1.031 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at utils.AssertUtil.AssertResponeResultCode(AssertUtil.java:26)
+	at com.yzt.testcase.order.OrderTest.queryOrderListPageTest(OrderTest.java:38)
+

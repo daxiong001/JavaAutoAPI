@@ -20,6 +20,12 @@
           <include name="queryUserJztTest"/>
         </methods>
       </class> <!-- com.yzt.testcase.IPSTest -->
+      <class name="com.yzt.testcase.order.OrderTest">
+        <methods>
+          <include name="orderBindWaybillListPageTest" invocation-numbers="0"/>
+          <include name="queryOrderListPageTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.yzt.testcase.order.OrderTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

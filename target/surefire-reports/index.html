@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
-              <span class="suite-name border-passed">Command line suite</span>
+              <span class="suite-name border-failed">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,94 +91,17 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods,   15 passed</span>
+                    <span class="method-stats">15 methods, 3 failed,  12 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
-                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Command_line_suite">
+                    <div class="method-list-content failed suite-Command_line_suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="appointmentTest({
-  &quot;name&quot;: &quot;taskInstallController.appointment&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;taskId&quot;...)">appointmentTest({
-  "name": "taskInstallController.appointment",
-  "token": "null",
-  "args": [
-    {
-      "taskId"...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="batDisWorkerTest({
-  &quot;name&quot;: &quot;taskInstallController.batDisWorker&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;disWor...)">batDisWorkerTest({
-  "name": "taskInstallController.batDisWorker",
-  "token": "null",
-  "args": [
-    {
-      "disWor...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="findMetaTest({
-  &quot;name&quot;: &quot;commonController.findMeta&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;first&quot;: 0,
-    ...)">findMetaTest({
-  "name": "commonController.findMeta",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-    ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="findTaskFeeTest({
-  &quot;name&quot;: &quot;taskInstallController.findTaskFee&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;waybill...)">findTaskFeeTest({
-  "name": "taskInstallController.findTaskFee",
-  "token": "null",
-  "args": [
-    {
-      "waybill...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="findTaskInstallTest({
-  &quot;name&quot;: &quot;taskInstallController.findTaskInstall&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;fir...)">findTaskInstallTest({
-  "name": "taskInstallController.findTaskInstall",
-  "token": "null",
-  "args": [
-    {
-      "fir...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="loginTest({
   &quot;source&quot;: &quot;core&quot;,
   &quot;mobile&quot;: &quot;17576075478&quot;,
@@ -191,7 +114,7 @@
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.order.OrderTest" hash-for-method="orderBindWaybillListPageTest([
   {
     &quot;page&quot;: 1,
@@ -210,24 +133,7 @@
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="pickUpTest({
-  &quot;name&quot;: &quot;taskInstallController.pickUp&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;taskId&quot;: &quot;&quot;
-...)">pickUpTest({
-  "name": "taskInstallController.pickUp",
-  "token": "null",
-  "args": [
-    {
-      "taskId": ""
-...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.order.OrderTest" hash-for-method="queryOrderListPageTest([
   {
     &quot;page&quot;: 1,
@@ -245,79 +151,76 @@
     "endDate":"2...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Command_line_suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="queryUserJztTest({
-  &quot;name&quot;: &quot;taskInstallController.queryUserJzt&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;first&quot;...)">queryUserJztTest({
-  "name": "taskInstallController.queryUserJzt",
-  "token": "null",
-  "args": [
-    {
-      "first"...)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="appointmentTest">appointmentTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="saveTaskTraceTest({
-  &quot;name&quot;: &quot;taskTraceController.saveTaskTrace&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;TrackTy...)">saveTaskTraceTest({
-  "name": "taskTraceController.saveTaskTrace",
-  "token": "null",
-  "args": [
-    {
-      "TrackTy...)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="batDisWorkerTest">batDisWorkerTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="signTest({
-  &quot;name&quot;: &quot;taskInstallController.sign&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;taskId&quot;: &quot;&quot;,
- ...)">signTest({
-  "name": "taskInstallController.sign",
-  "token": "null",
-  "args": [
-    {
-      "taskId": "",
- ...)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="findMetaTest">findMetaTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="taskCountTest({&quot;name&quot;: &quot;taskInstallController.getNodeTypeCount&quot;,&quot;token&quot;: null,&quot;args&quot;: []})">taskCountTest({"name": "taskInstallController.getNodeTypeCount","token": null,"args": []})</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="findTaskFeeTest">findTaskFeeTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="trunkEndTest({
-  &quot;name&quot;: &quot;taskInstallController.trunkEnd&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;taskIds&quot;: ...)">trunkEndTest({
-  "name": "taskInstallController.trunkEnd",
-  "token": "null",
-  "args": [
-    {
-      "taskIds": ...)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="findTaskInstallTest">findTaskInstallTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="pickUpTest">pickUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="queryUserJztTest">queryUserJztTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="saveTaskTraceTest">saveTaskTraceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="signTest">signTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="taskCountTest">taskCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="trunkEndTest">trunkEndTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.yzt.testcase.IPSTest" hash-for-method="uploadToSignTest">uploadToSignTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -329,169 +232,12 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-passed">
+          <div class="suite-Command_line_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.yzt.testcase.IPSTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="appointmentTest({
-  &quot;name&quot;: &quot;taskInstallController.appointment&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;taskId&quot;...)">
-                  </a> <!-- appointmentTest({
-  "name": "taskInstallController.appointment",
-  "token": "null",
-  "args": [
-    {
-      "taskId"...) -->
-                  <span class="method-name">appointmentTest</span>
-                  <span class="parameters">({
-  "name": "taskInstallController.appointment",
-  "token": "null",
-  "args": [
-    {
-      "taskId": "WIY4q42d0lUBQh4L",
-      "appointmentTime": "2018-03-14T06:51:28.928Z",
-      "timeInterval": "Afternoon"
-    }
-  ]
-})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="batDisWorkerTest({
-  &quot;name&quot;: &quot;taskInstallController.batDisWorker&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;disWor...)">
-                  </a> <!-- batDisWorkerTest({
-  "name": "taskInstallController.batDisWorker",
-  "token": "null",
-  "args": [
-    {
-      "disWor...) -->
-                  <span class="method-name">batDisWorkerTest</span>
-                  <span class="parameters">({
-  "name": "taskInstallController.batDisWorker",
-  "token": "null",
-  "args": [
-    {
-      "disWorkerReqs": [
-        {
-          "dis": true,
-          "taskId": "WIY4q42d0lUBQh4L",
-          "workerId": "V15m-udoWkkwUQje",
-          "branchFee": 99,
-          "installFee": 0,
-          "mediateFee": 0
-        }
-      ]
-    }
-  ]
-})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="findMetaTest({
-  &quot;name&quot;: &quot;commonController.findMeta&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;first&quot;: 0,
-    ...)">
-                  </a> <!-- findMetaTest({
-  "name": "commonController.findMeta",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-    ...) -->
-                  <span class="method-name">findMetaTest</span>
-                  <span class="parameters">({
-  "name": "commonController.findMeta",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-      "rows": 9999
-    },
-    {
-      "type": "AbnormalCause"
-    }
-  ]
-})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="findTaskFeeTest({
-  &quot;name&quot;: &quot;taskInstallController.findTaskFee&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;waybill...)">
-                  </a> <!-- findTaskFeeTest({
-  "name": "taskInstallController.findTaskFee",
-  "token": "null",
-  "args": [
-    {
-      "waybill...) -->
-                  <span class="method-name">findTaskFeeTest</span>
-                  <span class="parameters">({
-  "name": "taskInstallController.findTaskFee",
-  "token": "null",
-  "args": [
-    {
-      "waybillId": "1zt003000003"
-    }
-  ]
-})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="findTaskInstallTest({
-  &quot;name&quot;: &quot;taskInstallController.findTaskInstall&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;fir...)">
-                  </a> <!-- findTaskInstallTest({
-  "name": "taskInstallController.findTaskInstall",
-  "token": "null",
-  "args": [
-    {
-      "fir...) -->
-                  <span class="method-name">findTaskInstallTest</span>
-                  <span class="parameters">({
-  "name": "taskInstallController.findTaskInstall",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-      "rows": 10
-    },
-    {
-      "taskStatus": "All",
-      "dateType": "All",
-      "trunkSts": "All",
-      "beginDate": null,
-      "endDate": null,
-      "isNormalSign": "All",
-      "waybillId": "1zt003000001"
-    }
-  ]
-})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="loginTest({
@@ -510,186 +256,23 @@
   "mobile": "17576075478",
   "password": "123456"
 })</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="pickUpTest({
-  &quot;name&quot;: &quot;taskInstallController.pickUp&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;taskId&quot;: &quot;&quot;
-...)">
-                  </a> <!-- pickUpTest({
-  "name": "taskInstallController.pickUp",
-  "token": "null",
-  "args": [
-    {
-      "taskId": ""
-...) -->
-                  <span class="method-name">pickUpTest</span>
-                  <span class="parameters">({
-  "name": "taskInstallController.pickUp",
-  "token": "null",
-  "args": [
-    {
-      "taskId": ""
-    }
-  ]
-})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="queryUserJztTest({
-  &quot;name&quot;: &quot;taskInstallController.queryUserJzt&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;first&quot;...)">
-                  </a> <!-- queryUserJztTest({
-  "name": "taskInstallController.queryUserJzt",
-  "token": "null",
-  "args": [
-    {
-      "first"...) -->
-                  <span class="method-name">queryUserJztTest</span>
-                  <span class="parameters">({
-  "name": "taskInstallController.queryUserJzt",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-      "rows": 5
-    },
-    {
-      "areaCode": "110101000000"
-    }
-  ]
-})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="saveTaskTraceTest({
-  &quot;name&quot;: &quot;taskTraceController.saveTaskTrace&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;TrackTy...)">
-                  </a> <!-- saveTaskTraceTest({
-  "name": "taskTraceController.saveTaskTrace",
-  "token": "null",
-  "args": [
-    {
-      "TrackTy...) -->
-                  <span class="method-name">saveTaskTraceTest</span>
-                  <span class="parameters">({
-  "name": "taskTraceController.saveTaskTrace",
-  "token": "null",
-  "args": [
-    {
-      "TrackType": "task",
-      "id": "WIYHd7Wd0lUBQhjR",
-      "nextTrack": true,
-      "nextTrackDate": "2018-03-12T04:52:35.436Z",
-      "trackContent": "跟踪测试",
-      "abnormalCauseId": "V6S8jz0g2NZOqcu0"
-    }
-  ]
-})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="signTest({
-  &quot;name&quot;: &quot;taskInstallController.sign&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;taskId&quot;: &quot;&quot;,
- ...)">
-                  </a> <!-- signTest({
-  "name": "taskInstallController.sign",
-  "token": "null",
-  "args": [
-    {
-      "taskId": "",
- ...) -->
-                  <span class="method-name">signTest</span>
-                  <span class="parameters">({
-  "name": "taskInstallController.sign",
-  "token": "null",
-  "args": [
-    {
-      "taskId": "",
-      "signer": "tester2",
-      "signStatus": "normal",
-      "describe": "测试测试测试测试测试测试",
-      "files": [
-        "WIjfrsKd0lUorsus"
-      ],
-      "taskSignPlatFormType": "ips"
-    }
-  ]
-})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="taskCountTest({&quot;name&quot;: &quot;taskInstallController.getNodeTypeCount&quot;,&quot;token&quot;: null,&quot;args&quot;: []})">
-                  </a> <!-- taskCountTest({"name": "taskInstallController.getNodeTypeCount","token": null,"args": []}) -->
-                  <span class="method-name">taskCountTest</span>
-                  <span class="parameters">({"name": "taskInstallController.getNodeTypeCount","token": null,"args": []})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="trunkEndTest({
-  &quot;name&quot;: &quot;taskInstallController.trunkEnd&quot;,
-  &quot;token&quot;: &quot;null&quot;,
-  &quot;args&quot;: [
-    {
-      &quot;taskIds&quot;: ...)">
-                  </a> <!-- trunkEndTest({
-  "name": "taskInstallController.trunkEnd",
-  "token": "null",
-  "args": [
-    {
-      "taskIds": ...) -->
-                  <span class="method-name">trunkEndTest</span>
-                  <span class="parameters">({
-  "name": "taskInstallController.trunkEnd",
-  "token": "null",
-  "args": [
-    {
-      "taskIds": [
-        "WIYu1Bqd0lUBQh3H"
-      ],
-      "pickUpTel": "18222222222",
-      "pickUpCode": "1qaz",
-      "pickUpAddress": "128号",
-      "logisticsBill": "1qaz2wsx3edc",
-      "addrCode": "110101001000",
-      "abnoSource": "ips"
-    }
-  ]
-})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="uploadToSignTest">
-                  </a> <!-- uploadToSignTest -->
-                  <span class="method-name">uploadToSignTest</span>
+                  <div class="stack-trace">exception.customsException: 登录失败，请确认登录账户有效性！
+	at com.yzt.service.IPSService.login(IPSService.java:60)
+	at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2.CGLIB$login$11(&lt;generated&gt;)
+	at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2$$FastClassByCGLIB$$f6190cce.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:40)
+	at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2.login(&lt;generated&gt;)
+	at com.yzt.testcase.IPSTest.loginTest(IPSTest.java:37)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.yzt.testcase.order.OrderTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -726,6 +309,11 @@
     "endBillingTime":""//开单结束时间
   }
 ])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found []
+	at utils.AssertUtil.AssertResponeResultCode(AssertUtil.java:26)
+	at com.yzt.testcase.order.OrderTest.orderBindWaybillListPageTest(OrderTest.java:52)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -760,10 +348,143 @@
     "consignorName": ""//发货人
   }
 ])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found []
+	at utils.AssertUtil.AssertResponeResultCode(AssertUtil.java:26)
+	at com.yzt.testcase.order.OrderTest.queryOrderListPageTest(OrderTest.java:38)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.yzt.testcase.IPSTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="appointmentTest">
+                  </a> <!-- appointmentTest -->
+                  <span class="method-name">appointmentTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="batDisWorkerTest">
+                  </a> <!-- batDisWorkerTest -->
+                  <span class="method-name">batDisWorkerTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findMetaTest">
+                  </a> <!-- findMetaTest -->
+                  <span class="method-name">findMetaTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findTaskFeeTest">
+                  </a> <!-- findTaskFeeTest -->
+                  <span class="method-name">findTaskFeeTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findTaskInstallTest">
+                  </a> <!-- findTaskInstallTest -->
+                  <span class="method-name">findTaskInstallTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pickUpTest">
+                  </a> <!-- pickUpTest -->
+                  <span class="method-name">pickUpTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryUserJztTest">
+                  </a> <!-- queryUserJztTest -->
+                  <span class="method-name">queryUserJztTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="saveTaskTraceTest">
+                  </a> <!-- saveTaskTraceTest -->
+                  <span class="method-name">saveTaskTraceTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signTest">
+                  </a> <!-- signTest -->
+                  <span class="method-name">signTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskCountTest">
+                  </a> <!-- taskCountTest -->
+                  <span class="method-name">taskCountTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trunkEndTest">
+                  </a> <!-- trunkEndTest -->
+                  <span class="method-name">trunkEndTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadToSignTest">
+                  </a> <!-- uploadToSignTest -->
+                  <span class="method-name">uploadToSignTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method IPSTest.uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
         </div> <!-- panel Command_line_suite -->
         <div panel-name="test-xml-Command_line_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -818,70 +539,70 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(15);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'taskCountTest')
-data.setCell(0, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(0, 3, 7855);
+data.setCell(0, 1, 'orderBindWaybillListPageTest')
+data.setCell(0, 2, 'com.yzt.testcase.order.OrderTest')
+data.setCell(0, 3, 1027);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'queryUserJztTest')
-data.setCell(1, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(1, 3, 808);
+data.setCell(1, 1, 'queryOrderListPageTest')
+data.setCell(1, 2, 'com.yzt.testcase.order.OrderTest')
+data.setCell(1, 3, 1025);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginTest')
 data.setCell(2, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(2, 3, 239);
+data.setCell(2, 3, 326);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'uploadToSignTest')
+data.setCell(3, 1, 'queryUserJztTest')
 data.setCell(3, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(3, 3, 171);
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'appointmentTest')
+data.setCell(4, 1, 'findTaskInstallTest')
 data.setCell(4, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(4, 3, 62);
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'trunkEndTest')
+data.setCell(5, 1, 'pickUpTest')
 data.setCell(5, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(5, 3, 61);
+data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'findTaskInstallTest')
+data.setCell(6, 1, 'taskCountTest')
 data.setCell(6, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(6, 3, 61);
+data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'batDisWorkerTest')
+data.setCell(7, 1, 'uploadToSignTest')
 data.setCell(7, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(7, 3, 60);
+data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'signTest')
+data.setCell(8, 1, 'batDisWorkerTest')
 data.setCell(8, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(8, 3, 58);
+data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'pickUpTest')
+data.setCell(9, 1, 'signTest')
 data.setCell(9, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(9, 3, 55);
+data.setCell(9, 3, 0);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'findMetaTest')
+data.setCell(10, 1, 'findTaskFeeTest')
 data.setCell(10, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(10, 3, 53);
+data.setCell(10, 3, 0);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'saveTaskTraceTest')
+data.setCell(11, 1, 'findMetaTest')
 data.setCell(11, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(11, 3, 47);
+data.setCell(11, 3, 0);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'findTaskFeeTest')
+data.setCell(12, 1, 'appointmentTest')
 data.setCell(12, 2, 'com.yzt.testcase.IPSTest')
-data.setCell(12, 3, 42);
+data.setCell(12, 3, 0);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'orderBindWaybillListPageTest')
-data.setCell(13, 2, 'com.yzt.testcase.order.OrderTest')
-data.setCell(13, 3, 11);
+data.setCell(13, 1, 'trunkEndTest')
+data.setCell(13, 2, 'com.yzt.testcase.IPSTest')
+data.setCell(13, 3, 0);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'queryOrderListPageTest')
-data.setCell(14, 2, 'com.yzt.testcase.order.OrderTest')
-data.setCell(14, 3, 8);
+data.setCell(14, 1, 'saveTaskTraceTest')
+data.setCell(14, 2, 'com.yzt.testcase.IPSTest')
+data.setCell(14, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -922,6 +643,8 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.yzt.testcase.IPSTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">loginTest({
   "source": "core",
   "mobile": "17576075478",
@@ -929,111 +652,12 @@ return data;
 })</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">findTaskInstallTest({
-  "name": "taskInstallController.findTaskInstall",
-  "token": "null",
-  "args": [
-    {
-      "fir...)</span>
-                <span class="method-start">353 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">taskCountTest({"name": "taskInstallController.getNodeTypeCount","token": null,"args": []})</span>
-                <span class="method-start">538 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">findMetaTest({
-  "name": "commonController.findMeta",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-    ...)</span>
-                <span class="method-start">8554 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">findTaskFeeTest({
-  "name": "taskInstallController.findTaskFee",
-  "token": "null",
-  "args": [
-    {
-      "waybill...)</span>
-                <span class="method-start">8705 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">trunkEndTest({
-  "name": "taskInstallController.trunkEnd",
-  "token": "null",
-  "args": [
-    {
-      "taskIds": ...)</span>
-                <span class="method-start">8845 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">queryUserJztTest({
-  "name": "taskInstallController.queryUserJzt",
-  "token": "null",
-  "args": [
-    {
-      "first"...)</span>
-                <span class="method-start">9002 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">saveTaskTraceTest({
-  "name": "taskTraceController.saveTaskTrace",
-  "token": "null",
-  "args": [
-    {
-      "TrackTy...)</span>
-                <span class="method-start">9907 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">batDisWorkerTest({
-  "name": "taskInstallController.batDisWorker",
-  "token": "null",
-  "args": [
-    {
-      "disWor...)</span>
-                <span class="method-start">10049 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">appointmentTest({
-  "name": "taskInstallController.appointment",
-  "token": "null",
-  "args": [
-    {
-      "taskId"...)</span>
-                <span class="method-start">10199 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">pickUpTest({
-  "name": "taskInstallController.pickUp",
-  "token": "null",
-  "args": [
-    {
-      "taskId": ""
-...)</span>
-                <span class="method-start">10353 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">uploadToSignTest</span>
-                <span class="method-start">10408 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">signTest({
-  "name": "taskInstallController.sign",
-  "token": "null",
-  "args": [
-    {
-      "taskId": "",
- ...)</span>
-                <span class="method-start">10677 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.yzt.testcase.order.OrderTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">orderBindWaybillListPageTest([
   {
     "page": 1,
@@ -1042,9 +666,11 @@ return data;
   {
     "waybillId": "1ZT18032100000001",//运单号
     "receive...)</span>
-                <span class="method-start">10828 ms</span>
+                <span class="method-start">373 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">queryOrderListPageTest([
   {
     "page": 1,
@@ -1053,7 +679,7 @@ return data;
   {
     "startDate":"2018-03-21 00:00:00",
     "endDate":"2...)</span>
-                <span class="method-start">10958 ms</span>
+                <span class="method-start">1442 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
