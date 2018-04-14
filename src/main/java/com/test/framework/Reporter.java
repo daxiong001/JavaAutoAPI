@@ -37,7 +37,6 @@ public class Reporter implements IReporter {
 	private Integer failedNum = 0;
 	private Integer skippedNum = 0;
 
-	@Override
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 		for (ISuite iSuite : suites) {
 			int suiteCaseSum = 0, suitePassedNum = 0, suiteFailedNum = 0, suiteSkippedNum = 0;

@@ -47,7 +47,6 @@ public class LogListener extends TestListenerAdapter {
 		ContextUtil.contextFieldTemplate(null, new ContextDoField() {
 			Context context = (Context) ServiceFactory.getInstance(Context.class);
 
-			@Override
 			public Object execute(Field fd, Method getMethod, Class clazz) {
 				try {
 					if (fd.getType().isAssignableFrom(List.class)) {

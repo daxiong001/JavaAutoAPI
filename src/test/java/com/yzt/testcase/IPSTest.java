@@ -3,8 +3,8 @@ package com.yzt.testcase;
 import java.lang.reflect.Method;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -13,8 +13,9 @@ import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.test.framework.CaseMeta;
-import com.yzt.entity.CauseMeta;
+
 import com.yzt.entity.SignImage;
+import com.yzt.entity.Task;
 import com.yzt.service.Context;
 import com.yzt.service.IPSService;
 import com.yzt.service.ServiceFactory;
@@ -23,10 +24,12 @@ import contants.Contants;
 import utils.CommonUtils;
 import utils.ContextUtil;
 import utils.DateUtil;
+import utils.ParamtersHelper;
 
 public class IPSTest {
 
 	private IPSService service = (IPSService) ServiceFactory.getInstance(IPSService.class);
+	private static Logger logger = Logger.getLogger(IPSTest.class);
 
 	@Test(dataProvider = "testData")
 	@CaseMeta("登录")
@@ -45,7 +48,10 @@ public class IPSTest {
 	public void findTaskInstallTest(String inputJson) {
 		Map<String, Object> changedValue = Maps.newHashMap();
 		changedValue.put("waybillId", "1zt003000003");
-		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValue).toString();
+
+		logger.info("参数化前入参：inputJson = " + inputJson);
+		inputJson = ParamtersHelper.getInstance().updateInputParam(JSON.parse(inputJson), changedValue).toString();
+		logger.info("参数化后入参变更：inputJson = " + inputJson);
 		service.findTaskInstall(inputJson);
 	}
 
@@ -68,10 +74,8 @@ public class IPSTest {
 			String abnormalCauseId = (String) context.getValue(Contants.其他原因);
 			changedValue.put("abnormalCauseId", abnormalCauseId);
 		}
-		for (Entry<String, Object> keyv : changedValue.entrySet()) {
-			System.out.println(keyv.getKey() + " ==== " + keyv.getValue());
-		}
-		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValue).toString();
+
+		inputJson = ParamtersHelper.getInstance().updateInputParam(JSON.parse(inputJson), changedValue).toString();
 		service.saveTaskTrace(inputJson);
 	}
 
@@ -86,7 +90,8 @@ public class IPSTest {
 			list.add(taskId);
 			changedValue.put("taskIds", list);
 		}
-		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValue).toString();
+
+		inputJson = ParamtersHelper.getInstance().updateInputParam(JSON.parse(inputJson), changedValue).toString();
 		service.trunkEnd(inputJson);
 	}
 
@@ -99,7 +104,8 @@ public class IPSTest {
 			String waybillId = (String) context.getValue(Contants.WAYBILL_ID);
 			changedValue.put("waybillId", waybillId);
 		}
-		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValue).toString();
+
+		inputJson = ParamtersHelper.getInstance().updateInputParam(JSON.parse(inputJson), changedValue).toString();
 		service.findTaskFee(inputJson);
 	}
 
@@ -112,7 +118,7 @@ public class IPSTest {
 			String waybillId = (String) context.getValue(Contants.WAYBILL_ID);
 			changedValue.put(Contants.WAYBILL_ID, waybillId);
 		}
-		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValue).toString();
+		inputJson = ParamtersHelper.getInstance().updateInputParam(JSON.parse(inputJson), changedValue).toString();
 		service.queryUserJzt(inputJson);
 	}
 
@@ -138,7 +144,7 @@ public class IPSTest {
 			changedValues.put(Contants.MEDIATE_FEE, context.getValue(Contants.MEDIATE_FEE));
 		}
 
-		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValues).toString();
+		inputJson = ParamtersHelper.getInstance().updateInputParam(JSON.parse(inputJson), changedValues).toString();
 		service.batDisWorker(inputJson);
 	}
 
@@ -152,8 +158,7 @@ public class IPSTest {
 			changedValues.put(Contants.TASK_ID, context.getValue(Contants.TASK_ID));
 		}
 		changedValues.put("appointmentTime", DateUtil.getCurrentDate(DateUtil.FORMAT16));
-
-		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValues).toString();
+		inputJson = ParamtersHelper.getInstance().updateInputParam(JSON.parse(inputJson), changedValues).toString();
 		service.appointment(inputJson);
 	}
 
@@ -161,13 +166,9 @@ public class IPSTest {
 	@CaseMeta("提货")
 	public void pickUpTest(String inputJson) {
 		// 参数化 "taskId"
-		Map<String, Object> changedValues = Maps.newHashMap();
-
-		Map<String, Object> result = ContextUtil.getContextMap();
-		if (result != null && result.containsKey(Contants.TASK_ID)) {
-			changedValues.put(Contants.TASK_ID, result.get(Contants.TASK_ID));
-		}
-		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValues).toString();
+		Task task = new Task();
+		task.setTaskId((String) ParamtersHelper.getInstance().readParams(Contants.TASK_ID));
+		inputJson = ParamtersHelper.getInstance().updateInputParam(JSON.parse(inputJson), task).toString();
 		service.pickUp(inputJson);
 	}
 
@@ -187,20 +188,16 @@ public class IPSTest {
 		List<Object> objectList = Lists.newArrayList();
 		List<String> idList = Lists.newArrayList();
 
-		objectList = ContextUtil.getContextObject(SignImage.class);
-		for (Object li : objectList) {
-			SignImage signImage = (SignImage) li;
+		List<SignImage> signs = ParamtersHelper.getInstance().readParams(SignImage.class);
+		for (SignImage signImage : signs) {
 			idList.add(signImage.getId());
 			changedValues.put("files", idList);
 		}
 
-		Map<String, Object> result = ContextUtil.getContextMap();
-		if (result != null && result.containsKey(Contants.TASK_ID)) {
-			changedValues.put(Contants.TASK_ID, result.get(Contants.TASK_ID));
-		}
+		changedValues.put(Contants.TASK_ID, ParamtersHelper.getInstance().readParams(Contants.TASK_ID));
 		changedValues.put("signer", "signer");
 		changedValues.put("describe", "describe");
-		inputJson = CommonUtils.analysisJsonAndUpdate(JSON.parse(inputJson), changedValues).toString();
+		inputJson = ParamtersHelper.getInstance().updateInputParam(JSON.parse(inputJson), changedValues).toString();
 		service.sign(inputJson);
 	}
 

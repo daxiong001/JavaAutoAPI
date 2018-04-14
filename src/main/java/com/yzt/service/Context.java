@@ -10,12 +10,14 @@ import com.yzt.entity.SignImage;
 import com.yzt.entity.Worker;
 
 /**
- * 上线文环境变量存储类
+ * 上下文环境变量存储类
  * 
  * @author vivi.zhang
+ * @param <T>
+ * @param <T>
  *
  */
-public class Context {
+public class Context<T> {
 	// 存储单个 sc map，零散值表
 	private Map<String, Object> sc = Maps.newHashMap();
 
@@ -23,7 +25,7 @@ public class Context {
 	private List<Map<String, Object>> scs = Lists.newArrayList();
 
 	//实体容器
-	private List<Object> objects = Lists.newArrayList();
+	private List<T> objects = Lists.newArrayList();
 
 	public List<Map<String, Object>> getScs() {
 		return scs;
@@ -34,11 +36,11 @@ public class Context {
 		return this;
 	}
 
-	public List<Object> getObjects() {
+	public List<T> getObjects() {
 		return objects;
 	}
 
-	public Context addObject(Object object) {
+	public Context addObject(T object) {
 		objects.add(object);
 		return this;
 	}
@@ -53,7 +55,11 @@ public class Context {
 	}
 
 	public Object getValue(String key) {
-		return sc.get(key);
+		if (sc.containsKey(key)) {
+			return sc.get(key);
+		}else {
+			return null;
+		}		
 	}
 
 	public List<String> getKeys() {

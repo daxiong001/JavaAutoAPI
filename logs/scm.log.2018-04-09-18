@@ -1,0 +1,80 @@
+[INFO ] 2018-04-09 18:22:21,201 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.loginTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,212 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.findTaskInstallTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,215 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.taskCountTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,220 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.findMetaTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,223 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.findTaskFeeTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,226 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.trunkEndTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,230 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.queryUserJztTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,233 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.saveTaskTraceTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,239 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.batDisWorkerTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,241 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.appointmentTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,244 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.pickUpTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,246 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.uploadToSignTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,250 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.signTest 未执行!!!====
+[INFO ] 2018-04-09 18:22:21,290 method:com.test.framework.LogListener.onFinish(LogListener.java:40)
+**** context容器数据信息收集汇总    **** start ****
+[INFO ] 2018-04-09 18:22:21,293 method:com.test.framework.LogListener.onFinish(LogListener.java:42)
+**** context容器数据信息收集汇总    **** end ****
+[INFO ] 2018-04-09 18:38:23,510 method:utils.DataProviders.<init>(DataProviders.java:104)
+======Excel file path : C:\workspace\tms\src\test\resource\testdata\IPSTest.xlsx=======
+[INFO ] 2018-04-09 18:38:23,934 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:32)
+---- 测试用例 : <登录> 开始执行 ----
+[INFO ] 2018-04-09 18:38:23,934 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:35)
+---- 测试用例逻辑类 : <class com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2> ----
+[INFO ] 2018-04-09 18:38:23,934 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:36)
+---- 测试用例逻辑方法 : <login> ----
+[INFO ] 2018-04-09 18:38:23,934 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:38)
+---- 请求实际入参 : {
+  "source": "core",
+  "mobile": "17576075478",
+  "password": "525241"
+} ----
+[INFO ] 2018-04-09 18:38:24,142 method:com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:45)
+---- 请求实际返回结果 : true ----
+[INFO ] 2018-04-09 18:38:24,144 method:com.test.framework.LogListener.onTestSuccess(LogListener.java:25)
+====class org.testng.internal.TestResult.loginTest 执行成功!====
+[INFO ] 2018-04-09 18:38:24,163 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.findTaskInstallTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,171 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.taskCountTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,173 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.findMetaTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,175 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.findTaskFeeTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,178 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.trunkEndTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,181 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.queryUserJztTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,183 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.saveTaskTraceTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,184 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.batDisWorkerTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,186 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.appointmentTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,188 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.pickUpTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,189 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.uploadToSignTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,191 method:com.test.framework.LogListener.onTestSkipped(LogListener.java:35)
+====由于依赖的测试用例执行失败，导致 null.signTest 未执行!!!====
+[INFO ] 2018-04-09 18:38:24,226 method:com.test.framework.LogListener.onFinish(LogListener.java:40)
+**** context容器数据信息收集汇总    **** start ****
+[INFO ] 2018-04-09 18:38:24,227 method:com.test.framework.LogListener$1.execute(LogListener.java:73)
+***容器 Map<String, Object> sc 包含1个键值对，具体参数如下所示 ***
+[INFO ] 2018-04-09 18:38:24,228 method:com.test.framework.LogListener$1.execute(LogListener.java:77)
+** jwt : Bearer eyJraWQiOiIwMzk2N2ZhZS1jODE5LTQ1MGUtOGY1Mi1mNzgxYjQzYmE3MmYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJhdWQiOiJhdWRpZW5jZSIsImV4cCI6MTUyNDQ3OTkwNiwianRpIjoib284R0RkWC1hMkNvSEdqcWV5NC12dyIsImlhdCI6MTUyMzI3MDMwNiwibmJmIjoxNTIzMjcwMTg2LCJzdWIiOiIxNzU3NjA3NTQ3OCIsImF0dHJpYnV0ZXMiOiJ7XCJtb2JpbGVcIjpcIjE3NTc2MDc1NDc4XCIsXCJyZWFsTmFtZVwiOlwi5oi06ZuE5Z2kLea1i-ivlVwiLFwiZW1haWxWZXJpZnlcIjpmYWxzZSxcIiRleHBpcmF0aW9uLXRpbWVcIjoxNTI0NDc5OTA2MTc0LFwic3RhdHVzXCI6XCJhY3RpdmF0ZWRcIn0ifQ.B8N64ZxrYRCZxGRm8ZbNydgo5dwSu8_3RRFDhOulkzbVbm8zgR4-e0kwUtsQQdxd5T4FnJOypOcPkjBolBHbVmGaT01XJNgRulVuKAhJiJwtNlTIkdIAzqoje8PlVBlY_G58P_zdDss-PHSOMjmcCCL8ws8cyg8MxnbNouhTCFOpAEikk9SuHk41SoMkD6xan9_QfVITrDd5_i01v4ORCIFVI4MNCSbVEzUB5kmqIKwyq1mOVAxG9kW7SNtbiAJo3AZc0r1RZubRHIm2RxbQCm3h8Mu6_322WBVH_1xRyHKTyI2JptHkp9LH8GM3JnUjIPKGqt3ekuaBHCgxvBEqrQ **
+[INFO ] 2018-04-09 18:38:24,228 method:com.test.framework.LogListener.onFinish(LogListener.java:42)
+**** context容器数据信息收集汇总    **** end ****

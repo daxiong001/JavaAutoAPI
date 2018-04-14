@@ -228,7 +228,8 @@ public class HttpHelper {
 					responseEntity = httpResponse.getEntity();
 					result = EntityUtils.toString(responseEntity);
 					if (result.contains(RESULT_CODE)) {
-						resultCode = (String) CommonUtils.analysisJson(result, RESULT_CODE).getValue(RESULT_CODE);
+//						resultCode = (String) CommonUtils.analysisJson(result, RESULT_CODE).getValue(RESULT_CODE);
+						resultCode = (String) ParamtersHelper.getInstance().saveParams(result, RESULT_CODE).readParams(RESULT_CODE);
 					}					
 				} catch (ParseException e1) {
 					// TODO Auto-generated catch block

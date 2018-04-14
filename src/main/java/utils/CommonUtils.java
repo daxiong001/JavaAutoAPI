@@ -1,8 +1,13 @@
 package utils;
 
+import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
+
+import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -11,6 +16,22 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.StringUtils;
+import org.eclipse.jgit.api.CloneCommand;
+import org.eclipse.jgit.api.Git;
+import org.eclipse.jgit.api.errors.CanceledException;
+import org.eclipse.jgit.api.errors.GitAPIException;
+import org.eclipse.jgit.api.errors.InvalidConfigurationException;
+import org.eclipse.jgit.api.errors.InvalidRemoteException;
+import org.eclipse.jgit.api.errors.NoHeadException;
+import org.eclipse.jgit.api.errors.RefNotAdvertisedException;
+import org.eclipse.jgit.api.errors.RefNotFoundException;
+import org.eclipse.jgit.api.errors.TransportException;
+import org.eclipse.jgit.api.errors.WrongRepositoryStateException;
+import org.eclipse.jgit.internal.storage.file.FileRepository;
+import org.eclipse.jgit.lib.Repository;
+import org.eclipse.jgit.lib.StoredConfig;
+import org.eclipse.jgit.transport.UsernamePasswordCredentialsProvider;
+
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -64,9 +85,9 @@ public class CommonUtils {
 		if (!StringUtils.isEmpty(value)) {
 			if (value.startsWith("\\{")) {
 				input = sb.append("{").append(value).append("}").toString();
-			}else if (value.startsWith("\\[")) {
+			} else if (value.startsWith("\\[")) {
 				input = sb.append("[").append(value).append("]").toString();
-			}			
+			}
 			paramsMap.put(Contants.INPUT, input);
 		}
 		return paramsMap;
@@ -222,203 +243,8 @@ public class CommonUtils {
 		return CommonUtils.copyArrays(result);
 	}
 
-	/**
-	 * 读取json string中指定的多个key值
-	 * 
-	 * @param inputJson
-	 *            json string
-	 * @param context
-	 *            获取的key：value
-	 * @param list
-	 *            待获取json的key
-	 */
-	public static Context analysisJson(String inputJson, List<String> list) {
-		Object object = JSON.parse(inputJson);	
-		Context context = (Context) ServiceFactory.getInstance(Context.class);
-		if (object instanceof JSONArray) {
-			JSONArray jsonArray = (JSONArray) object;
-			for (int i = 0; i < jsonArray.size(); i++) {
-				analysisJson(jsonArray.get(i).toString(), list);
-			}
-		} else if (object instanceof JSONObject) {
-			JSONObject jsonObject = (JSONObject) object;		
-			Map<String, Object> tempMap = Maps.newHashMap();
-			for (String jsonKey : jsonObject.keySet()) {				
-				if (list.contains(jsonKey)) {
-					tempMap.put(jsonKey, jsonObject.get(jsonKey));
-					context.addValue(jsonKey, jsonObject.get(jsonKey));					
-				}else if (jsonObject.get(jsonKey) instanceof JSONObject
-						|| jsonObject.get(jsonKey) instanceof JSONArray) {
-					analysisJson(jsonObject.get(jsonKey).toString(), list);
-				}				
-			}
-			if (!tempMap.isEmpty()) {
-				context.addSCToList(tempMap);
-			}			
-		}
-		return context;
-	}
-
-	/**
-	 * 读取json string中指定的单个key值
-	 * 
-	 * @param inputJson
-	 * @param context
-	 * @param key
-	 * @return
-	 */
-	public static Context analysisJson(String inputJson, String key) {
-		Object object = JSON.parse(inputJson);
-		Map<String, Object> tempMap = Maps.newHashMap();
-		Context context = (Context) ServiceFactory.getInstance(Context.class);
-		if (object instanceof JSONArray) {
-			JSONArray jsonArray = (JSONArray) object;
-			for (int i = 0; i < jsonArray.size(); i++) {
-				analysisJson(jsonArray.get(i).toString(), key);
-			}
-		} else if (object instanceof JSONObject) {
-			JSONObject jsonObject = (JSONObject) object;
-			for (String jsonKey : jsonObject.keySet()) {
-				if (key.equals(jsonKey)) {
-					tempMap.put(key, jsonObject.get(jsonKey));
-					context.addValue(jsonKey, jsonObject.get(jsonKey));
-				} else if (jsonObject.get(jsonKey) instanceof JSONObject
-						|| jsonObject.get(jsonKey) instanceof JSONArray) {
-					analysisJson(jsonObject.get(jsonKey).toString(), key);
-				}
-			}
-			if (!tempMap.isEmpty()) {
-				context.addSCToList(tempMap);
-			}	
-		}
-		return context;
-	}
-
-	/**
-	 * 更新json string中指定的多个key值
-	 * 
-	 * @param inputJson
-	 * @param changedValue
-	 *            待更新的key和value键值对
-	 * @return
-	 */
-	public static Object analysisJsonAndUpdate(Object object, Map<String, Object> changedValue) {
-		if (object instanceof JSONArray) {
-			JSONArray jsonArray = (JSONArray) object;
-			JSONArray jsonAr = new JSONArray();
-			for (int i = 0; i < jsonArray.size(); i++) {
-				jsonAr.add(analysisJsonAndUpdate(jsonArray.get(i), changedValue));
-			}
-			return jsonAr;
-		} else if (object instanceof JSONObject) {
-			JSONObject jsonObject = (JSONObject) object;
-			JSONObject jsonOb = new JSONObject();
-			for (String jsonKey : jsonObject.keySet()) {
-				if (changedValue.containsKey(jsonKey)) {
-					jsonOb.put(jsonKey, changedValue.get(jsonKey));
-				} else if (jsonObject.get(jsonKey) instanceof JSONObject
-						|| jsonObject.get(jsonKey) instanceof JSONArray) {
-					jsonOb.put(jsonKey, analysisJsonAndUpdate(jsonObject.get(jsonKey), changedValue));
-				} else {
-					jsonOb.put(jsonKey, jsonObject.get(jsonKey));
-				}
-			}
-			return jsonOb;
-		} else {
-			return object;
-		}
-	}
-
-	/**
-	 * 更新json string中指定的单个key和value值
-	 * 
-	 * @param inputJson
-	 * @param changedValue
-	 * @return
-	 */
-	public static Object analysisJsonAndUpdate(String inputJson, String key, Object value) {
-		Object object = JSON.parse(inputJson);
-		if (object instanceof JSONArray) {
-			JSONArray jsonArray = (JSONArray) object;
-			JSONArray jsonAr = new JSONArray();
-			for (int i = 0; i < jsonArray.size(); i++) {
-				jsonAr.add(analysisJsonAndUpdate(jsonArray.get(i).toString(), key, value));
-			}
-			return jsonAr;
-		} else if (object instanceof JSONObject) {
-			JSONObject jsonObject = (JSONObject) object;
-			JSONObject jsonOb = new JSONObject();
-			for (String jsonKey : jsonObject.keySet()) {
-				if (key.equals(jsonKey)) {
-					jsonOb.put(jsonKey, value);
-				} else if (jsonObject.get(jsonKey) instanceof JSONObject
-						|| jsonObject.get(jsonKey) instanceof JSONArray) {
-					jsonOb.put(jsonKey, analysisJsonAndUpdate(jsonObject.get(jsonKey).toString(), key, value));
-				} else {
-					jsonOb.put(jsonKey, jsonObject.get(jsonKey));
-				}
-			}
-			return jsonOb;
-		} else {
-			return object;
-		}		
-	}
-	
-	/**
-	 * 直接存储键值对至context Map<String, Object> sc容器
-	 */
-	public static void setKeyValueToContext(String key,String value){
-		Context context = (Context) ServiceFactory.getInstance(Context.class);
-		context.addValue(key, value);
-	}
-	/**
-	 * 存储至 context List<Object> objects容器中
-	 * @param list entity实体类对应的所有属性名字
-	 * @param clazz entity实体类对象
-	 */
-	public static void setObjectToContext(List<String> list,Class<?> clazz){
-		Context context = (Context) ServiceFactory.getInstance(Context.class);
-		List<Map<String, Object>> tempList = context.getScs();
-		int size = tempList.size();
-		boolean flag = false;
-		if (size > 0) {
-			for (Map<String, Object> map : tempList) {
-				if (map.keySet().size() == list.size()) {
-					for (String st : list) {
-						if (map.containsKey(st)) {
-							flag = true;
-						}else {
-							flag = false;
-						}
-					}
-				}
-			}
-		}
-		if (flag) {
-			try {
-				Constructor<?> c = clazz.getDeclaredConstructor();
-				Object cz = c.newInstance();
-				Field[] fds = clazz.getDeclaredFields();
-				for (Field field : fds) {
-					if (!field.isAccessible()) {
-						field.setAccessible(true);
-					}
-					for (Map<String, Object> sg : tempList) {
-						if (sg.containsKey(field.getName())) {
-							field.set(cz, sg.get(field.getName()));
-						}
-					}
-				}
-				context.addObject(cz);
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-	}
-	
 	public static Object getServiceProxyInstance(Class clazz) {
 		LogProxyFactory logProxyFactory = new LogProxyFactory();
 		return logProxyFactory.getProxyInstance(clazz);
 	}
-
 }

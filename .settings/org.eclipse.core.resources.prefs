@@ -1,7 +1,8 @@
 eclipse.preferences.version=1
 encoding//src/main/java=UTF-8
+encoding//src/main/java/com/yzt/service/OrderService.java=UTF-8
 encoding//src/main/resource/log4j.properties=UTF-8
 encoding//src/test/java=UTF-8
 encoding//src/test/java/com/yzt/testcase/IPSTest.java=UTF-8
-encoding//src/test/resource/uploads/sign.jpg=UTF-8
 encoding/<project>=UTF-8
+encoding/logs=UTF-8

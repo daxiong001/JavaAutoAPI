@@ -126,6 +126,11 @@
 			<version>1.2.17</version>
 		</dependency>
 		<dependency>
+			<groupId>org.eclipse.jgit</groupId>
+			<artifactId>org.eclipse.jgit</artifactId>
+			<version>4.10.0.201712302008-r</version>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-surefire-plugin</artifactId>
 			<version>2.18.1</version>
@@ -137,31 +142,29 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.18.1</version>
-				<configuration>
-					<forkMode>once</forkMode>
-					<argLine>-Dfile.encoding=UTF-8</argLine>
-					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-					</suiteXmlFiles>
-					<!-- <properties> <property> <name>usedefaultlisteners</name> <value>false</value> 
-						</property> <property> <name>listener</name> <value>org.uncommons.reportng.HTMLReporter, 
-						org.uncommons.reportng.JUnitXMLReporter</value> </property> </properties> -->
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
-			</plugin>
-		</plugins>
+		<!-- <plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-surefire-plugin</artifactId> 
+			<version>2.18.1</version> <configuration> <forkMode>once</forkMode> <argLine>-Dfile.encoding=UTF-8</argLine> 
+			<suiteXmlFiles> <suiteXmlFile>testng.xml</suiteXmlFile> </suiteXmlFiles> 
+			<properties> <property> <name>usedefaultlisteners</name> <value>false</value> 
+			</property> <property> <name>listener</name> <value>org.uncommons.reportng.HTMLReporter, 
+			org.uncommons.reportng.JUnitXMLReporter</value> </property> </properties> 
+			</configuration> </plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+			<artifactId>maven-compiler-plugin</artifactId> <version>3.1</version> <configuration> 
+			<source>1.8</source> <target>1.8</target> </configuration> </plugin> </plugins> -->
 	</build>
+	<repositories>
+		<repository>
+			<id>maven-1ziton</id>
+			<url>https://nexus.1ziton.com/repository/maven-public/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>maven-1ziton</id>
+			<url>https://nexus.1ziton.com/repository/maven-public/</url>
+		</pluginRepository>
+	</pluginRepositories>
 </project>

@@ -1,5 +1,7 @@
 package utils;
 
+import static org.testng.Assert.assertNotNull;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Iterator;
@@ -12,11 +14,20 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.eclipse.jgit.api.CloneCommand;
+import org.eclipse.jgit.api.Git;
+import org.eclipse.jgit.api.InitCommand;
+import org.eclipse.jgit.api.errors.GitAPIException;
+import org.eclipse.jgit.api.errors.InvalidRemoteException;
+import org.eclipse.jgit.api.errors.TransportException;
+import org.eclipse.jgit.internal.storage.file.FileRepository;
+import org.eclipse.jgit.transport.UsernamePasswordCredentialsProvider;
 import org.testng.Assert;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.test.framework.LogListener;
+import com.yzt.testcase.IPSTest;
 
 import exception.customsException;
 
@@ -39,13 +50,19 @@ public class DataProviders implements Iterator<Object> {
 	private int currentRowNo = 0;
 	private int columnNum = 0;
 	private List<String> columnName = Lists.newArrayList();
-	
+
 	private static Logger logger = Logger.getLogger(DataProviders.class);
 
+//	private static final String FILE_PATH = System.getProperty("user.dir") + File.separator + "src" + File.separator
+//			+ "test" + File.separator + "resource" + File.separator + "testdata" + File.separator;	
+	
 	private static final String FILE_PATH = System.getProperty("user.dir") + File.separator + "src" + File.separator
-			+ "test" + File.separator + "resource" + File.separator + "testdata" + File.separator;
-
+			+ "test" + File.separator + "resource" + File.separator + "remote.data" + File.separator;	
+	
+	public DataProviders(){}
+	
 	public DataProviders(String classname, String methodname) {
+		testdataInit();
 		int dotNum = classname.indexOf(".");
 
 		if (dotNum > 0) {
@@ -74,8 +91,9 @@ public class DataProviders implements Iterator<Object> {
 			throw new customsException(classname + ".xlsx 文件不存在，请确认文件已存在！");
 		}
 	}
-	
+
 	public DataProviders(String classname) {
+		testdataInit();
 		int dotNum = classname.indexOf(".");
 
 		if (dotNum > 0) {
@@ -131,5 +149,49 @@ public class DataProviders implements Iterator<Object> {
 		this.currentRowNo++;
 		return data;
 	}
+	
+	private void testdataInit() {
+//		String localPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
+//				+ File.separator + "resource" + File.separator + "remote.data";
+//		File localPathFileConfig = new File(localPath + File.separator + ".git");
+//		String localPath = "C:\\workspace\\1111";
+//		String localPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
+//				+ File.separator + "resource" + File.separator + "testdata";
+		String remotePath = "http://git.1ziton.com/vivi.zhang/remote.data.git";
+		String username = "zhangwei@1zitong";
+		String password = "1qaz2wsx";
+		String branch = "master";
+		File localPathFile = new File(FILE_PATH);
+		try {
+			if (!localPathFile.exists()) {
+				gitClone(remotePath, branch, FILE_PATH, username, password);
+			} else {
+				gitPull(remotePath, branch, FILE_PATH);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 
+	private void gitClone(String remotePath, String branch, String localPath, String username, String password) {
+		File localPathFile = new File(localPath);
+		UsernamePasswordCredentialsProvider usernamePasswordCredentialsProvider = new UsernamePasswordCredentialsProvider(
+				username, password);
+		try {
+			Git.cloneRepository().setURI(remotePath).setBranch(branch).setDirectory(localPathFile)
+					.setCredentialsProvider(usernamePasswordCredentialsProvider).call();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void gitPull(String remotePath, String branch, String localPath) {
+		try {
+			File localPathFile = new File(localPath);
+			Git git = new Git(new FileRepository(localPath + ".git"));
+			git.pull().setRemoteBranchName(branch).call();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 }

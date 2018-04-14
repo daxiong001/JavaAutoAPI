@@ -1,60 +1,282 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="SCM2.0 Test Suite" duration-ms="802" started-at="2018-04-08T04:37:14Z" finished-at="2018-04-08T04:37:14Z">
+  <suite name="SCM2.0 Test Suite" duration-ms="11612" started-at="2018-04-10T09:42:12Z" finished-at="2018-04-10T09:42:24Z">
     <groups>
     </groups>
-    <test name="SCM2.0" duration-ms="802" started-at="2018-04-08T04:37:14Z" finished-at="2018-04-08T04:37:14Z">
-      <class name="com.yzt.testcase.order.OrderTest">
-        <test-method status="PASS" signature="orderBindWaybillListPageTest(java.lang.String)[pri:0, instance:com.yzt.testcase.order.OrderTest@768b970c]" name="orderBindWaybillListPageTest" duration-ms="317" started-at="2018-04-08T04:37:14Z" data-provider="testData" finished-at="2018-04-08T04:37:14Z">
+    <test name="SCM2.0" duration-ms="11612" started-at="2018-04-10T09:42:12Z" finished-at="2018-04-10T09:42:24Z">
+      <class name="com.yzt.testcase.IPSTest">
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="loginTest" duration-ms="248" started-at="2018-04-10T09:42:13Z" data-provider="testData" finished-at="2018-04-10T09:42:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[
-  {
-    "page": 1,
-    "size": 10
-  },
-  {
-    "waybillId": "1ZT18032100000001",//运单号
-    "receivePhone": "",//收货人手机号 
-    "receiveName": "",//收货人名称
-    "clientName": "",//发货人名称
-    "startBillingTime":"",//开单开始时间
-    "endBillingTime":""//开单结束时间
-  }
-]]]>
+                <![CDATA[{
+  "source": "core",
+  "mobile": "17576075478",
+  "password": "123456"
+}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orderBindWaybillListPageTest -->
-        <test-method status="PASS" signature="queryOrderListPageTest(java.lang.String)[pri:0, instance:com.yzt.testcase.order.OrderTest@768b970c]" name="queryOrderListPageTest" duration-ms="11" started-at="2018-04-08T04:37:14Z" data-provider="testData" finished-at="2018-04-08T04:37:14Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="findTaskInstallTest" duration-ms="61" started-at="2018-04-10T09:42:14Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.loginTest" finished-at="2018-04-10T09:42:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[
-  {
-    "page": 1,
-    "size": 10
-  },
-  {
-    "startDate":"2018-03-21 00:00:00",
-    "endDate":"2018-03-21 23:59:59",
-    "waybillId": "1ZT18032100000001",//运单号
-    "orderState": "",//订单状态
-    "consignorName": ""//发货人
-  }
-]]]>
+                <![CDATA[{
+  "name": "taskInstallController.findTaskInstall",
+  "token": "null",
+  "args": [
+    {
+      "first": 0,
+      "rows": 10
+    },
+    {
+      "taskStatus": "All",
+      "dateType": "All",
+      "trunkSts": "All",
+      "beginDate": null,
+      "endDate": null,
+      "isNormalSign": "All",
+      "waybillId": "1zt003000001"
+    }
+  ]
+}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- queryOrderListPageTest -->
-      </class> <!-- com.yzt.testcase.order.OrderTest -->
+        </test-method> <!-- findTaskInstallTest -->
+        <test-method status="PASS" signature="taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="taskCountTest" duration-ms="7580" started-at="2018-04-10T09:42:14Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.loginTest" finished-at="2018-04-10T09:42:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"name": "taskInstallController.getNodeTypeCount","token": null,"args": []}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskCountTest -->
+        <test-method status="PASS" signature="findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="findMetaTest" duration-ms="51" started-at="2018-04-10T09:42:22Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskInstallTest" finished-at="2018-04-10T09:42:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "commonController.findMeta",
+  "token": "null",
+  "args": [
+    {
+      "first": 0,
+      "rows": 9999
+    },
+    {
+      "type": "AbnormalCause"
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findMetaTest -->
+        <test-method status="PASS" signature="findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="findTaskFeeTest" duration-ms="45" started-at="2018-04-10T09:42:22Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskInstallTest" finished-at="2018-04-10T09:42:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "taskInstallController.findTaskFee",
+  "token": "null",
+  "args": [
+    {
+      "waybillId": "1zt003000003"
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTaskFeeTest -->
+        <test-method status="PASS" signature="trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="trunkEndTest" duration-ms="63" started-at="2018-04-10T09:42:22Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskInstallTest" finished-at="2018-04-10T09:42:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "taskInstallController.trunkEnd",
+  "token": "null",
+  "args": [
+    {
+      "taskIds": [
+        "WIYu1Bqd0lUBQh3H"
+      ],
+      "pickUpTel": "18222222222",
+      "pickUpCode": "1qaz",
+      "pickUpAddress": "128号",
+      "logisticsBill": "1qaz2wsx3edc",
+      "addrCode": "110101001000",
+      "abnoSource": "ips"
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trunkEndTest -->
+        <test-method status="PASS" signature="queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="queryUserJztTest" duration-ms="797" started-at="2018-04-10T09:42:22Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskFeeTest" finished-at="2018-04-10T09:42:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "taskInstallController.queryUserJzt",
+  "token": "null",
+  "args": [
+    {
+      "first": 0,
+      "rows": 5
+    },
+    {
+      "areaCode": "110101000000"
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryUserJztTest -->
+        <test-method status="PASS" signature="saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="saveTaskTraceTest" duration-ms="55" started-at="2018-04-10T09:42:23Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findMetaTest" finished-at="2018-04-10T09:42:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "taskTraceController.saveTaskTrace",
+  "token": "null",
+  "args": [
+    {
+      "TrackType": "task",
+      "id": "WIYHd7Wd0lUBQhjR",
+      "nextTrack": true,
+      "nextTrackDate": "2018-03-12T04:52:35.436Z",
+      "trackContent": "跟踪测试",
+      "abnormalCauseId": "V6S8jz0g2NZOqcu0"
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTaskTraceTest -->
+        <test-method status="PASS" signature="batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="batDisWorkerTest" duration-ms="63" started-at="2018-04-10T09:42:23Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.queryUserJztTest" finished-at="2018-04-10T09:42:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "taskInstallController.batDisWorker",
+  "token": "null",
+  "args": [
+    {
+      "disWorkerReqs": [
+        {
+          "dis": true,
+          "taskId": "WIY4q42d0lUBQh4L",
+          "workerId": "V15m-udoWkkwUQje",
+          "branchFee": 99,
+          "installFee": 0,
+          "mediateFee": 0
+        }
+      ]
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batDisWorkerTest -->
+        <test-method status="PASS" signature="appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="appointmentTest" duration-ms="62" started-at="2018-04-10T09:42:23Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.batDisWorkerTest" finished-at="2018-04-10T09:42:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "taskInstallController.appointment",
+  "token": "null",
+  "args": [
+    {
+      "taskId": "WIY4q42d0lUBQh4L",
+      "appointmentTime": "2018-03-14T06:51:28.928Z",
+      "timeInterval": "Afternoon"
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appointmentTest -->
+        <test-method status="PASS" signature="pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="pickUpTest" duration-ms="47" started-at="2018-04-10T09:42:24Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.appointmentTest" finished-at="2018-04-10T09:42:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "taskInstallController.pickUp",
+  "token": "null",
+  "args": [
+    {
+      "taskId": ""
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickUpTest -->
+        <test-method status="PASS" signature="uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="uploadToSignTest" duration-ms="154" started-at="2018-04-10T09:42:24Z" depends-on-methods="com.yzt.testcase.IPSTest.pickUpTest" finished-at="2018-04-10T09:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadToSignTest -->
+        <test-method status="PASS" signature="signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@7dc222ae]" name="signTest" duration-ms="57" started-at="2018-04-10T09:42:24Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.uploadToSignTest" finished-at="2018-04-10T09:42:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+  "name": "taskInstallController.sign",
+  "token": "null",
+  "args": [
+    {
+      "taskId": "",
+      "signer": "tester2",
+      "signStatus": "normal",
+      "describe": "测试测试测试测试测试测试",
+      "files": [
+        "WIjfrsKd0lUorsus"
+      ],
+      "taskSignPlatFormType": "ips"
+    }
+  ]
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signTest -->
+      </class> <!-- com.yzt.testcase.IPSTest -->
     </test> <!-- SCM2.0 -->
   </suite> <!-- SCM2.0 Test Suite -->
 </testng-results>

@@ -25,7 +25,6 @@ public class LogProxyFactory implements MethodInterceptor {
 		return enhancer.create();
 	}
 
-	@Override
 	public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
 
 		if (method.isAnnotationPresent(CaseMeta.class)) {

@@ -20,6 +20,7 @@ import utils.AssertUtil;
 import utils.CommonUtils;
 import utils.ContextUtil;
 import utils.HttpHelper;
+import utils.ParamtersHelper;
 import utils.UrlUtil;
 
 /**
@@ -52,7 +53,7 @@ public class IPSService {
 			resultMap.putAll(response.getParamterMap());
 			if (resultMap.containsKey(Contants.JWT_KEY)) {
 				jwt += (String) resultMap.get(Contants.JWT_KEY);
-				CommonUtils.setKeyValueToContext(Contants.JWT_KEY, jwt);
+				ParamtersHelper.getInstance().saveParam(Contants.JWT_KEY, jwt);
 				return true;
 			}
 		} else {
@@ -73,16 +74,12 @@ public class IPSService {
 	public Response findTaskInstall(String jsonParam) {
 		String commonUrl = url + APIURL;
 		// 存储waybillId至上下文
-
-		CommonUtils.analysisJson(jsonParam, Contants.WAYBILL_ID);
+		ParamtersHelper.getInstance().saveParams(jsonParam, Contants.WAYBILL_ID);
 		Response response = HttpHelper.create().addUrl(commonUrl).addJsonParam(jsonParam).request(HttpMethod.POST);
-		System.out.println("findTaskInstall response = " + response.getJsonString());
 		AssertUtil.AssertResponeCode(response);
-		// 获取返回值中的ID,默认返回一条数据
-		CommonUtils.analysisJson(response.getJsonString(), Contants.ID);
-
 		// 返回json 用id存储taskId值，转换下context map存储key 为taskId
-		ContextUtil.convertContextMapKey(Contants.TASK_ID, Contants.ID);
+
+		ParamtersHelper.getInstance().saveParams(response.getJsonString(), Contants.ID, Contants.TASK_ID);
 		return response;
 	}
 
@@ -91,13 +88,8 @@ public class IPSService {
 		String commonUrl = url + APIURL;
 		Response response = HttpHelper.create().addUrl(commonUrl).addJsonParam(jsonParam).request(HttpMethod.POST);
 		AssertUtil.AssertResponeCode(response);
-		List<String> lists = Lists.newArrayList();
-		lists.add(Contants.LABEL);
-		lists.add(Contants.ID);
-		// 获取返回值中的具体原因和对应的ID
-		CommonUtils.analysisJson(response.getJsonString(), lists);
-		// 存储至context List<Object> 中
-		CommonUtils.setObjectToContext(lists, CauseMeta.class);
+
+		ParamtersHelper.getInstance().saveParams(response.getJsonString(), CauseMeta.class);
 		return response;
 	}
 
@@ -126,7 +118,7 @@ public class IPSService {
 		lists.add(Contants.MEDIATE_FEE);
 		lists.add(Contants.INSTALL_FEE);
 
-		CommonUtils.analysisJson(response.getJsonString(), lists);
+		ParamtersHelper.getInstance().saveParams(response.getJsonString(), lists);
 		return response;
 	}
 
@@ -141,9 +133,7 @@ public class IPSService {
 		clist.add(Contants.REALNAME);
 		clist.add(Contants.ID);
 		// 查询待分配师傅相关信息，获取workerId,存在多个workerId
-		CommonUtils.analysisJson(response.getJsonString(), clist);
-
-		CommonUtils.setObjectToContext(clist, Worker.class);
+		ParamtersHelper.getInstance().saveParams(response.getJsonString(), Worker.class);
 		return response;
 	}
 
@@ -180,16 +170,8 @@ public class IPSService {
 		Response response = HttpHelper.create().addUrl(commonUrl).addUploads(filename).request(HttpMethod.POST);
 		AssertUtil.AssertResponeCode(response);
 		// 存储图片
-		List<String> clist = Lists.newArrayList();
-		clist.add(Contants.ETAG);
-		clist.add(Contants.ID);
-		clist.add(Contants.PATH);
-		clist.add(Contants.URL);
-		clist.add(Contants.NAME);
-
-		CommonUtils.analysisJson(response.getJsonString(), clist);
-
-		CommonUtils.setObjectToContext(clist, SignImage.class);
+	
+		ParamtersHelper.getInstance().saveParams(response.getJsonString(), SignImage.class);
 
 		return response;
 	}
