@@ -10,9 +10,9 @@
 *.tar.gz
 *.rar
 
-*.classpath
+.classpath
 
-*.project
+.project
 
 test-output/
 
