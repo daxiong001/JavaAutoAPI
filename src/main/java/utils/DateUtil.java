@@ -84,23 +84,23 @@ public final class DateUtil {
      * yyyyMM
      */
     public static final String FORMAT14 = "yyyyMM";
-    
+
     /*
      * YYYY-MM-dd HH-mm-ss
      */
     public static final String FORMAT15 = "YYYY-MM-dd HH-mm-ss";
-    
+
     /*
      * yyyy-MM-dd'T'HH:mm:ss.SSSZ
      */
     public static final String FORMAT16 = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'";
 
     /*
-    * 返回当前日期或时间
-    *
-    * @param format
-    * @return
-    */
+     * 返回当前日期或时间
+     *
+     * @param format
+     * @return
+     */
     public static String getCurrentDate(String format) {
 
         if (StringUtils.isBlank(format)) {
@@ -150,7 +150,7 @@ public final class DateUtil {
 
     /*
      * 日期转换为字符串
-     * 
+     *
      * @param date 日期
      * @param format 格式
      * @return 返回字符型日期
@@ -175,12 +175,12 @@ public final class DateUtil {
     }
 
     /*
-    * 返回日期中的年份
-    *
-    * @param date
-    *             日期
-    * @return 返回年份
-    */
+     * 返回日期中的年份
+     *
+     * @param date
+     *             日期
+     * @return 返回年份
+     */
     public static int getYear(Date date) {
 
         Calendar c = Calendar.getInstance();
@@ -252,8 +252,7 @@ public final class DateUtil {
     /**
      * 返回日期代表的毫秒
      *
-     * @param date
-     *             日期
+     * @param date 日期
      * @return 返回毫秒
      */
     public static long getMillis(Date date) {
@@ -263,8 +262,8 @@ public final class DateUtil {
 
         return c.getTimeInMillis();
     }
-    
-    public static void main(String[] args) {    	
-    	System.out.println(getCurrentDate(FORMAT16));
-	}
+
+    public static void main(String[] args) {
+        System.out.println(getCurrentDate(FORMAT16));
+    }
 }

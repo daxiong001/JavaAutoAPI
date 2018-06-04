@@ -5,21 +5,21 @@
            errors="0"
            skipped="0"
            time="21.829">
-  <properties />
-  
-  
-            <testcase name="appointmentTest" time="0.054" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="queryUserJztTest" time="2.026" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="trunkEndTest" time="0.061" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="taskCountTest" time="18.210" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="signTest" time="0.061" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="findMetaTest" time="0.042" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="saveTaskTraceTest" time="0.053" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="findTaskInstallTest" time="0.113" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="batDisWorkerTest" time="0.057" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="findTaskFeeTest" time="0.588" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="loginTest" time="0.327" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="uploadToSignTest" time="0.193" classname="com.yzt.testcase.IPSTest" />
-                <testcase name="pickUpTest" time="0.044" classname="com.yzt.testcase.IPSTest" />
-      
+    <properties/>
+
+
+    <testcase name="appointmentTest" time="0.054" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="queryUserJztTest" time="2.026" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="trunkEndTest" time="0.061" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="taskCountTest" time="18.210" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="signTest" time="0.061" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="findMetaTest" time="0.042" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="saveTaskTraceTest" time="0.053" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="findTaskInstallTest" time="0.113" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="batDisWorkerTest" time="0.057" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="findTaskFeeTest" time="0.588" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="loginTest" time="0.327" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="uploadToSignTest" time="0.193" classname="com.yzt.testcase.IPSTest"/>
+    <testcase name="pickUpTest" time="0.044" classname="com.yzt.testcase.IPSTest"/>
+
 </testsuite>

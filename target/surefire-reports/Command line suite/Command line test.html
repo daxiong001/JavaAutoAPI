@@ -1,86 +1,109 @@
 <html>
 <head>
-<title>TestNG:  Command line test</title>
-<link href="../testng.css" rel="stylesheet" type="text/css" />
-<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+    <title>TestNG: Command line test</title>
+    <link href="../testng.css" rel="stylesheet" type="text/css"/>
+    <link href="../my-testng.css" rel="stylesheet" type="text/css"/>
 
-<style type="text/css">
-.log { display: none;} 
-.stack-trace { display: none;} 
-</style>
-<script type="text/javascript">
-<!--
-function flip(e) {
-  current = e.style.display;
-  if (current == 'block') {
-    e.style.display = 'none';
-    return 0;
-  }
-  else {
-    e.style.display = 'block';
-    return 1;
-  }
-}
+    <style type="text/css">
+        .log {
+            display: none;
+        }
 
-function toggleBox(szDivId, elem, msg1, msg2)
-{
-  var res = -1;  if (document.getElementById) {
-    res = flip(document.getElementById(szDivId));
-  }
-  else if (document.all) {
-    // this is the way old msie versions work
-    res = flip(document.all[szDivId]);
-  }
-  if(elem) {
-    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
-  }
+        .stack-trace {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        <!--
+        function flip(e) {
+            current = e.style.display;
+            if (current == 'block') {
+                e.style.display = 'none';
+                return 0;
+            }
+            else {
+                e.style.display = 'block';
+                return 1;
+            }
+        }
 
-}
+        function toggleBox(szDivId, elem, msg1, msg2) {
+            var res = -1;
+            if (document.getElementById) {
+                res = flip(document.getElementById(szDivId));
+            }
+            else if (document.all) {
+                // this is the way old msie versions work
+                res = flip(document.all[szDivId]);
+            }
+            if (elem) {
+                if (res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+            }
 
-function toggleAllBoxes() {
-  if (document.getElementsByTagName) {
-    d = document.getElementsByTagName('div');
-    for (i = 0; i < d.length; i++) {
-      if (d[i].className == 'log') {
-        flip(d[i]);
-      }
-    }
-  }
-}
+        }
 
-// -->
-</script>
+        function toggleAllBoxes() {
+            if (document.getElementsByTagName) {
+                d = document.getElementsByTagName('div');
+                for (i = 0; i < d.length; i++) {
+                    if (d[i].className == 'log') {
+                        flip(d[i]);
+                    }
+                }
+            }
+        }
+
+        // -->
+    </script>
 
 </head>
 <body>
-<h2 align='center'>Command line test</h2><table border='1' align="center">
-<tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/3/12</td>
-</tr><tr>
-<td>Started on:</td><td>Sat Apr 14 15:09:30 CST 2018</td>
-</tr>
-<tr><td>Total time:</td><td>2 seconds (2930 ms)</td>
-</tr><tr>
-<td>Included groups:</td><td></td>
-</tr><tr>
-<td>Excluded groups:</td><td></td>
-</tr>
-</table><p/>
-<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<h2 align='center'>Command line test</h2>
+<table border='1' align="center">
+    <tr>
+        <td>Tests passed/Failed/Skipped:</td>
+        <td>0/3/12</td>
+    </tr>
+    <tr>
+        <td>Started on:</td>
+        <td>Sat Apr 14 15:09:30 CST 2018</td>
+    </tr>
+    <tr>
+        <td>Total time:</td>
+        <td>2 seconds (2930 ms)</td>
+    </tr>
+    <tr>
+        <td>Included groups:</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Excluded groups:</td>
+        <td></td>
+    </tr>
+</table>
+<p/>
+<small><i>(Hover the method name to see the test class name)</i></small>
+<p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.loginTest()'><b>loginTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "source": "core",
-  "mobile": "17576075478",
-  "password": "123456"
-}</td>
-<td><div><pre>exception.customsException: µÇÂ¼Ê§°Ü£¬ÇëÈ·ÈÏµÇÂ¼ÕË»§ÓÐÐ§ÐÔ£¡
+    <tr>
+        <td colspan='4' align='center'><b>FAILED TESTS</b></td>
+    </tr>
+    <tr>
+        <td><b>Test method</b></td>
+        <td width="30%"><b>Exception</b></td>
+        <td width="10%"><b>Time (seconds)</b></td>
+        <td><b>Instance</b></td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.loginTest()'><b>loginTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters:
+            {
+            "source": "core",
+            "mobile": "17576075478",
+            "password": "123456"
+            }
+        </td>
+        <td>
+            <div><pre>exception.customsException: ï¿½ï¿½Â¼Ê§ï¿½Ü£ï¿½ï¿½ï¿½È·ï¿½Ïµï¿½Â¼ï¿½Ë»ï¿½ï¿½ï¿½Ð§ï¿½Ô£ï¿½
 	at com.yzt.service.IPSService.login(IPSService.java:60)
 	at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2.CGLIB$login$11(&lt;generated&gt;)
 	at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2$$FastClassByCGLIB$$f6190cce.invoke(&lt;generated&gt;)
@@ -88,8 +111,12 @@ function toggleAllBoxes() {
 	at com.test.framework.LogProxyFactory.intercept(LogProxyFactory.java:40)
 	at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2.login(&lt;generated&gt;)
 	at com.yzt.testcase.IPSTest.loginTest(IPSTest.java:37)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace69329761", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace69329761'><pre>exception.customsException: µÇÂ¼Ê§°Ü£¬ÇëÈ·ÈÏµÇÂ¼ÕË»§ÓÐÐ§ÐÔ£¡
+... Removed 35 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace69329761", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace69329761'><pre>exception.customsException: ï¿½ï¿½Â¼Ê§ï¿½Ü£ï¿½ï¿½ï¿½È·ï¿½Ïµï¿½Â¼ï¿½Ë»ï¿½ï¿½ï¿½Ð§ï¿½Ô£ï¿½
 	at com.yzt.service.IPSService.login(IPSService.java:60)
 	at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2.CGLIB$login$11(&lt;generated&gt;)
 	at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2$$FastClassByCGLIB$$f6190cce.invoke(&lt;generated&gt;)
@@ -132,29 +159,39 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@cb51256</td></tr>
-<tr>
-<td title='com.yzt.testcase.order.OrderTest.orderBindWaybillListPageTest()'><b>orderBindWaybillListPageTest</b><br>Test class: com.yzt.testcase.order.OrderTest<br>Parameters: [
-  {
-    "page": 1,
-    "size": 10
-  },
-  {
-    "waybillId": "1ZT18032100000001",//ÔËµ¥ºÅ
-    "receivePhone": "",//ÊÕ»õÈËÊÖ»úºÅ 
-    "receiveName": "",//ÊÕ»õÈËÃû³Æ
-    "clientName": "",//·¢»õÈËÃû³Æ
-    "startBillingTime":"",//¿ªµ¥¿ªÊ¼Ê±¼ä
-    "endBillingTime":""//¿ªµ¥½áÊøÊ±¼ä
-  }
-]</td>
-<td><div><pre>java.lang.AssertionError: expected [200] but found []
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@cb51256</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.order.OrderTest.orderBindWaybillListPageTest()'>
+            <b>orderBindWaybillListPageTest</b><br>Test class: com.yzt.testcase.order.OrderTest<br>Parameters: [
+            {
+            "page": 1,
+            "size": 10
+            },
+            {
+            "waybillId": "1ZT18032100000001",//ï¿½Ëµï¿½ï¿½ï¿½
+            "receivePhone": "",//ï¿½Õ»ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½
+            "receiveName": "",//ï¿½Õ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            "clientName": "",//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            "startBillingTime":"",//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼Ê±ï¿½ï¿½
+            "endBillingTime":""//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+            }
+            ]
+        </td>
+        <td>
+            <div><pre>java.lang.AssertionError: expected [200] but found []
 	at utils.AssertUtil.AssertResponeResultCode(AssertUtil.java:26)
 	at com.yzt.testcase.order.OrderTest.orderBindWaybillListPageTest(OrderTest.java:52)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1826334428", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1826334428'><pre>java.lang.AssertionError: expected [200] but found []
+... Removed 41 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace1826334428", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace1826334428'><pre>java.lang.AssertionError: expected [200] but found []
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -198,28 +235,38 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>1</td>
-<td>com.yzt.testcase.order.OrderTest@46daef40</td></tr>
-<tr>
-<td title='com.yzt.testcase.order.OrderTest.queryOrderListPageTest()'><b>queryOrderListPageTest</b><br>Test class: com.yzt.testcase.order.OrderTest<br>Parameters: [
-  {
-    "page": 1,
-    "size": 10
-  },
-  {
-    "startDate":"2018-03-21 00:00:00",
-    "endDate":"2018-03-21 23:59:59",
-    "waybillId": "1ZT18032100000001",//ÔËµ¥ºÅ
-    "orderState": "",//¶©µ¥×´Ì¬
-    "consignorName": ""//·¢»õÈË
-  }
-]</td>
-<td><div><pre>java.lang.AssertionError: expected [200] but found []
+</pre>
+            </div>
+        </td>
+        <td>1</td>
+        <td>com.yzt.testcase.order.OrderTest@46daef40</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.order.OrderTest.queryOrderListPageTest()'><b>queryOrderListPageTest</b><br>Test
+            class: com.yzt.testcase.order.OrderTest<br>Parameters: [
+            {
+            "page": 1,
+            "size": 10
+            },
+            {
+            "startDate":"2018-03-21 00:00:00",
+            "endDate":"2018-03-21 23:59:59",
+            "waybillId": "1ZT18032100000001",//ï¿½Ëµï¿½ï¿½ï¿½
+            "orderState": "",//ï¿½ï¿½ï¿½ï¿½×´Ì¬
+            "consignorName": ""//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            }
+            ]
+        </td>
+        <td>
+            <div><pre>java.lang.AssertionError: expected [200] but found []
 	at utils.AssertUtil.AssertResponeResultCode(AssertUtil.java:26)
 	at com.yzt.testcase.order.OrderTest.queryOrderListPageTest(OrderTest.java:38)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace376635015", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace376635015'><pre>java.lang.AssertionError: expected [200] but found []
+... Removed 41 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace376635015", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace376635015'><pre>java.lang.AssertionError: expected [200] but found []
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -263,22 +310,36 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>1</td>
-<td>com.yzt.testcase.order.OrderTest@46daef40</td></tr>
-</table><p>
+</pre>
+            </div>
+        </td>
+        <td>1</td>
+        <td>com.yzt.testcase.order.OrderTest@46daef40</td>
+    </tr>
+</table>
+<p>
 <table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.appointmentTest()'><b>appointmentTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1168924571", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1168924571'><pre>java.lang.Throwable: Method IPSTest.appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+    <tr>
+        <td colspan='4' align='center'><b>SKIPPED TESTS</b></td>
+    </tr>
+    <tr>
+        <td><b>Test method</b></td>
+        <td width="30%"><b>Exception</b></td>
+        <td width="10%"><b>Time (seconds)</b></td>
+        <td><b>Instance</b></td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.appointmentTest()'><b>appointmentTest</b><br>Test class:
+            com.yzt.testcase.IPSTest
+        </td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace1168924571", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace1168924571'><pre>java.lang.Throwable: Method IPSTest.appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -307,14 +368,24 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.batDisWorkerTest()'><b>batDisWorkerTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace114818087", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace114818087'><pre>java.lang.Throwable: Method IPSTest.batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.batDisWorkerTest()'><b>batDisWorkerTest</b><br>Test class:
+            com.yzt.testcase.IPSTest
+        </td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace114818087", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace114818087'><pre>java.lang.Throwable: Method IPSTest.batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -343,14 +414,23 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.findMetaTest()'><b>findMetaTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace310016558", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace310016558'><pre>java.lang.Throwable: Method IPSTest.findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.findMetaTest()'><b>findMetaTest</b><br>Test class: com.yzt.testcase.IPSTest
+        </td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace310016558", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace310016558'><pre>java.lang.Throwable: Method IPSTest.findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -379,14 +459,24 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.findTaskFeeTest()'><b>findTaskFeeTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace335580595", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace335580595'><pre>java.lang.Throwable: Method IPSTest.findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.findTaskFeeTest()'><b>findTaskFeeTest</b><br>Test class:
+            com.yzt.testcase.IPSTest
+        </td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace335580595", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace335580595'><pre>java.lang.Throwable: Method IPSTest.findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -415,14 +505,24 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.findTaskInstallTest()'><b>findTaskInstallTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1261764601", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1261764601'><pre>java.lang.Throwable: Method IPSTest.findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.findTaskInstallTest()'><b>findTaskInstallTest</b><br>Test class:
+            com.yzt.testcase.IPSTest
+        </td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace1261764601", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace1261764601'><pre>java.lang.Throwable: Method IPSTest.findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -451,14 +551,22 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.pickUpTest()'><b>pickUpTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace324404955", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace324404955'><pre>java.lang.Throwable: Method IPSTest.pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.pickUpTest()'><b>pickUpTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace324404955", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace324404955'><pre>java.lang.Throwable: Method IPSTest.pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -487,14 +595,24 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.queryUserJztTest()'><b>queryUserJztTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1472216456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1472216456'><pre>java.lang.Throwable: Method IPSTest.queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.queryUserJztTest()'><b>queryUserJztTest</b><br>Test class:
+            com.yzt.testcase.IPSTest
+        </td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace1472216456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace1472216456'><pre>java.lang.Throwable: Method IPSTest.queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -523,14 +641,24 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.saveTaskTraceTest()'><b>saveTaskTraceTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace380274260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace380274260'><pre>java.lang.Throwable: Method IPSTest.saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.saveTaskTraceTest()'><b>saveTaskTraceTest</b><br>Test class:
+            com.yzt.testcase.IPSTest
+        </td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace380274260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace380274260'><pre>java.lang.Throwable: Method IPSTest.saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -559,14 +687,22 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.signTest()'><b>signTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1745043985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1745043985'><pre>java.lang.Throwable: Method IPSTest.signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.signTest()'><b>signTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace1745043985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace1745043985'><pre>java.lang.Throwable: Method IPSTest.signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -595,14 +731,24 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.taskCountTest()'><b>taskCountTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace294111720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace294111720'><pre>java.lang.Throwable: Method IPSTest.taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.taskCountTest()'><b>taskCountTest</b><br>Test class:
+            com.yzt.testcase.IPSTest
+        </td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace294111720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace294111720'><pre>java.lang.Throwable: Method IPSTest.taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -631,14 +777,23 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.trunkEndTest()'><b>trunkEndTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2024240125", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2024240125'><pre>java.lang.Throwable: Method IPSTest.trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.trunkEndTest()'><b>trunkEndTest</b><br>Test class: com.yzt.testcase.IPSTest
+        </td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace2024240125", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace2024240125'><pre>java.lang.Throwable: Method IPSTest.trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -667,14 +822,24 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.uploadToSignTest()'><b>uploadToSignTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td><div><pre>java.lang.Throwable: Method IPSTest.uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1368173251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1368173251'><pre>java.lang.Throwable: Method IPSTest.uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.uploadToSignTest()'><b>uploadToSignTest</b><br>Test class:
+            com.yzt.testcase.IPSTest
+        </td>
+        <td>
+            <div><pre>java.lang.Throwable: Method IPSTest.uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+... Removed 28 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace1368173251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace1368173251'><pre>java.lang.Throwable: Method IPSTest.uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -703,9 +868,13 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-</table><p>
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>null</td>
+    </tr>
+</table>
+<p>
 </body>
 </html>

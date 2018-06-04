@@ -5,25 +5,24 @@ import lombok.Setter;
 
 /**
  * 测试数据表头信息
- * 
- * @author vivi.zhang
  *
+ * @author vivi.zhang
  */
 public enum ExcelMeta {
 
-	TESTFUNCTIONNAME("testFunctionName"), INPUTJSON("inputJson"), EXPECTED("expected"), COMMON("备注");
+    TESTFUNCTIONNAME("testFunctionName"), INPUTJSON("inputJson"), EXPECTED("expected"), COMMON("备注");
 
-	private String name;
+    private String name;
 
-	private ExcelMeta(String name) {
-		this.name = name;
-	}
+    private ExcelMeta(String name) {
+        this.name = name;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 }

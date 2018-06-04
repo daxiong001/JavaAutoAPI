@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="12" failed="3" ignored="4" total="19" passed="0">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Command line suite" duration-ms="2930" started-at="2018-04-14T07:09:30Z" finished-at="2018-04-14T07:09:33Z">
-    <groups>
-    </groups>
-    <test name="Command line test" duration-ms="2930" started-at="2018-04-14T07:09:30Z" finished-at="2018-04-14T07:09:33Z">
-      <class name="com.yzt.testcase.order.OrderTest">
-        <test-method status="FAIL" signature="orderBindWaybillListPageTest(java.lang.String)[pri:0, instance:com.yzt.testcase.order.OrderTest@46daef40]" name="orderBindWaybillListPageTest" duration-ms="1027" started-at="2018-04-14T07:09:31Z" data-provider="testData" finished-at="2018-04-14T07:09:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[
+    <reporter-output>
+    </reporter-output>
+    <suite name="Command line suite" duration-ms="2930" started-at="2018-04-14T07:09:30Z"
+           finished-at="2018-04-14T07:09:33Z">
+        <groups>
+        </groups>
+        <test name="Command line test" duration-ms="2930" started-at="2018-04-14T07:09:30Z"
+              finished-at="2018-04-14T07:09:33Z">
+            <class name="com.yzt.testcase.order.OrderTest">
+                <test-method status="FAIL"
+                             signature="orderBindWaybillListPageTest(java.lang.String)[pri:0, instance:com.yzt.testcase.order.OrderTest@46daef40]"
+                             name="orderBindWaybillListPageTest" duration-ms="1027" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" finished-at="2018-04-14T07:09:32Z">
+                    <params>
+                        <param index="0">
+                            <value>
+                                <![CDATA[[
   {
     "page": 1,
     "size": 10
@@ -25,15 +30,15 @@
     "endBillingTime":""//开单结束时间
   }
 ]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [200] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found []
+                            </value>
+                        </param>
+                    </params>
+                    <exception class="java.lang.AssertionError">
+                        <message>
+                            <![CDATA[expected [200] but found []]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.AssertionError: expected [200] but found []
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -78,16 +83,19 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderBindWaybillListPageTest -->
-        <test-method status="FAIL" signature="queryOrderListPageTest(java.lang.String)[pri:0, instance:com.yzt.testcase.order.OrderTest@46daef40]" name="queryOrderListPageTest" duration-ms="1025" started-at="2018-04-14T07:09:32Z" data-provider="testData" finished-at="2018-04-14T07:09:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.AssertionError -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- orderBindWaybillListPageTest -->
+                <test-method status="FAIL"
+                             signature="queryOrderListPageTest(java.lang.String)[pri:0, instance:com.yzt.testcase.order.OrderTest@46daef40]"
+                             name="queryOrderListPageTest" duration-ms="1025" started-at="2018-04-14T07:09:32Z"
+                             data-provider="testData" finished-at="2018-04-14T07:09:33Z">
+                    <params>
+                        <param index="0">
+                            <value>
+                                <![CDATA[[
   {
     "page": 1,
     "size": 10
@@ -100,15 +108,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
     "consignorName": ""//发货人
   }
 ]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [200] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found []
+                            </value>
+                        </param>
+                    </params>
+                    <exception class="java.lang.AssertionError">
+                        <message>
+                            <![CDATA[expected [200] but found []]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.AssertionError: expected [200] but found []
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -153,31 +161,34 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- queryOrderListPageTest -->
-      </class> <!-- com.yzt.testcase.order.OrderTest -->
-      <class name="com.yzt.testcase.IPSTest">
-        <test-method status="FAIL" signature="loginTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="loginTest" duration-ms="326" started-at="2018-04-14T07:09:31Z" data-provider="testData" finished-at="2018-04-14T07:09:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.AssertionError -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- queryOrderListPageTest -->
+            </class> <!-- com.yzt.testcase.order.OrderTest -->
+            <class name="com.yzt.testcase.IPSTest">
+                <test-method status="FAIL"
+                             signature="loginTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="loginTest" duration-ms="326" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" finished-at="2018-04-14T07:09:31Z">
+                    <params>
+                        <param index="0">
+                            <value>
+                                <![CDATA[{
   "source": "core",
   "mobile": "17576075478",
   "password": "123456"
 }]]>
-              </value>
-            </param>
-          </params>
-          <exception class="exception.customsException">
-            <message>
-              <![CDATA[登录失败，请确认登录账户有效性！]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[exception.customsException: 登录失败，请确认登录账户有效性！
+                            </value>
+                        </param>
+                    </params>
+                    <exception class="exception.customsException">
+                        <message>
+                            <![CDATA[登录失败，请确认登录账户有效性！]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[exception.customsException: 登录失败，请确认登录账户有效性！
 at com.yzt.service.IPSService.login(IPSService.java:60)
 at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2.CGLIB$login$11(<generated>)
 at com.yzt.service.IPSService$$EnhancerByCGLIB$$e8497cd2$$FastClassByCGLIB$$f6190cce.invoke(<generated>)
@@ -221,18 +232,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- exception.customsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="findTaskInstallTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.loginTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- exception.customsException -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- loginTest -->
+                <test-method status="SKIP"
+                             signature="findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="findTaskInstallTest" duration-ms="0" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.loginTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.findTaskInstallTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -262,18 +277,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findTaskInstallTest -->
-        <test-method status="SKIP" signature="taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="taskCountTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.loginTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- findTaskInstallTest -->
+                <test-method status="SKIP"
+                             signature="taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="taskCountTest" duration-ms="0" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.loginTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.taskCountTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -303,18 +322,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- taskCountTest -->
-        <test-method status="SKIP" signature="findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="findTaskFeeTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskInstallTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- taskCountTest -->
+                <test-method status="SKIP"
+                             signature="findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="findTaskFeeTest" duration-ms="0" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskInstallTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.findTaskFeeTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -344,18 +367,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findTaskFeeTest -->
-        <test-method status="SKIP" signature="findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="findMetaTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskInstallTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- findTaskFeeTest -->
+                <test-method status="SKIP"
+                             signature="findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="findMetaTest" duration-ms="0" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskInstallTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.findMetaTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -385,18 +412,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findMetaTest -->
-        <test-method status="SKIP" signature="trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="trunkEndTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskInstallTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- findMetaTest -->
+                <test-method status="SKIP"
+                             signature="trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="trunkEndTest" duration-ms="0" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskInstallTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.trunkEndTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -426,18 +457,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- trunkEndTest -->
-        <test-method status="SKIP" signature="queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="queryUserJztTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskFeeTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- trunkEndTest -->
+                <test-method status="SKIP"
+                             signature="queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="queryUserJztTest" duration-ms="0" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findTaskFeeTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.queryUserJztTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -467,18 +502,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- queryUserJztTest -->
-        <test-method status="SKIP" signature="batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="batDisWorkerTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.queryUserJztTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- queryUserJztTest -->
+                <test-method status="SKIP"
+                             signature="batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="batDisWorkerTest" duration-ms="0" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.queryUserJztTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.batDisWorkerTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -508,18 +547,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- batDisWorkerTest -->
-        <test-method status="SKIP" signature="saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="saveTaskTraceTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findMetaTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- batDisWorkerTest -->
+                <test-method status="SKIP"
+                             signature="saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="saveTaskTraceTest" duration-ms="0" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.findMetaTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.saveTaskTraceTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -549,18 +592,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- saveTaskTraceTest -->
-        <test-method status="SKIP" signature="pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="pickUpTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.appointmentTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- saveTaskTraceTest -->
+                <test-method status="SKIP"
+                             signature="pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="pickUpTest" duration-ms="0" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.appointmentTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.pickUpTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -590,18 +637,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pickUpTest -->
-        <test-method status="SKIP" signature="uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="uploadToSignTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" depends-on-methods="com.yzt.testcase.IPSTest.pickUpTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- pickUpTest -->
+                <test-method status="SKIP"
+                             signature="uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="uploadToSignTest" duration-ms="0" started-at="2018-04-14T07:09:31Z"
+                             depends-on-methods="com.yzt.testcase.IPSTest.pickUpTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.uploadToSignTest()[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -631,18 +682,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- uploadToSignTest -->
-        <test-method status="SKIP" signature="signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="signTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.uploadToSignTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- uploadToSignTest -->
+                <test-method status="SKIP"
+                             signature="signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="signTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData"
+                             depends-on-methods="com.yzt.testcase.IPSTest.uploadToSignTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.signTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -672,18 +727,22 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signTest -->
-        <test-method status="SKIP" signature="appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]" name="appointmentTest" duration-ms="0" started-at="2018-04-14T07:09:31Z" data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.batDisWorkerTest" finished-at="2018-04-14T07:09:31Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method IPSTest.appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method IPSTest.appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- signTest -->
+                <test-method status="SKIP"
+                             signature="appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256]"
+                             name="appointmentTest" duration-ms="0" started-at="2018-04-14T07:09:31Z"
+                             data-provider="testData" depends-on-methods="com.yzt.testcase.IPSTest.batDisWorkerTest"
+                             finished-at="2018-04-14T07:09:31Z">
+                    <exception class="java.lang.Throwable">
+                        <message>
+                            <![CDATA[Method IPSTest.appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.Throwable: Method IPSTest.appointmentTest(java.lang.String)[pri:0, instance:com.yzt.testcase.IPSTest@cb51256] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -713,12 +772,12 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- appointmentTest -->
-      </class> <!-- com.yzt.testcase.IPSTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+                        </full-stacktrace>
+                    </exception> <!-- java.lang.Throwable -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- appointmentTest -->
+            </class> <!-- com.yzt.testcase.IPSTest -->
+        </test> <!-- Command line test -->
+    </suite> <!-- Command line suite -->
 </testng-results>

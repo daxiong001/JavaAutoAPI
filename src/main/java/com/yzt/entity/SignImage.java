@@ -1,70 +1,70 @@
 package com.yzt.entity;
 
-public class SignImage implements Cloneable{
+public class SignImage implements Cloneable {
 
-	private String etag;
-	
-	private String id;
-	
-	private String name;
-	
-	private String path;
-	
-	private String url;
+    private String etag;
 
-	public String getEtag() {
-		return etag;
-	}
+    private String id;
 
-	public void setEtag(String etag) {
-		this.etag = etag;
-	}
+    private String name;
 
-	public String getId() {
-		return id;
-	}
+    private String path;
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    private String url;
 
-	public String getName() {
-		return name;
-	}
+    public String getEtag() {
+        return etag;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setEtag(String etag) {
+        this.etag = etag;
+    }
 
-	public String getPath() {
-		return path;
-	}
+    public String getId() {
+        return id;
+    }
 
-	public void setPath(String path) {
-		this.path = path;
-	}
+    public void setId(String id) {
+        this.id = id;
+    }
 
-	public String getUrl() {
-		return url;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setUrl(String url) {
-		this.url = url;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	@Override
-	public String toString() {
-		return "SignImage [etag=" + etag + ", id=" + id + ", name=" + name + ", path=" + path + ", url=" + url + "]";
-	}
+    public String getPath() {
+        return path;
+    }
 
-	@Override
-	public Object clone() {
-		SignImage signImage = null;
-		try {
-			signImage = (SignImage) super.clone();
-		} catch (CloneNotSupportedException e) {
-			e.printStackTrace();
-		}
-		return signImage;
-	}	
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    @Override
+    public String toString() {
+        return "SignImage [etag=" + etag + ", id=" + id + ", name=" + name + ", path=" + path + ", url=" + url + "]";
+    }
+
+    @Override
+    public Object clone() {
+        SignImage signImage = null;
+        try {
+            signImage = (SignImage) super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return signImage;
+    }
 }

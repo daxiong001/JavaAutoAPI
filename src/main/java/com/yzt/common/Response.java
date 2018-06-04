@@ -10,45 +10,45 @@ import com.google.common.collect.Maps;
 
 /**
  * 请求响应实体
- * @author vivi.zhang
  *
+ * @author vivi.zhang
  */
 public class Response {
-	private String httpCode = "";
-	private String resultCode = "";
-	private String jsonString = "";
-	private Map<String, Object> paramtersMap = Maps.newHashMap();
-	
-	public void setHttpCode(String statusLine) {
-		String [] tokens = StringUtils.split(statusLine.trim(), " ");
-		this.httpCode = tokens[tokens.length - 1];
-	}
-	
-	public void setJsonString(String jsonString) {
-		this.jsonString = jsonString;
-	}
-	
-	public String getHttpCode() {
-		return this.httpCode;
-	}
-	
-	public String getJsonString() {
-		return this.jsonString;
-	}
-	
-	public void setParamterMap(Map<String, Object> paramsMap) {
-		this.paramtersMap = paramsMap;
-	}
-	
-	public Map<String, Object> getParamterMap() {
-		return this.paramtersMap;
-	}
+    private String httpCode = "";
+    private String resultCode = "";
+    private String jsonString = "";
+    private Map<String, Object> paramtersMap = Maps.newHashMap();
 
-	public String getResultCode() {
-		return resultCode;
-	}
+    public void setHttpCode(String statusLine) {
+        String[] tokens = StringUtils.split(statusLine.trim(), " ");
+        this.httpCode = tokens[tokens.length - 1];
+    }
 
-	public void setResultCode(String resultCode) {
-		this.resultCode = resultCode;
-	}	
+    public void setJsonString(String jsonString) {
+        this.jsonString = jsonString;
+    }
+
+    public String getHttpCode() {
+        return this.httpCode;
+    }
+
+    public String getJsonString() {
+        return this.jsonString;
+    }
+
+    public void setParamterMap(Map<String, Object> paramsMap) {
+        this.paramtersMap = paramsMap;
+    }
+
+    public Map<String, Object> getParamterMap() {
+        return this.paramtersMap;
+    }
+
+    public String getResultCode() {
+        return resultCode;
+    }
+
+    public void setResultCode(String resultCode) {
+        this.resultCode = resultCode;
+    }
 }

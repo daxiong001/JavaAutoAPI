@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
-    <classes>
-      <class name="com.yzt.testcase.IPSTest">
-        <methods>
-          <include name="findTaskFeeTest"/>
-          <include name="pickUpTest"/>
-          <include name="findTaskInstallTest"/>
-          <include name="findMetaTest"/>
-          <include name="appointmentTest"/>
-          <include name="trunkEndTest"/>
-          <include name="batDisWorkerTest"/>
-          <include name="signTest"/>
-          <include name="loginTest" invocation-numbers="0"/>
-          <include name="taskCountTest"/>
-          <include name="saveTaskTraceTest"/>
-          <include name="uploadToSignTest"/>
-          <include name="queryUserJztTest"/>
-        </methods>
-      </class> <!-- com.yzt.testcase.IPSTest -->
-    </classes>
-  </test> <!-- Default test(failed) -->
+    <test thread-count="5" name="Default test(failed)">
+        <classes>
+            <class name="com.yzt.testcase.IPSTest">
+                <methods>
+                    <include name="findTaskFeeTest"/>
+                    <include name="pickUpTest"/>
+                    <include name="findTaskInstallTest"/>
+                    <include name="findMetaTest"/>
+                    <include name="appointmentTest"/>
+                    <include name="trunkEndTest"/>
+                    <include name="batDisWorkerTest"/>
+                    <include name="signTest"/>
+                    <include name="loginTest" invocation-numbers="0"/>
+                    <include name="taskCountTest"/>
+                    <include name="saveTaskTraceTest"/>
+                    <include name="uploadToSignTest"/>
+                    <include name="queryUserJztTest"/>
+                </methods>
+            </class> <!-- com.yzt.testcase.IPSTest -->
+        </classes>
+    </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

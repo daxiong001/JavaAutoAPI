@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [SCM2.0 Test Suite]">
-  <listeners>
-    <listener class-name="com.test.framework.LogListener"/>
-    <listener class-name="com.test.framework.Reporter"/>
-  </listeners>
-  <test thread-count="5" name="SCM2.0(failed)">
-    <classes>
-      <class name="com.yzt.testcase.IPSTest">
-        <methods>
-          <include name="findTaskFeeTest"/>
-          <include name="pickUpTest"/>
-          <include name="findTaskInstallTest"/>
-          <include name="findMetaTest"/>
-          <include name="appointmentTest"/>
-          <include name="trunkEndTest"/>
-          <include name="batDisWorkerTest"/>
-          <include name="signTest"/>
-          <include name="loginTest" invocation-numbers="0"/>
-          <include name="taskCountTest"/>
-          <include name="saveTaskTraceTest"/>
-          <include name="uploadToSignTest"/>
-          <include name="queryUserJztTest"/>
-        </methods>
-      </class> <!-- com.yzt.testcase.IPSTest -->
-    </classes>
-  </test> <!-- SCM2.0(failed) -->
+    <listeners>
+        <listener class-name="com.test.framework.LogListener"/>
+        <listener class-name="com.test.framework.Reporter"/>
+    </listeners>
+    <test thread-count="5" name="SCM2.0(failed)">
+        <classes>
+            <class name="com.yzt.testcase.IPSTest">
+                <methods>
+                    <include name="findTaskFeeTest"/>
+                    <include name="pickUpTest"/>
+                    <include name="findTaskInstallTest"/>
+                    <include name="findMetaTest"/>
+                    <include name="appointmentTest"/>
+                    <include name="trunkEndTest"/>
+                    <include name="batDisWorkerTest"/>
+                    <include name="signTest"/>
+                    <include name="loginTest" invocation-numbers="0"/>
+                    <include name="taskCountTest"/>
+                    <include name="saveTaskTraceTest"/>
+                    <include name="uploadToSignTest"/>
+                    <include name="queryUserJztTest"/>
+                </methods>
+            </class> <!-- com.yzt.testcase.IPSTest -->
+        </classes>
+    </test> <!-- SCM2.0(failed) -->
 </suite> <!-- Failed suite [SCM2.0 Test Suite] -->

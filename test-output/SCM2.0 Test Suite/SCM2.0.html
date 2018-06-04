@@ -1,277 +1,338 @@
 <html>
 <head>
-<title>TestNG:  SCM2.0</title>
-<link href="../testng.css" rel="stylesheet" type="text/css" />
-<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+    <title>TestNG: SCM2.0</title>
+    <link href="../testng.css" rel="stylesheet" type="text/css"/>
+    <link href="../my-testng.css" rel="stylesheet" type="text/css"/>
 
-<style type="text/css">
-.log { display: none;} 
-.stack-trace { display: none;} 
-</style>
-<script type="text/javascript">
-<!--
-function flip(e) {
-  current = e.style.display;
-  if (current == 'block') {
-    e.style.display = 'none';
-    return 0;
-  }
-  else {
-    e.style.display = 'block';
-    return 1;
-  }
-}
+    <style type="text/css">
+        .log {
+            display: none;
+        }
 
-function toggleBox(szDivId, elem, msg1, msg2)
-{
-  var res = -1;  if (document.getElementById) {
-    res = flip(document.getElementById(szDivId));
-  }
-  else if (document.all) {
-    // this is the way old msie versions work
-    res = flip(document.all[szDivId]);
-  }
-  if(elem) {
-    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
-  }
+        .stack-trace {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        <!--
+        function flip(e) {
+            current = e.style.display;
+            if (current == 'block') {
+                e.style.display = 'none';
+                return 0;
+            }
+            else {
+                e.style.display = 'block';
+                return 1;
+            }
+        }
 
-}
+        function toggleBox(szDivId, elem, msg1, msg2) {
+            var res = -1;
+            if (document.getElementById) {
+                res = flip(document.getElementById(szDivId));
+            }
+            else if (document.all) {
+                // this is the way old msie versions work
+                res = flip(document.all[szDivId]);
+            }
+            if (elem) {
+                if (res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+            }
 
-function toggleAllBoxes() {
-  if (document.getElementsByTagName) {
-    d = document.getElementsByTagName('div');
-    for (i = 0; i < d.length; i++) {
-      if (d[i].className == 'log') {
-        flip(d[i]);
-      }
-    }
-  }
-}
+        }
 
-// -->
-</script>
+        function toggleAllBoxes() {
+            if (document.getElementsByTagName) {
+                d = document.getElementsByTagName('div');
+                for (i = 0; i < d.length; i++) {
+                    if (d[i].className == 'log') {
+                        flip(d[i]);
+                    }
+                }
+            }
+        }
+
+        // -->
+    </script>
 
 </head>
 <body>
-<h2 align='center'>SCM2.0</h2><table border='1' align="center">
-<tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
-</tr><tr>
-<td>Started on:</td><td>Sat Apr 14 15:14:28 CST 2018</td>
-</tr>
-<tr><td>Total time:</td><td>17 seconds (17448 ms)</td>
-</tr><tr>
-<td>Included groups:</td><td></td>
-</tr><tr>
-<td>Excluded groups:</td><td></td>
-</tr>
-</table><p/>
-<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<h2 align='center'>SCM2.0</h2>
+<table border='1' align="center">
+    <tr>
+        <td>Tests passed/Failed/Skipped:</td>
+        <td>13/0/0</td>
+    </tr>
+    <tr>
+        <td>Started on:</td>
+        <td>Sat Apr 14 15:14:28 CST 2018</td>
+    </tr>
+    <tr>
+        <td>Total time:</td>
+        <td>17 seconds (17448 ms)</td>
+    </tr>
+    <tr>
+        <td>Included groups:</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Excluded groups:</td>
+        <td></td>
+    </tr>
+</table>
+<p/>
+<small><i>(Hover the method name to see the test class name)</i></small>
+<p/>
 <table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.appointmentTest()'><b>appointmentTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "name": "taskInstallController.appointment",
-  "token": "null",
-  "args": [
-    {
-      "taskId": "WIY4q42d0lUBQh4L",
-      "appointmentTime": "2018-03-14T06:51:28.928Z",
-      "timeInterval": "Afternoon"
-    }
-  ]
-}</td>
-<td></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.batDisWorkerTest()'><b>batDisWorkerTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "name": "taskInstallController.batDisWorker",
-  "token": "null",
-  "args": [
-    {
-      "disWorkerReqs": [
-        {
-          "dis": true,
-          "taskId": "WIY4q42d0lUBQh4L",
-          "workerId": "V15m-udoWkkwUQje",
-          "branchFee": 99,
-          "installFee": 0,
-          "mediateFee": 0
-        }
-      ]
-    }
-  ]
-}</td>
-<td></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.findMetaTest()'><b>findMetaTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "name": "commonController.findMeta",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-      "rows": 9999
-    },
-    {
-      "type": "AbnormalCause"
-    }
-  ]
-}</td>
-<td></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.findTaskFeeTest()'><b>findTaskFeeTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "name": "taskInstallController.findTaskFee",
-  "token": "null",
-  "args": [
-    {
-      "waybillId": "1zt003000003"
-    }
-  ]
-}</td>
-<td></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.findTaskInstallTest()'><b>findTaskInstallTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "name": "taskInstallController.findTaskInstall",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-      "rows": 10
-    },
-    {
-      "taskStatus": "All",
-      "dateType": "All",
-      "trunkSts": "All",
-      "beginDate": null,
-      "endDate": null,
-      "isNormalSign": "All",
-      "waybillId": "1zt003000001"
-    }
-  ]
-}</td>
-<td></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.loginTest()'><b>loginTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "source": "core",
-  "mobile": "18000000000",
-  "password": "123456"
-}</td>
-<td></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.pickUpTest()'><b>pickUpTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "name": "taskInstallController.pickUp",
-  "token": "null",
-  "args": [
-    {
-      "taskId": ""
-    }
-  ]
-}</td>
-<td></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.queryUserJztTest()'><b>queryUserJztTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "name": "taskInstallController.queryUserJzt",
-  "token": "null",
-  "args": [
-    {
-      "first": 0,
-      "rows": 5
-    },
-    {
-      "areaCode": "110101000000"
-    }
-  ]
-}</td>
-<td></td>
-<td>2</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.saveTaskTraceTest()'><b>saveTaskTraceTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "name": "taskTraceController.saveTaskTrace",
-  "token": "null",
-  "args": [
-    {
-      "TrackType": "task",
-      "id": "WIYHd7Wd0lUBQhjR",
-      "nextTrack": true,
-      "nextTrackDate": "2018-03-12T04:52:35.436Z",
-      "trackContent": "跟踪测试",
-      "abnormalCauseId": "V6S8jz0g2NZOqcu0"
-    }
-  ]
-}</td>
-<td></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.signTest()'><b>signTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "name": "taskInstallController.sign",
-  "token": "null",
-  "args": [
-    {
-      "taskId": "",
-      "signer": "tester2",
-      "signStatus": "normal",
-      "describe": "测试测试测试测试测试测试",
-      "files": [
-        "WIjfrsKd0lUorsus"
-      ],
-      "taskSignPlatFormType": "ips"
-    }
-  ]
-}</td>
-<td></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.taskCountTest()'><b>taskCountTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {"name": "taskInstallController.getNodeTypeCount","token": null,"args": []}</td>
-<td></td>
-<td>12</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.trunkEndTest()'><b>trunkEndTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters: {
-  "name": "taskInstallController.trunkEnd",
-  "token": "null",
-  "args": [
-    {
-      "taskIds": [
-        "WIYu1Bqd0lUBQh3H"
-      ],
-      "pickUpTel": "18222222222",
-      "pickUpCode": "1qaz",
-      "pickUpAddress": "128号",
-      "logisticsBill": "1qaz2wsx3edc",
-      "addrCode": "110101001000",
-      "abnoSource": "ips"
-    }
-  ]
-}</td>
-<td></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-<tr>
-<td title='com.yzt.testcase.IPSTest.uploadToSignTest()'><b>uploadToSignTest</b><br>Test class: com.yzt.testcase.IPSTest</td>
-<td></td>
-<td>0</td>
-<td>com.yzt.testcase.IPSTest@7dc222ae</td></tr>
-</table><p>
+    <tr>
+        <td colspan='4' align='center'><b>PASSED TESTS</b></td>
+    </tr>
+    <tr>
+        <td><b>Test method</b></td>
+        <td width="30%"><b>Exception</b></td>
+        <td width="10%"><b>Time (seconds)</b></td>
+        <td><b>Instance</b></td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.appointmentTest()'><b>appointmentTest</b><br>Test class:
+            com.yzt.testcase.IPSTest<br>Parameters: {
+            "name": "taskInstallController.appointment",
+            "token": "null",
+            "args": [
+            {
+            "taskId": "WIY4q42d0lUBQh4L",
+            "appointmentTime": "2018-03-14T06:51:28.928Z",
+            "timeInterval": "Afternoon"
+            }
+            ]
+            }
+        </td>
+        <td></td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.batDisWorkerTest()'><b>batDisWorkerTest</b><br>Test class:
+            com.yzt.testcase.IPSTest<br>Parameters: {
+            "name": "taskInstallController.batDisWorker",
+            "token": "null",
+            "args": [
+            {
+            "disWorkerReqs": [
+            {
+            "dis": true,
+            "taskId": "WIY4q42d0lUBQh4L",
+            "workerId": "V15m-udoWkkwUQje",
+            "branchFee": 99,
+            "installFee": 0,
+            "mediateFee": 0
+            }
+            ]
+            }
+            ]
+            }
+        </td>
+        <td></td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.findMetaTest()'><b>findMetaTest</b><br>Test class:
+            com.yzt.testcase.IPSTest<br>Parameters: {
+            "name": "commonController.findMeta",
+            "token": "null",
+            "args": [
+            {
+            "first": 0,
+            "rows": 9999
+            },
+            {
+            "type": "AbnormalCause"
+            }
+            ]
+            }
+        </td>
+        <td></td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.findTaskFeeTest()'><b>findTaskFeeTest</b><br>Test class:
+            com.yzt.testcase.IPSTest<br>Parameters: {
+            "name": "taskInstallController.findTaskFee",
+            "token": "null",
+            "args": [
+            {
+            "waybillId": "1zt003000003"
+            }
+            ]
+            }
+        </td>
+        <td></td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.findTaskInstallTest()'><b>findTaskInstallTest</b><br>Test class:
+            com.yzt.testcase.IPSTest<br>Parameters: {
+            "name": "taskInstallController.findTaskInstall",
+            "token": "null",
+            "args": [
+            {
+            "first": 0,
+            "rows": 10
+            },
+            {
+            "taskStatus": "All",
+            "dateType": "All",
+            "trunkSts": "All",
+            "beginDate": null,
+            "endDate": null,
+            "isNormalSign": "All",
+            "waybillId": "1zt003000001"
+            }
+            ]
+            }
+        </td>
+        <td></td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.loginTest()'><b>loginTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters:
+            {
+            "source": "core",
+            "mobile": "18000000000",
+            "password": "123456"
+            }
+        </td>
+        <td></td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.pickUpTest()'><b>pickUpTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters:
+            {
+            "name": "taskInstallController.pickUp",
+            "token": "null",
+            "args": [
+            {
+            "taskId": ""
+            }
+            ]
+            }
+        </td>
+        <td></td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.queryUserJztTest()'><b>queryUserJztTest</b><br>Test class:
+            com.yzt.testcase.IPSTest<br>Parameters: {
+            "name": "taskInstallController.queryUserJzt",
+            "token": "null",
+            "args": [
+            {
+            "first": 0,
+            "rows": 5
+            },
+            {
+            "areaCode": "110101000000"
+            }
+            ]
+            }
+        </td>
+        <td></td>
+        <td>2</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.saveTaskTraceTest()'><b>saveTaskTraceTest</b><br>Test class:
+            com.yzt.testcase.IPSTest<br>Parameters: {
+            "name": "taskTraceController.saveTaskTrace",
+            "token": "null",
+            "args": [
+            {
+            "TrackType": "task",
+            "id": "WIYHd7Wd0lUBQhjR",
+            "nextTrack": true,
+            "nextTrackDate": "2018-03-12T04:52:35.436Z",
+            "trackContent": "跟踪测试",
+            "abnormalCauseId": "V6S8jz0g2NZOqcu0"
+            }
+            ]
+            }
+        </td>
+        <td></td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.signTest()'><b>signTest</b><br>Test class: com.yzt.testcase.IPSTest<br>Parameters:
+            {
+            "name": "taskInstallController.sign",
+            "token": "null",
+            "args": [
+            {
+            "taskId": "",
+            "signer": "tester2",
+            "signStatus": "normal",
+            "describe": "测试测试测试测试测试测试",
+            "files": [
+            "WIjfrsKd0lUorsus"
+            ],
+            "taskSignPlatFormType": "ips"
+            }
+            ]
+            }
+        </td>
+        <td></td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.taskCountTest()'><b>taskCountTest</b><br>Test class:
+            com.yzt.testcase.IPSTest<br>Parameters: {"name": "taskInstallController.getNodeTypeCount","token":
+            null,"args": []}
+        </td>
+        <td></td>
+        <td>12</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.trunkEndTest()'><b>trunkEndTest</b><br>Test class:
+            com.yzt.testcase.IPSTest<br>Parameters: {
+            "name": "taskInstallController.trunkEnd",
+            "token": "null",
+            "args": [
+            {
+            "taskIds": [
+            "WIYu1Bqd0lUBQh3H"
+            ],
+            "pickUpTel": "18222222222",
+            "pickUpCode": "1qaz",
+            "pickUpAddress": "128号",
+            "logisticsBill": "1qaz2wsx3edc",
+            "addrCode": "110101001000",
+            "abnoSource": "ips"
+            }
+            ]
+            }
+        </td>
+        <td></td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+    <tr>
+        <td title='com.yzt.testcase.IPSTest.uploadToSignTest()'><b>uploadToSignTest</b><br>Test class:
+            com.yzt.testcase.IPSTest
+        </td>
+        <td></td>
+        <td>0</td>
+        <td>com.yzt.testcase.IPSTest@7dc222ae</td>
+    </tr>
+</table>
+<p>
 </body>
 </html>
