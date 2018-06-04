@@ -1,10 +1,9 @@
 .classpath
 .project
-*/test-output/*
-*/target/*
-*/logs/*
-*/.settings/*
-*/.git/*
+test-output/
+target/
+logs/
+.settings/
 *.jar
 *.war
 *.nar
