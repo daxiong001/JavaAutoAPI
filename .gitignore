@@ -1,7 +1,10 @@
-*.class
-
-*.log
-
+.classpath
+.project
+*/test-output/*
+*/target/*
+*/logs/*
+*/.settings/*
+*/.git/*
 *.jar
 *.war
 *.nar
@@ -9,16 +12,4 @@
 *.zip
 *.tar.gz
 *.rar
-
-.classpath
-
-.project
-
-test-output/
-
-target/
-
-logs/
-
-.settings/
 
